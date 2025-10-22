@@ -1,0 +1,113 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     ✅ USA QUESTI 3 COMANDI - TUTTO FUNZIONA!                   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+🎯 HAI 3 MODI PER VEDERE LA NARRAZIONE COGNITIVA:
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  🥇 OPZIONE 1: VIDEO + NARRAZIONE (LA MIGLIORE!) ⭐            │
+│                                                                 │
+│  Comando:                                                       │
+│  python mente_video_narrazione.py                               │
+│                                                                 │
+│  Cosa vedi:                                                     │
+│  ┌──────────────────┬──────────────────┐                       │
+│  │ CAMERA LIVE      │ NARRAZIONE       │                       │
+│  │ Feed video       │ Cosa pensa       │                       │
+│  │ + Annotazioni    │ Cosa sente       │                       │
+│  │                  │ Cosa decide      │                       │
+│  └──────────────────┴──────────────────┘                       │
+│                                                                 │
+│  Comandi:                                                       │
+│  • SPAZIO = Esegui 1 ciclo                                      │
+│  • C = Cicli automatici (1 ogni 3s)                             │
+│  • Q = Esci                                                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  🥈 OPZIONE 2: CONSOLE CON NARRAZIONE COMPLETA                 │
+│                                                                 │
+│  Comando:                                                       │
+│  python mente_buffer_temp.py                                    │
+│                                                                 │
+│  Poi scegli: 1 (veloce) o 4 (camera+mic)                        │
+│                                                                 │
+│  Cosa vedi:                                                     │
+│  ─────────────────────────────────────────                      │
+│  [VISTA] "Vedo: persona, laptop..."                             │
+│  [UDITO] "Ho sentito: 'Ciao'..."                                │
+│  [EMOZIONI] "Mi sento positivo..."                              │
+│  [PENSIERI] "Ho rilevato un saluto..."                          │
+│  [DECISIONE] "Ho deciso di: AVVICINATI"                         │
+│  [MOTIVAZIONE] "Situazione sicura..."                           │
+│  [ESITO] "Azione eseguita..."                                   │
+│  [APPRENDIMENTO] "Esperienza positiva..."                       │
+│  ─────────────────────────────────────────                      │
+│                                                                 │
+│  + Salva in: NARRAZIONE_LOG.txt                                 │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  🥉 OPZIONE 3: DASHBOARD WEB (Più Completa)                    │
+│                                                                 │
+│  Comando Windows:                                               │
+│  .\AVVIA_AUTOMATICO.bat                                         │
+│                                                                 │
+│  Poi apri browser: http://localhost:8501                        │
+│                                                                 │
+│  Cosa vedi:                                                     │
+│  • Avatar 3D animato                                            │
+│  • Grafici statistiche                                          │
+│  • Timeline episodi                                             │
+│  • Sezione "💭 Narrazione Cognitiva" ← Qui!                    │
+│  • Controlli interattivi                                        │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════
+  📝 FILE CON TUTTE LE NARRAZIONI
+═══════════════════════════════════════════════════════════════════
+
+📄 NARRAZIONE_LOG.txt  ← Tutte le narrazioni salvate qui!
+
+Apri con: notepad NARRAZIONE_LOG.txt
+
+
+═══════════════════════════════════════════════════════════════════
+  🎯 CONSIGLIO FINALE
+═══════════════════════════════════════════════════════════════════
+
+Per VEDERE SUBITO la narrazione in tempo reale:
+
+1. Apri terminale/PowerShell
+2. Vai in: C:\Users\user\Desktop\guerragames
+3. Esegui: python mente_video_narrazione.py
+4. Premi: C (per cicli automatici)
+5. GUARDA: Narrazione che si aggiorna in tempo reale!
+
+
+═══════════════════════════════════════════════════════════════════
+  ✅ TUTTO FUNZIONA!
+═══════════════════════════════════════════════════════════════════
+
+🎊 Sistema completo e operativo
+📺 Video + Narrazione funzionanti
+💾 29 memorie salvate
+📖 Log completo disponibile
+🚀 Pronto all'uso immediato
+
+
+═══════════════════════════════════════════════════════════════════
+

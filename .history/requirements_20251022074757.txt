@@ -1,0 +1,60 @@
+# 🧠 MENTE ARTIFICIALE REALE - Dipendenze
+# ==========================================
+# Installazione: pip install -r requirements.txt
+
+# Core AI Models
+# --------------
+# Visione - YOLOv8
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Audio - Whisper
+openai-whisper>=20230314
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# LLM - Transformers
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Utilities
+# ---------
+numpy>=1.24.0
+scipy>=1.10.0
+pillow>=10.0.0
+
+# Optional - Performance
+# ----------------------
+# Per GPU NVIDIA (commentare se non disponibile)
+# nvidia-cuda-runtime-cu12>=12.0
+# nvidia-cudnn-cu12>=8.9
+
+# Per ottimizzazione inferenza
+# onnx>=1.14.0
+# onnxruntime>=1.15.0
+
+# Alternative LLM Models (scegliere in base alle risorse)
+# --------------------------------------------------------
+# Per Raspberry Pi / dispositivi limitati:
+#   Usa: gpt2 (già incluso in transformers)
+
+# Per PC medio (8-16GB RAM):
+#   gpt-j-6b richiede: pip install transformers[torch]
+
+# Per workstation potenti (16GB+ RAM):
+#   LLaMA 2 richiede: pip install llama-cpp-python
+
+# Dashboard & Visualization
+# -------------------------
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.17.0
+
+# Development & Testing
+# ---------------------
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+

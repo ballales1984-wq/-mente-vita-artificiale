@@ -1,0 +1,183 @@
+================================================================================
+                    DEMO vs REALE - Differenze
+================================================================================
+
+HAI 2 MODALITÀ:
+
+================================================================================
+MODALITÀ 1: DEMO (Simulata) 🧪
+================================================================================
+
+FILE: AVVIA_TUTTO.bat
+
+COSA AVVIA:
+  - Avatar 3D ✅
+  - Dashboard Web ✅
+  - mente_ai_demo.py ← SIMULAZIONE
+
+HARDWARE USATO:
+  ❌ Camera: NO (dati finti)
+  ❌ Microfono: NO (frasi simulate)
+  ✅ Voce: NO (solo testo)
+
+COSA VEDI:
+  - Episodi generati automaticamente
+  - Oggetti casuali (bottle, phone, book...)
+  - Frasi simulate ("Portami la bottiglia")
+  - Omino reagisce ai dati simulati
+  - Dashboard mostra tutto
+
+QUANDO USARE:
+  ✅ Test senza hardware
+  ✅ Presentazioni
+  ✅ Demo veloci
+  ✅ Sviluppo interfaccia
+
+AVVIA CON:
+  > .\AVVIA_TUTTO.bat
+
+================================================================================
+MODALITÀ 2: REALE (Hardware) 📷🎤🔊
+================================================================================
+
+FILE: AVVIA_SISTEMA_REALE.bat
+
+COSA AVVIA:
+  - Avatar 3D ✅
+  - Dashboard Web ✅
+  - mente_artificiale_completa.py ← SISTEMA REALE
+
+HARDWARE USATO:
+  ✅ Camera: SÌ (webcam reale)
+  ✅ Microfono: SÌ (registra voce)
+  ✅ Voce: SÌ (parla con pyttsx3)
+
+COSA VEDI:
+  - Frame REALI dalla tua webcam
+  - TU parli nel microfono (3s)
+  - Sistema trascrive con Whisper
+  - Mente decide in base a percezioni REALI
+  - Omino reagisce a decisioni REALI
+  - Dashboard mostra tutto in tempo reale
+  - Sistema PARLA la risposta! 🔊
+
+QUANDO USARE:
+  ✅ Test con hardware vero
+  ✅ Uso pratico
+  ✅ Interazione vocale
+  ✅ Percezione reale
+
+AVVIA CON:
+  > .\AVVIA_SISTEMA_REALE.bat
+
+================================================================================
+CONFRONTO VELOCE
+================================================================================
+
+Caratteristica         | DEMO (simulato) | REALE (hardware)
+-----------------------|-----------------|------------------
+Camera                 | ❌ Simulata     | ✅ Webcam
+Microfono              | ❌ Frasi finte  | ✅ Tua voce
+Voce risposta          | ❌ No           | ✅ Parla!
+Omino reagisce         | ✅ Sì           | ✅ Sì
+Dashboard              | ✅ Sì           | ✅ Sì
+Hardware necessario    | ❌ No           | ✅ Sì
+Velocità               | ⚡ Veloce       | 🐢 Più lento
+Realismo               | ⭐⭐           | ⭐⭐⭐⭐⭐
+
+================================================================================
+COSA È SUCCESSO PRIMA
+================================================================================
+
+HAI USATO: AVVIA_TUTTO.bat (modalità DEMO)
+
+RISULTATO:
+  ✅ Avatar aperto
+  ✅ Dashboard aperta
+  ✅ Demo genera episodi simulati
+  
+  ❌ Camera NON si accende (normale, è simulato!)
+  ❌ Microfono NON si accende (normale, è simulato!)
+
+È CORRETTO! La demo NON usa hardware.
+
+================================================================================
+COSA FARE ORA
+================================================================================
+
+OPZIONE A - Usa Hardware REALE (consigliato):
+
+  1. Chiudi tutto (CTRL+C o chiudi finestre)
+  
+  2. Avvia sistema REALE:
+     > .\AVVIA_SISTEMA_REALE.bat
+  
+  3. Quando chiede, scegli opzione 1 (ciclo singolo)
+  
+  4. Quando dice "PARLA ORA", parla nel microfono!
+  
+  5. Osserva:
+     ✅ Camera si accende (luce webcam)
+     ✅ Microfono registra (3 secondi)
+     ✅ Sistema trascrive
+     ✅ Omino reagisce
+     ✅ Voce risponde! 🔊
+
+OPZIONE B - Continua con Demo:
+
+  Lascia tutto aperto, osserva:
+    - Dashboard si aggiorna ogni 3s
+    - Omino cambia emozione e azione
+    - Episodi si accumulano
+
+================================================================================
+INSTALLAZIONI COMPLETATE
+================================================================================
+
+✅ Streamlit (dashboard web)
+✅ Pandas (dati)
+✅ Plotly (grafici)
+✅ Pygame (avatar 3D)
+✅ pyttsx3 (voce sintetica)
+✅ sounddevice (microfono)
+✅ soundfile (audio processing)
+
+TUTTO PRONTO PER HARDWARE REALE! 🎊
+
+================================================================================
+COMANDO CORRETTO PER HARDWARE REALE
+================================================================================
+
+Usa questo:
+
+  > .\AVVIA_SISTEMA_REALE.bat
+
+Oppure manualmente:
+
+  Terminal 1: python avatar_3d.py
+  Terminal 2: streamlit run dashboard.py
+  Terminal 3: python mente_artificiale_completa.py (scegli 1)
+
+================================================================================
+RIEPILOGO
+================================================================================
+
+DEMO (quello che hai avviato):
+  ✅ Funziona
+  ❌ Camera simulata (normale!)
+  ❌ Mic simulato (normale!)
+
+REALE (quello che vuoi):
+  ✅ Camera VERA
+  ✅ Microfono VERO
+  ✅ Voce VERA
+  → Usa: AVVIA_SISTEMA_REALE.bat
+
+================================================================================
+
+Vuoi provare il sistema REALE ora? 📷🎤🔊
+
+Scrivi "si" e avvio il sistema con hardware reale!
+
+================================================================================
+

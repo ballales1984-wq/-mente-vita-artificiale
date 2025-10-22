@@ -1,0 +1,142 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     📖 GUIDA: DEMO vs REALE - Quando Usare Cosa                 ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+🎭 MODALITÀ DEMO (Simulazione)
+================================================================================
+
+📂 File: mente_ai_demo.py
+🚀 Avvio: AVVIA_TUTTO.bat  oppure  AVVIA_AUTOMATICO.bat
+
+✅ USA QUESTA quando:
+  • Vuoi solo testare la dashboard
+  • Non hai webcam/microfono
+  • Vuoi vedere come funziona senza hardware
+  • Hai problemi con i driver
+
+❌ Cosa NON fa:
+  • ❌ NON usa la webcam
+  • ❌ NON usa il microfono
+  • ❌ Genera dati FINTI per test
+
+✨ Genera automaticamente:
+  • Oggetti casuali ("person", "car", "bottle")
+  • Frasi simulate ("Ciao", "Come stai?")
+  • Emozioni casuali
+  • Pattern neurali
+  • Azioni simulate
+
+📊 Output:
+  Avatar animato + Dashboard con dati simulati
+
+
+================================================================================
+🎥 MODALITÀ REALE (Hardware)
+================================================================================
+
+📂 File: mente_artificiale_completa.py
+🚀 Avvio: AVVIA_REALE_AUTO.bat  oppure  python mente_artificiale_completa.py --auto
+
+✅ USA QUESTA quando:
+  • Hai webcam e microfono funzionanti
+  • Vuoi usare il sistema vero
+  • Vuoi riconoscimento oggetti reale (YOLOv8)
+  • Vuoi speech-to-text reale (Whisper)
+
+⚠️ Cosa fa:
+  • ✅ Accende la WEBCAM
+  • ✅ Attiva il MICROFONO
+  • ✅ Elabora video/audio reale
+  • ✅ Usa YOLOv8 e Whisper
+
+📊 Output:
+  Avatar animato + Dashboard + Dati REALI da camera/microfono
+
+
+================================================================================
+⚡ PROBLEMA: "Il Sistema Si Blocca!"
+================================================================================
+
+🔴 CAUSA:
+Il programma mente_artificiale_completa.py ha un MENU INTERATTIVO che
+aspetta il tuo input. Se lo avvii senza argomenti, si ferma al menu.
+
+✅ SOLUZIONE 1 - Modalità Automatica:
+Usa il parametro --auto per saltare il menu:
+
+    python mente_artificiale_completa.py --auto
+
+Oppure usa il batch automatico:
+
+    AVVIA_REALE_AUTO.bat
+
+
+✅ SOLUZIONE 2 - Usa la Demo:
+Se vuoi solo vedere il sistema funzionare senza interagire:
+
+    AVVIA_AUTOMATICO.bat
+
+
+================================================================================
+🎮 COMANDI DISPONIBILI
+================================================================================
+
+╔═══════════════════════════════════╦═════════════════════════════════════╗
+║ COMANDO                           ║ COSA FA                             ║
+╠═══════════════════════════════════╬═════════════════════════════════════╣
+║ AVVIA_AUTOMATICO.bat              ║ Demo automatica senza blocchi       ║
+║ AVVIA_REALE_AUTO.bat              ║ Sistema reale senza blocchi         ║
+║ python mente_ai_demo.py           ║ Solo demo (dati simulati)           ║
+║ python mente_artificiale_completa.py --auto ║ Sistema reale automatico ║
+║ python mente_artificiale_completa.py       ║ Sistema reale con MENU  ║
+║ python spegni_camera.py           ║ Spegni camera se bloccata           ║
+╚═══════════════════════════════════╩═════════════════════════════════════╝
+
+
+================================================================================
+🔧 TROUBLESHOOTING
+================================================================================
+
+❓ "La webcam si accende ma nessun riconoscimento oggetti"
+└─ Installa YOLOv8: pip install ultralytics
+
+❓ "Il microfono non funziona"
+└─ Installa Whisper: pip install openai-whisper
+
+❓ "Si blocca dopo l'inizializzazione"
+└─ Usa --auto o i batch automatici (vedi sopra)
+
+❓ "La webcam resta accesa anche dopo la chiusura"
+└─ Esegui: python spegni_camera.py
+
+❓ "Voglio il menu interattivo"
+└─ Esegui: python mente_artificiale_completa.py (senza --auto)
+
+
+================================================================================
+📚 RIEPILOGO RAPIDO
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  🎭 DEMO (No Hardware)                                          │
+│  → AVVIA_AUTOMATICO.bat                                         │
+│                                                                 │
+│  🎥 REALE (Con Hardware, No Blocchi)                            │
+│  → AVVIA_REALE_AUTO.bat                                         │
+│                                                                 │
+│  🔧 REALE (Con Menu Interattivo)                                │
+│  → python mente_artificiale_completa.py                         │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+
+💡 CONSIGLIO:
+Se è la prima volta, inizia con la DEMO (AVVIA_AUTOMATICO.bat) per
+capire come funziona il sistema, poi passa al REALE quando sei pronto!
+
+
+===============================================================================

@@ -1,0 +1,38 @@
+# Mente Artificiale Modulare - Requirements
+# Data: Ottobre 2025
+# Python 3.10+
+
+# ==================== COMPUTER VISION ====================
+ultralytics>=8.3.0          # YOLOv8 per riconoscimento oggetti
+opencv-python>=4.6.0        # OpenCV per elaborazione immagini
+pillow>=7.1.2               # PIL per manipolazione immagini
+
+# ==================== DEEP LEARNING ====================
+torch>=2.0.0                # PyTorch per reti neurali
+torchvision>=0.15.0         # Torchvision per computer vision
+numpy>=1.23.0               # NumPy per calcoli numerici
+
+# ==================== SPEECH/AUDIO ====================
+openai-whisper>=20230314    # Whisper per speech-to-text
+sounddevice>=0.4.6          # SoundDevice per input microfono
+scipy>=1.4.1                # SciPy per processing audio
+pyttsx3>=2.90               # PyTTSx3 per text-to-speech
+soundfile>=0.12.0           # SoundFile per I/O audio
+
+# ==================== WEB/VISUALIZATION ====================
+streamlit>=1.28.0           # Streamlit per dashboard web
+pygame>=2.5.0               # Pygame per avatar 3D
+matplotlib>=3.3.0           # Matplotlib per grafici
+
+# ==================== UTILITIES ====================
+requests>=2.23.0            # Requests per HTTP
+pyyaml>=5.3.1               # PyYAML per configurazioni
+psutil>=5.9.0               # Psutil per system info
+tqdm>=4.67.0                # TQDM per progress bars
+
+# ==================== OPTIONAL (NLP) ====================
+# transformers>=4.30.0      # Transformers per GPT/BERT (opzionale)
+# sentencepiece>=0.1.99     # SentencePiece per tokenization (opzionale)
+
+# ==================== DATA PROCESSING ====================
+polars>=0.19.0              # Polars per data processing (opzionale per YOLOv8)

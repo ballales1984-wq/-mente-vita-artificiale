@@ -1,0 +1,196 @@
+================================================================================
+                    QUALE FILE USARE? - Guida Rapida
+================================================================================
+
+Hai MOLTI programmi nel progetto. Quale scegliere?
+
+================================================================================
+IL PIU' SEMPLICE (10 secondi)
+================================================================================
+
+> python esempio_semplice.py
+
+COSA FA: Demo velocissima, 1 ciclo cognitivo
+QUANDO USARLO: Prima volta, vuoi vedere subito come funziona
+HARDWARE: No
+DURATA: 10 secondi
+
+================================================================================
+IL PIU' COMPLETO (consigliato) ⭐⭐⭐
+================================================================================
+
+> python mente_artificiale_completa.py
+
+COSA FA: TUTTO! Sistema completo con menu interattivo
+INCLUDE:
+  ✅ Tutti i 12 moduli cerebrali
+  ✅ Camera + Microfono (se disponibili)
+  ✅ Memoria intelligente
+  ✅ Biosegnali neurali
+  ✅ Apprendimento online
+  ✅ Menu per scegliere modalità
+  ✅ Espansioni pronte (voce, movimento, sensori, cloud)
+
+QUANDO USARLO: Sempre! È il programma definitivo
+HARDWARE: Opzionale (funziona anche senza)
+MENU: Scegli 1-6 cosa fare
+
+================================================================================
+PER VISUALIZZARE (dashboard web) 📊
+================================================================================
+
+> streamlit run dashboard.py
+
+COSA FA: Dashboard web con grafici e timeline
+INCLUDE:
+  - Percezioni real-time
+  - Memorie
+  - Emozioni
+  - Grafici
+  - Pulsante demo integrato
+
+QUANDO USARLO: Vuoi vedere visualmente cosa succede
+BROWSER: Si apre automaticamente su http://localhost:8501
+
+================================================================================
+PER TEST SENZA HARDWARE (demo simulata)
+================================================================================
+
+> python mente_ai_demo.py
+
+COSA FA: Genera episodi simulati
+QUANDO USARLO: Test dashboard senza camera/microfono
+DURATA: Continuo (CTRL+C per fermare)
+
+COMBINATO CON DASHBOARD:
+  Terminal 1: python mente_ai_demo.py
+  Terminal 2: streamlit run dashboard.py
+
+================================================================================
+ALTRI PROGRAMMI SPECIALIZZATI
+================================================================================
+
+mente_completa_finale.py
+  - Simile a mente_artificiale_completa.py
+  - Senza espansioni
+  - Focalizzato su core features
+  
+mente_ai_cicli.py
+  - 30 cicli con memoria
+  - Focus su consolidamento
+  
+mente_con_camera.py
+  - 4 modalità camera
+  - Solo test visione
+  
+mente_con_microfono.py
+  - 4 modalità audio
+  - Solo test udito
+  
+mente_multimodale.py
+  - Camera + Microfono sincronizzati
+
+================================================================================
+ESEGUIBILI (.exe) - Senza Python
+================================================================================
+
+dist\MenteAI_Semplice.exe
+  - Demo rapida standalone
+  
+dist\MenteAI_Cicli.exe
+  - 30 cicli con memoria
+  
+dist\MenteAI_Camera.exe
+  - Test camera
+
+================================================================================
+RACCOMANDAZIONI
+================================================================================
+
+SE SEI NUOVO:
+  1. python esempio_semplice.py (10 sec)
+  2. python mente_artificiale_completa.py (scelta 1)
+  3. streamlit run dashboard.py
+
+SE VUOI TESTARE TUTTO:
+  > python mente_artificiale_completa.py
+  Scegli opzione 6 (dashboard + sistema)
+
+SE HAI HARDWARE (camera/mic):
+  > python mente_artificiale_completa.py
+  Il sistema rileva automaticamente e li usa!
+
+SE VUOI ESTENDERE CON ESPANSIONI:
+  > Usa: mente_artificiale_completa.py
+  > Leggi: GUIDA_ESPANSIONI.md
+  > Aggiungi: voce, movimento, sensori, cloud
+
+================================================================================
+CONFRONTO RAPIDO
+================================================================================
+
+File                              | Righe | Complessità | Hardware | Espansioni
+----------------------------------|-------|-------------|----------|------------
+esempio_semplice.py               |    30 |     ⭐      |    No    |     No
+mente_ai_cicli.py                 |   200 |    ⭐⭐     |    No    |     No
+mente_completa_finale.py          |   450 |   ⭐⭐⭐⭐   |   Sì     |     No
+mente_artificiale_completa.py     |  1100 |  ⭐⭐⭐⭐⭐  |   Sì     |    ✅ Sì
+dashboard.py                      |   700 |   ⭐⭐⭐⭐   |    No    |     No
+
+================================================================================
+DOMANDE FREQUENTI
+================================================================================
+
+Q: Quale file ha TUTTO?
+A: mente_artificiale_completa.py ← QUESTO!
+
+Q: Quale file per demo veloce?
+A: esempio_semplice.py
+
+Q: Quale file per visualizzazione?
+A: streamlit run dashboard.py
+
+Q: Quale file ha voce/movimento/sensori/cloud?
+A: mente_artificiale_completa.py (già integrati!)
+
+Q: Come aggiungo nuove funzioni?
+A: Leggi GUIDA_ESPANSIONI.md
+
+Q: Posso usare senza Python?
+A: Sì! dist\MenteAI_*.exe
+
+================================================================================
+COMANDO VELOCE (copia-incolla)
+================================================================================
+
+# Il più completo (consigliato):
+python mente_artificiale_completa.py
+
+# Con dashboard:
+streamlit run dashboard.py
+
+# Demo + Dashboard insieme:
+python mente_ai_demo.py
+# (poi in altro terminal:)
+streamlit run dashboard.py
+
+================================================================================
+IN SINTESI
+================================================================================
+
+Vuoi tutto? → mente_artificiale_completa.py ⭐⭐⭐⭐⭐
+
+È il programma DEFINITIVO con:
+  - Tutto il core
+  - Menu interattivo
+  - Espansioni pronte
+  - Facile da usare
+  - Facile da estendere
+
+AVVIA CON:
+  > python mente_artificiale_completa.py
+
+================================================================================
+
+
+
