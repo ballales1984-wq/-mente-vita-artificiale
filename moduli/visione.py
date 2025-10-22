@@ -30,25 +30,98 @@ class CortecciaVisiva:
     - Rilevamento oggetti (YOLOv8)
     - Riconoscimento forme
     - Analisi movimento
-    - Depth estimation
+    - Gestione camera real-time
     """
     
-    def __init__(self, model_name: str = "yolov8n.pt"):
+    def __init__(self, model_name: str = "yolov8n.pt", camera_id: int = 0):
         self.nome = "Corteccia Visiva"
         self.model_name = model_name
         self.model = None
         self.ultima_elaborazione = None
         self.attivo = False
         
+        # Camera management
+        self.camera_id = camera_id
+        self.camera = None
+        self.camera_inizializzata = False
+        self.frame_corrente = None
+        
+        # Carica modello YOLO
         if YOLO_AVAILABLE:
             try:
                 print(f"[{self.nome}] Caricamento modello {model_name}...")
                 self.model = YOLO(model_name)
                 self.attivo = True
-                print(f"[{self.nome}] ✅ Modello caricato")
+                print(f"[{self.nome}] ✅ Modello YOLOv8 caricato")
             except Exception as e:
-                print(f"[{self.nome}] ⚠️ Errore caricamento: {e}")
+                print(f"[{self.nome}] ⚠️ Errore caricamento modello: {e}")
+                print(f"[{self.nome}] Modalità simulata attiva")
                 self.attivo = True  # Attivo comunque in modalità simulata
+        else:
+            print(f"[{self.nome}] ⚠️ YOLOv8 non disponibile, modalità simulata")
+            self.attivo = True
+    
+    def inizializza_camera(self, camera_id: int = None) -> bool:
+        """
+        Inizializza telecamera per acquisizione video
+        
+        Args:
+            camera_id: Index camera (0=default, 1=esterna, ecc.)
+            
+        Returns:
+            bool: True se inizializzazione riuscita
+        """
+        if not CV2_AVAILABLE:
+            print(f"[{self.nome}] ⚠️ OpenCV non disponibile")
+            return False
+        
+        if camera_id is not None:
+            self.camera_id = camera_id
+        
+        try:
+            print(f"[{self.nome}] Inizializzazione camera {self.camera_id}...")
+            
+            self.camera = cv2.VideoCapture(self.camera_id)
+            
+            if not self.camera.isOpened():
+                print(f"[{self.nome}] ❌ Camera {self.camera_id} non disponibile")
+                self.camera = None
+                return False
+            
+            # Configura parametri camera
+            self.camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+            self.camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+            self.camera.set(cv2.CAP_PROP_FPS, 30)
+            
+            # Test cattura
+            ret, frame = self.camera.read()
+            
+            if not ret:
+                print(f"[{self.nome}] ❌ Impossibile catturare frame")
+                self.camera.release()
+                self.camera = None
+                return False
+            
+            # Salva configurazione
+            w = int(self.camera.get(cv2.CAP_PROP_FRAME_WIDTH))
+            h = int(self.camera.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            fps = self.camera.get(cv2.CAP_PROP_FPS)
+            
+            print(f"[{self.nome}] ✅ Camera inizializzata")
+            print(f"  • Risoluzione: {w}x{h}")
+            print(f"  • FPS: {fps:.1f}")
+            
+            self.camera_inizializzata = True
+            self.frame_corrente = frame
+            
+            return True
+            
+        except Exception as e:
+            print(f"[{self.nome}] ❌ Errore inizializzazione: {e}")
+            if self.camera:
+                self.camera.release()
+                self.camera = None
+            return False
     
     def elabora(self, source: Any, confidenza: float = 0.5) -> Dict[str, Any]:
         """
@@ -216,8 +289,23 @@ class CortecciaVisiva:
     def chiudi(self):
         """Rilascia risorse"""
         if hasattr(self, 'camera') and self.camera:
-            self.camera.release()
+            try:
+                self.camera.release()
+                print(f"[{self.nome}] ✅ Camera rilasciata")
+            except Exception as e:
+                print(f"[{self.nome}] ⚠️ Errore rilascio camera: {e}")
+        
+        # Chiudi tutte le finestre OpenCV
+        if CV2_AVAILABLE:
+            try:
+                import cv2
+                cv2.destroyAllWindows()
+            except:
+                pass
+        
         self.attivo = False
+        self.camera = None
+        self.camera_inizializzata = False
     
     def annotazioni_visual(self, immagine: np.ndarray, risultati: Dict) -> np.ndarray:
         """Disegna annotazioni sull'immagine"""

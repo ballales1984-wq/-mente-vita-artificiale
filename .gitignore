@@ -107,4 +107,8 @@ dmypy.json
 
 # Project specific
 greatwar3/
+.history/
+
+# Spec files PyInstaller
+*.spec
 

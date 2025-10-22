@@ -31,10 +31,10 @@ class CortecciaUditiva:
     - Speech-to-text (Whisper)
     - Analisi tono
     - Rilevamento emozioni vocali
-    - Separazione sorgenti sonore
+    - Acquisizione microfono real-time
     """
     
-    def __init__(self, model_name: str = "base"):
+    def __init__(self, model_name: str = "base", device_id: int = None):
         self.nome = "Corteccia Uditiva"
         self.model_name = model_name
         self.model = None
@@ -42,15 +42,120 @@ class CortecciaUditiva:
         self.ultima_elaborazione = None
         self.attivo = False
         
+        # Gestione microfono
+        self.device_id = device_id
+        self.microfono_inizializzato = False
+        self.buffer_audio = []
+        self.durata_registrazione = 3.0  # secondi default
+        
+        # Carica modello Whisper
         if WHISPER_AVAILABLE:
             try:
                 print(f"[{self.nome}] Caricamento modello Whisper {model_name}...")
                 self.model = whisper.load_model(model_name)
                 self.attivo = True
-                print(f"[{self.nome}] ✅ Modello caricato")
+                print(f"[{self.nome}] ✅ Modello Whisper caricato")
             except Exception as e:
-                print(f"[{self.nome}] ⚠️ Errore caricamento: {e}")
+                print(f"[{self.nome}] ⚠️ Errore caricamento modello: {e}")
+                print(f"[{self.nome}] Modalità simulata attiva")
                 self.attivo = True  # Attivo comunque in modalità simulata
+        else:
+            print(f"[{self.nome}] ⚠️ Whisper non disponibile, modalità simulata")
+            self.attivo = True
+    
+    def inizializza_microfono(self, device_id: int = None) -> bool:
+        """
+        Inizializza microfono per acquisizione audio continua
+        
+        Args:
+            device_id: ID dispositivo audio (None=default)
+            
+        Returns:
+            bool: True se inizializzazione riuscita
+        """
+        if not AUDIO_AVAILABLE:
+            print(f"[{self.nome}] ⚠️ SoundDevice non disponibile")
+            print(f"  Installa con: pip install sounddevice soundfile")
+            return False
+        
+        if device_id is not None:
+            self.device_id = device_id
+        
+        try:
+            print(f"[{self.nome}] Inizializzazione microfono...")
+            
+            # Lista dispositivi disponibili
+            devices = sd.query_devices()
+            
+            # Trova dispositivi input
+            input_devices = []
+            for i, device in enumerate(devices):
+                if device['max_input_channels'] > 0:
+                    input_devices.append((i, device))
+            
+            if not input_devices:
+                print(f"[{self.nome}] ❌ Nessun microfono trovato")
+                return False
+            
+            # Usa device specificato o default
+            if self.device_id is None:
+                # Usa default input
+                self.device_id = sd.default.device[0]
+            
+            device_info = sd.query_devices(self.device_id)
+            
+            print(f"[{self.nome}] ✅ Microfono inizializzato")
+            print(f"  • Dispositivo: {device_info['name']}")
+            print(f"  • Canali: {device_info['max_input_channels']}")
+            print(f"  • Sample rate: {self.sample_rate} Hz")
+            
+            # Test registrazione breve
+            print(f"[{self.nome}] Test registrazione (1s)...")
+            test_audio = sd.rec(
+                int(1 * self.sample_rate),
+                samplerate=self.sample_rate,
+                channels=1,
+                device=self.device_id,
+                dtype='float32'
+            )
+            sd.wait()
+            
+            # Check segnale
+            energy = np.sum(test_audio ** 2) / len(test_audio)
+            
+            if energy < 1e-8:
+                print(f"[{self.nome}] ⚠️ Microfono molto silenzioso (verifica volume)")
+            else:
+                print(f"[{self.nome}] ✅ Test microfono OK (energia: {energy:.6f})")
+            
+            self.microfono_inizializzato = True
+            
+            return True
+            
+        except Exception as e:
+            print(f"[{self.nome}] ❌ Errore inizializzazione: {e}")
+            return False
+    
+    def lista_microfoni(self):
+        """
+        Elenca tutti i microfoni disponibili
+        """
+        if not AUDIO_AVAILABLE:
+            print(f"[{self.nome}] SoundDevice non disponibile")
+            return
+        
+        print(f"\n[{self.nome}] Dispositivi audio disponibili:")
+        print("-" * 70)
+        
+        devices = sd.query_devices()
+        
+        for i, device in enumerate(devices):
+            if device['max_input_channels'] > 0:
+                default_marker = " [DEFAULT]" if i == sd.default.device[0] else ""
+                print(f"  [{i}] {device['name']}{default_marker}")
+                print(f"      Input: {device['max_input_channels']} ch | SR: {device['default_samplerate']:.0f} Hz")
+        
+        print("-" * 70)
     
     def ascolta(self, source: Any, lingua: str = "it") -> Dict[str, Any]:
         """
