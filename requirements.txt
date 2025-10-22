@@ -1,60 +1,38 @@
-# 🧠 MENTE ARTIFICIALE REALE - Dipendenze
-# ==========================================
-# Installazione: pip install -r requirements.txt
+# Mente Artificiale Modulare - Requirements
+# Data: Ottobre 2025
+# Python 3.10+
 
-# Core AI Models
-# --------------
-# Visione - YOLOv8
-ultralytics>=8.0.0
-opencv-python>=4.8.0
+# ==================== COMPUTER VISION ====================
+ultralytics>=8.3.0          # YOLOv8 per riconoscimento oggetti
+opencv-python>=4.6.0        # OpenCV per elaborazione immagini
+pillow>=7.1.2               # PIL per manipolazione immagini
 
-# Audio - Whisper
-openai-whisper>=20230314
-sounddevice>=0.4.6
-soundfile>=0.12.1
+# ==================== DEEP LEARNING ====================
+torch>=2.0.0                # PyTorch per reti neurali
+torchvision>=0.15.0         # Torchvision per computer vision
+numpy>=1.23.0               # NumPy per calcoli numerici
 
-# LLM - Transformers
-torch>=2.0.0
-transformers>=4.30.0
-accelerate>=0.20.0
-sentencepiece>=0.1.99
+# ==================== SPEECH/AUDIO ====================
+openai-whisper>=20230314    # Whisper per speech-to-text
+sounddevice>=0.4.6          # SoundDevice per input microfono
+scipy>=1.4.1                # SciPy per processing audio
+pyttsx3>=2.90               # PyTTSx3 per text-to-speech
+soundfile>=0.12.0           # SoundFile per I/O audio
 
-# Utilities
-# ---------
-numpy>=1.24.0
-scipy>=1.10.0
-pillow>=10.0.0
+# ==================== WEB/VISUALIZATION ====================
+streamlit>=1.28.0           # Streamlit per dashboard web
+pygame>=2.5.0               # Pygame per avatar 3D
+matplotlib>=3.3.0           # Matplotlib per grafici
 
-# Optional - Performance
-# ----------------------
-# Per GPU NVIDIA (commentare se non disponibile)
-# nvidia-cuda-runtime-cu12>=12.0
-# nvidia-cudnn-cu12>=8.9
+# ==================== UTILITIES ====================
+requests>=2.23.0            # Requests per HTTP
+pyyaml>=5.3.1               # PyYAML per configurazioni
+psutil>=5.9.0               # Psutil per system info
+tqdm>=4.67.0                # TQDM per progress bars
 
-# Per ottimizzazione inferenza
-# onnx>=1.14.0
-# onnxruntime>=1.15.0
+# ==================== OPTIONAL (NLP) ====================
+# transformers>=4.30.0      # Transformers per GPT/BERT (opzionale)
+# sentencepiece>=0.1.99     # SentencePiece per tokenization (opzionale)
 
-# Alternative LLM Models (scegliere in base alle risorse)
-# --------------------------------------------------------
-# Per Raspberry Pi / dispositivi limitati:
-#   Usa: gpt2 (già incluso in transformers)
-
-# Per PC medio (8-16GB RAM):
-#   gpt-j-6b richiede: pip install transformers[torch]
-
-# Per workstation potenti (16GB+ RAM):
-#   LLaMA 2 richiede: pip install llama-cpp-python
-
-# Dashboard & Visualization
-# -------------------------
-streamlit>=1.28.0
-pandas>=2.0.0
-plotly>=5.17.0
-
-# Development & Testing
-# ---------------------
-pytest>=7.4.0
-black>=23.0.0
-flake8>=6.0.0
-
+# ==================== DATA PROCESSING ====================
+polars>=0.19.0              # Polars per data processing (opzionale per YOLOv8)
