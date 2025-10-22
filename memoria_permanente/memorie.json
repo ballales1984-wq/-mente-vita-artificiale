@@ -430,5 +430,53 @@
     "pattern": "░░███████████░░",
     "timestamp": "2025-10-22T21:10:14.080532",
     "id": "mem_38_1761160214"
+  },
+  {
+    "ciclo": 1,
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern": "░░███████████░░",
+    "timestamp": "2025-10-22T21:46:11.836379",
+    "id": "mem_39_1761162371"
+  },
+  {
+    "ciclo": 2,
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern": "░░███████████░░",
+    "timestamp": "2025-10-22T21:46:25.252759",
+    "id": "mem_40_1761162385"
+  },
+  {
+    "ciclo": 3,
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern": "░░███████████░░",
+    "timestamp": "2025-10-22T21:46:37.170305",
+    "id": "mem_41_1761162397"
+  },
+  {
+    "ciclo": 4,
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern": "░░███████████░░",
+    "timestamp": "2025-10-22T21:46:49.981418",
+    "id": "mem_42_1761162409"
   }
 ]

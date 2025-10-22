@@ -4,24 +4,26 @@
 ======================================================================
 
 [VISTA] [++]
-   "Vedo: ambiente interno, nessun oggetto particolare"
+   "Vedo: laptop nella scena"
+   "Ho rilevato 1 oggetti."
 
 [UDITO]
-   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
+   "Ho sentito: 'Avvicinati lentamente.'"
    "Il tono mi sembra amichevole."
 
 [EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.66)."
+   "Mi sento positivo e fiducioso (valenza: +0.55)."
    "La mia attività neurale è 11 neuroni attivi su 15."
 
 [PENSIERI]
-   "Nessun elemento particolare, procedo in modalità standard."
+   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
+   "La situazione sembra sicura, posso procedere con l'azione."
 
 [DECISIONE]
-   "Ho deciso di: AVVICINATI"
+   "Ho deciso di: MANTIENI DISTANZA"
 
 [MOTIVAZIONE]
-   "Percepisco una richiesta diretta e la situazione è sicura."
+   "Mantengo una posizione di osservazione prudente."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."

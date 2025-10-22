@@ -1,25 +1,56 @@
 [
   {
-    "episodio_id": "ep_1761157890",
-    "timestamp": "2025-10-22T20:31:30.770785",
-    "oggetti": [],
-    "num_oggetti": 0,
-    "descrizione": "Ambiente vuoto",
-    "audio": "",
-    "valenza": 0.8899647863466398,
-    "emozione": "positivo",
-    "azione": "monitora",
-    "pattern": "█░████░░░░████░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Non ho percepito parole chiare, solo silenzio.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.89).\"\n   \"La mia attività neurale è 10 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: MONITORA\"\n\n[MOTIVAZIONE]\n   \"Continuo a osservare e analizzare senza intervenire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
-  },
-  {
-    "episodio_id": "ep_1761157893",
-    "timestamp": "2025-10-22T20:31:33.778872",
+    "episodio_id": "ep_1761161954",
+    "timestamp": "2025-10-22T21:39:14.513193",
     "oggetti": [
       {
         "classe": "chair",
         "confidenza": 0.85
       },
+      {
+        "classe": "book",
+        "confidenza": 0.72
+      }
+    ],
+    "num_oggetti": 2,
+    "descrizione": "Rilevati: chair, book",
+    "audio": "Avvicinati lentamente.",
+    "valenza": 0.4259444814806062,
+    "emozione": "positivo",
+    "azione": "esegui_comando",
+    "pattern": "█░███░░░█░░░░██",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: chair, book nella scena\"\n   \"Ho rilevato 2 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.43).\"\n   \"La mia attività neurale è 12 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: ESEGUI COMANDO\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando che posso eseguire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+  },
+  {
+    "episodio_id": "ep_1761161957",
+    "timestamp": "2025-10-22T21:39:17.525425",
+    "oggetti": [
+      {
+        "classe": "cup",
+        "confidenza": 0.81
+      },
+      {
+        "classe": "book",
+        "confidenza": 0.72
+      },
+      {
+        "classe": "chair",
+        "confidenza": 0.85
+      }
+    ],
+    "num_oggetti": 3,
+    "descrizione": "Rilevati: cup, book, chair",
+    "audio": "Avvicinati lentamente.",
+    "valenza": 0.10041986178461798,
+    "emozione": "positivo",
+    "azione": "monitora",
+    "pattern": "░░░█░░░█████░█░",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: cup, book, chair nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.10).\"\n   \"La mia attività neurale è 12 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: MONITORA\"\n\n[MOTIVAZIONE]\n   \"Continuo a osservare e analizzare senza intervenire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+  },
+  {
+    "episodio_id": "ep_1761161960",
+    "timestamp": "2025-10-22T21:39:20.539661",
+    "oggetti": [
       {
         "classe": "person",
         "confidenza": 0.92
@@ -29,100 +60,105 @@
         "confidenza": 0.72
       }
     ],
-    "num_oggetti": 3,
-    "descrizione": "Rilevati: chair, person, book",
-    "audio": "Avvicinati lentamente.",
-    "valenza": 0.6882248499528625,
+    "num_oggetti": 2,
+    "descrizione": "Rilevati: person, book",
+    "audio": "Fermati e aspetta il mio comando.",
+    "valenza": 0.06763608834889295,
     "emozione": "positivo",
-    "azione": "avvicinati",
-    "pattern": "█░█░█░░█░█████░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: chair, person, book nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.69).\"\n   \"La mia attività neurale è 9 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+    "azione": "fermati",
+    "pattern": "██░█░██░░░█░░██",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: person, book nella scena\"\n   \"Ho rilevato 2 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Fermati e aspetta il mio comando.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.07).\"\n   \"La mia attività neurale è 8 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Comando di stop ricevuto. Devo interrompere ogni movimento.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: FERMATI\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando esplicito di stop.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
   },
   {
-    "episodio_id": "ep_1761157896",
-    "timestamp": "2025-10-22T20:31:36.791819",
+    "episodio_id": "ep_1761161963",
+    "timestamp": "2025-10-22T21:39:23.549060",
     "oggetti": [
       {
-        "classe": "chair",
-        "confidenza": 0.85
+        "classe": "bottle",
+        "confidenza": 0.78
       },
       {
-        "classe": "laptop",
-        "confidenza": 0.88
-      },
-      {
-        "classe": "person",
-        "confidenza": 0.92
+        "classe": "cup",
+        "confidenza": 0.81
       }
     ],
-    "num_oggetti": 3,
-    "descrizione": "Rilevati: chair, laptop, person",
-    "audio": "Guarda quella bottiglia sul tavolo.",
-    "valenza": 0.6617620583588202,
+    "num_oggetti": 2,
+    "descrizione": "Rilevati: bottle, cup",
+    "audio": "Avvicinati lentamente.",
+    "valenza": 0.7497875616000573,
     "emozione": "positivo",
-    "azione": "mantieni_distanza",
-    "pattern": "█░█░█░█░░░█░█░░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: chair, laptop, person nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Guarda quella bottiglia sul tavolo.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.66).\"\n   \"La mia attività neurale è 10 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: MANTIENI DISTANZA\"\n\n[MOTIVAZIONE]\n   \"Mantengo una posizione di osservazione prudente.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+    "azione": "avvicinati",
+    "pattern": "░░█░░░░█░█░░███",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: bottle, cup nella scena\"\n   \"Ho rilevato 2 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.75).\"\n   \"La mia attività neurale è 14 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
   },
   {
-    "episodio_id": "ep_1761157899",
-    "timestamp": "2025-10-22T20:31:39.803810",
+    "episodio_id": "ep_1761161966",
+    "timestamp": "2025-10-22T21:39:26.559683",
     "oggetti": [],
     "num_oggetti": 0,
     "descrizione": "Ambiente vuoto",
     "audio": "Perfetto, continua così!",
-    "valenza": 0.31838894426850756,
+    "valenza": 0.1287979153397915,
     "emozione": "positivo",
-    "azione": "mantieni_distanza",
-    "pattern": "█░███░█░░░░███░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Perfetto, continua così!'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.32).\"\n   \"La mia attività neurale è 12 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: MANTIENI DISTANZA\"\n\n[MOTIVAZIONE]\n   \"Mantengo una posizione di osservazione prudente.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+    "azione": "esegui_comando",
+    "pattern": "█░░░██░██░█████",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Perfetto, continua così!'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.13).\"\n   \"La mia attività neurale è 10 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: ESEGUI COMANDO\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando che posso eseguire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
   },
   {
-    "episodio_id": "ep_1761157902",
-    "timestamp": "2025-10-22T20:31:42.813324",
-    "oggetti": [],
-    "num_oggetti": 0,
-    "descrizione": "Ambiente vuoto",
-    "audio": "Guarda quella bottiglia sul tavolo.",
-    "valenza": 0.36152831434423865,
-    "emozione": "positivo",
-    "azione": "monitora",
-    "pattern": "░░█░█░█░░░█░██░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Guarda quella bottiglia sul tavolo.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.36).\"\n   \"La mia attività neurale è 8 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: MONITORA\"\n\n[MOTIVAZIONE]\n   \"Continuo a osservare e analizzare senza intervenire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
-  },
-  {
-    "episodio_id": "ep_1761157905",
-    "timestamp": "2025-10-22T20:31:45.822689",
-    "oggetti": [
-      {
-        "classe": "chair",
-        "confidenza": 0.85
-      },
-      {
-        "classe": "laptop",
-        "confidenza": 0.88
-      }
-    ],
-    "num_oggetti": 2,
-    "descrizione": "Rilevati: chair, laptop",
-    "audio": "Avvicinati lentamente.",
-    "valenza": 0.8282262915617242,
-    "emozione": "positivo",
-    "azione": "mantieni_distanza",
-    "pattern": "███░░░░█░░█░██░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: chair, laptop nella scena\"\n   \"Ho rilevato 2 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.83).\"\n   \"La mia attività neurale è 11 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: MANTIENI DISTANZA\"\n\n[MOTIVAZIONE]\n   \"Mantengo una posizione di osservazione prudente.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
-  },
-  {
-    "episodio_id": "ep_1761157908",
-    "timestamp": "2025-10-22T20:31:48.831765",
+    "episodio_id": "ep_1761161969",
+    "timestamp": "2025-10-22T21:39:29.586425",
     "oggetti": [
       {
         "classe": "cup",
         "confidenza": 0.81
+      }
+    ],
+    "num_oggetti": 1,
+    "descrizione": "Rilevati: cup",
+    "audio": "Ciao, come stai? Vieni qui per favore.",
+    "valenza": 0.531569467997562,
+    "emozione": "positivo",
+    "azione": "avvicinati",
+    "pattern": "░░█░█░░█░░░░███",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: cup nella scena\"\n   \"Ho rilevato 1 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Ciao, come stai? Vieni qui per favore.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.53).\"\n   \"La mia attività neurale è 14 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Ho rilevato un saluto. È appropriato rispondere cordialmente.\"\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+  },
+  {
+    "episodio_id": "ep_1761161972",
+    "timestamp": "2025-10-22T21:39:32.618962",
+    "oggetti": [
+      {
+        "classe": "book",
+        "confidenza": 0.72
       },
       {
-        "classe": "chair",
-        "confidenza": 0.85
+        "classe": "laptop",
+        "confidenza": 0.88
+      },
+      {
+        "classe": "cup",
+        "confidenza": 0.81
+      }
+    ],
+    "num_oggetti": 3,
+    "descrizione": "Rilevati: book, laptop, cup",
+    "audio": "Ciao, come stai? Vieni qui per favore.",
+    "valenza": 0.784107161477906,
+    "emozione": "positivo",
+    "azione": "fermati",
+    "pattern": "░░░██░█░░░█░██░",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: book, laptop, cup nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Ciao, come stai? Vieni qui per favore.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.78).\"\n   \"La mia attività neurale è 10 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Ho rilevato un saluto. È appropriato rispondere cordialmente.\"\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: FERMATI\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando esplicito di stop.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+  },
+  {
+    "episodio_id": "ep_1761161975",
+    "timestamp": "2025-10-22T21:39:35.634262",
+    "oggetti": [
+      {
+        "classe": "bottle",
+        "confidenza": 0.78
+      },
+      {
+        "classe": "person",
+        "confidenza": 0.92
       },
       {
         "classe": "laptop",
@@ -130,51 +166,43 @@
       }
     ],
     "num_oggetti": 3,
-    "descrizione": "Rilevati: cup, chair, laptop",
-    "audio": "Ciao, come stai? Vieni qui per favore.",
-    "valenza": -0.161896664219222,
-    "emozione": "negativo",
-    "azione": "avvicinati",
-    "pattern": "░██░░░░██░█░░░░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [-]\n   \"Vedo: cup, chair, laptop nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Ciao, come stai? Vieni qui per favore.'\"\n\n[EMOZIONI] [-]\n   \"Mi sento neutro e calmo (valenza: -0.16).\"\n   \"La mia attività neurale è 8 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Ho rilevato un saluto. È appropriato rispondere cordialmente.\"\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"Rilevo oggetti ma sono incerto, meglio mantenere prudenza.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Memorizzo questa situazione per evitarla in futuro.\"\n\n======================================================================"
-  },
-  {
-    "episodio_id": "ep_1761157911",
-    "timestamp": "2025-10-22T20:31:51.841342",
-    "oggetti": [],
-    "num_oggetti": 0,
-    "descrizione": "Ambiente vuoto",
+    "descrizione": "Rilevati: bottle, person, laptop",
     "audio": "Fermati e aspetta il mio comando.",
-    "valenza": 0.2558865148416371,
+    "valenza": 0.7126929751717233,
     "emozione": "positivo",
-    "azione": "fermati",
-    "pattern": "█░░░░░░░░░█░██░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Fermati e aspetta il mio comando.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.26).\"\n   \"La mia attività neurale è 12 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Comando di stop ricevuto. Devo interrompere ogni movimento.\"\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: FERMATI\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando esplicito di stop.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+    "azione": "esegui_comando",
+    "pattern": "█░░█░░██░███░░█",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: bottle, person, laptop nella scena\"\n   \"Ho rilevato 3 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Fermati e aspetta il mio comando.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.71).\"\n   \"La mia attività neurale è 14 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Comando di stop ricevuto. Devo interrompere ogni movimento.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: ESEGUI COMANDO\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando che posso eseguire.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
   },
   {
-    "episodio_id": "ep_1761157914",
-    "timestamp": "2025-10-22T20:31:54.850604",
+    "episodio_id": "ep_1761161978",
+    "timestamp": "2025-10-22T21:39:38.650256",
     "oggetti": [],
     "num_oggetti": 0,
     "descrizione": "Ambiente vuoto",
-    "audio": "Guarda quella bottiglia sul tavolo.",
-    "valenza": 0.30593813585988855,
-    "emozione": "positivo",
-    "azione": "fermati",
-    "pattern": "░░░░░░░██░█░░█░",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [+]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Guarda quella bottiglia sul tavolo.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [+]\n   \"Mi sento leggermente positivo (valenza: +0.31).\"\n   \"La mia attività neurale è 11 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: FERMATI\"\n\n[MOTIVAZIONE]\n   \"Ho ricevuto un comando esplicito di stop.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
-  },
-  {
-    "episodio_id": "ep_1761157918",
-    "timestamp": "2025-10-22T20:31:58.014522",
-    "oggetti": [],
-    "num_oggetti": 0,
-    "descrizione": "Ambiente vuoto",
-    "audio": "Guarda quella bottiglia sul tavolo.",
-    "valenza": 0.6602105905415516,
+    "audio": "",
+    "valenza": 0.7255095900392445,
     "emozione": "positivo",
     "azione": "avvicinati",
-    "pattern": "░░░░█████░█░███",
-    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Ho sentito: 'Guarda quella bottiglia sul tavolo.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.66).\"\n   \"La mia attività neurale è 11 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+    "pattern": "█░█░░░█░█░█░██░",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: ambiente interno, nessun oggetto particolare\"\n\n[UDITO]\n   \"Non ho percepito parole chiare, solo silenzio.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.73).\"\n   \"La mia attività neurale è 14 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Nessun elemento particolare, procedo in modalità standard.\"\n\n[DECISIONE]\n   \"Ho deciso di: AVVICINATI\"\n\n[MOTIVAZIONE]\n   \"Percepisco una richiesta diretta e la situazione è sicura.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
+  },
+  {
+    "episodio_id": "ep_1761161981",
+    "timestamp": "2025-10-22T21:39:41.662302",
+    "oggetti": [
+      {
+        "classe": "laptop",
+        "confidenza": 0.88
+      }
+    ],
+    "num_oggetti": 1,
+    "descrizione": "Rilevati: laptop",
+    "audio": "Avvicinati lentamente.",
+    "valenza": 0.5526104108754584,
+    "emozione": "positivo",
+    "azione": "mantieni_distanza",
+    "pattern": "░░█░█░░██░░████",
+    "narrazione": "\n======================================================================\n  💭 NARRAZIONE COGNITIVA\n======================================================================\n\n[VISTA] [++]\n   \"Vedo: laptop nella scena\"\n   \"Ho rilevato 1 oggetti.\"\n\n[UDITO]\n   \"Ho sentito: 'Avvicinati lentamente.'\"\n   \"Il tono mi sembra amichevole.\"\n\n[EMOZIONI] [++]\n   \"Mi sento positivo e fiducioso (valenza: +0.55).\"\n   \"La mia attività neurale è 11 neuroni attivi su 15.\"\n\n[PENSIERI]\n   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"\n   \"La situazione sembra sicura, posso procedere con l'azione.\"\n\n[DECISIONE]\n   \"Ho deciso di: MANTIENI DISTANZA\"\n\n[MOTIVAZIONE]\n   \"Mantengo una posizione di osservazione prudente.\"\n\n[ESITO]\n   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"\n\n[APPRENDIMENTO]\n   \"Questa esperienza positiva rafforza il mio comportamento.\"\n\n======================================================================"
   }
 ]

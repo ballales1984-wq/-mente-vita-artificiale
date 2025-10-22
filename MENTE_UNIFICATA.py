@@ -28,6 +28,13 @@ from moduli import visione, udito, prefrontale, motoria, emozione
 from moduli.biosegnale import InterfacciaCoerenzaCerebrale
 from moduli.memoria_permanente import MemoriaPermanente
 
+# Moduli avanzati (Fase 2 - Espansione Cognitiva)
+from moduli.pianificazione import Pianificatore
+from moduli.attenzione import AttenzionSelettiva
+from moduli.teoria_mente import TeoriaDellaMente
+from moduli.linguaggio import SistemaLinguaggio
+from moduli.creativita import SistemaCreativita
+
 # Opzionali
 try:
     import cv2
@@ -100,6 +107,15 @@ class MenteUnificata:
         self.prefrontale.inizializza()
         self.motoria = motoria.CortecciaMotoria()
         self.memoria = MemoriaPermanente(max_size_gb=config.memoria_max_gb)
+        
+        # Moduli avanzati (Fase 2)
+        print(f"\n[AVANZATI] Caricamento moduli cognitivi superiori...")
+        self.pianificatore = Pianificatore()
+        self.attenzione = AttenzionSelettiva()
+        self.teoria_mente = TeoriaDellaMente()
+        self.linguaggio = SistemaLinguaggio()
+        self.creativita = SistemaCreativita()
+        print("  ✅ 5 moduli avanzati attivi!")
         
         # Camera
         self.camera = None
@@ -264,6 +280,52 @@ class MenteUnificata:
         print("\n[6/7] 🦾 AZIONE")
         successo = self.motoria.agisci({'azione': azione})
         print(f"       {'✅ Successo' if successo else '❌ Fallito'}")
+        
+        # MODULI AVANZATI (Fase 2 - Espansione Cognitiva)
+        print("\n[COGNITIVI SUPERIORI] 🧩 Elaborazione avanzata...")
+        
+        # 1. Attenzione Selettiva
+        focus = self.attenzione.elabora({
+            'percezioni_visive': vis,
+            'percezioni_uditive': aud
+        })
+        if focus.get('focus_corrente'):
+            print(f"  🎯 Focus: {focus['motivazione'][:60]}")
+        
+        # 2. Pianificazione
+        piano_ctx = {
+            'percezioni_visive': vis,
+            'percezioni_uditive': aud,
+            'azione_proposta': azione,
+            'valenza': valenza,
+            'num_oggetti': vis.get('num_oggetti', 0)
+        }
+        piano_result = self.pianificatore.elabora(piano_ctx)
+        if piano_result.get('tipo') == 'piano':
+            print(f"  🗓️  Piano: {piano_result['motivazione'][:60]}")
+        
+        # 3. Teoria della Mente
+        teoria = self.teoria_mente.elabora({
+            'percezioni_visive': vis,
+            'percezioni_uditive': aud
+        })
+        if teoria.get('persone_rilevate') > 0:
+            print(f"  🤝 Sociale: {teoria['motivazione'][:60]}")
+        
+        # 4. Linguaggio Naturale
+        risposta_ling = self.linguaggio.elabora(audio_text, {
+            'valenza': valenza,
+            'azione': azione
+        })
+        print(f"  💬 Risposta: '{risposta_ling['risposta'][:50]}...'")
+        
+        # 5. Creatività
+        creativita_result = self.creativita.elabora({
+            'percezioni_visive': vis,
+            'percezioni_uditive': aud
+        })
+        if creativita_result.get('idea_generata'):
+            print(f"  🎨 Idea: {creativita_result['idea_generata'][:50]}...")
         
         # 7. Narrazione
         if self.config.mostra_narrazione:

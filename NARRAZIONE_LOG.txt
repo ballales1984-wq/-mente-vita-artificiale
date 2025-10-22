@@ -1,7 +1,7 @@
 ======================================================================
   🧠 LOG NARRAZIONE COGNITIVA COMPLETA
 ======================================================================
-Inizio: 2025-10-22 20:31:30
+Inizio: 2025-10-22 21:39:14
 ======================================================================
 
 
@@ -13,24 +13,27 @@ Inizio: 2025-10-22 20:31:30
   💭 NARRAZIONE COGNITIVA
 ======================================================================
 
-[VISTA] [++]
-   "Vedo: ambiente interno, nessun oggetto particolare"
+[VISTA] [+]
+   "Vedo: chair, book nella scena"
+   "Ho rilevato 2 oggetti."
 
 [UDITO]
-   "Non ho percepito parole chiare, solo silenzio."
+   "Ho sentito: 'Avvicinati lentamente.'"
+   "Il tono mi sembra amichevole."
 
-[EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.89)."
-   "La mia attività neurale è 10 neuroni attivi su 15."
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.43)."
+   "La mia attività neurale è 12 neuroni attivi su 15."
 
 [PENSIERI]
-   "Nessun elemento particolare, procedo in modalità standard."
+   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
+   "La situazione sembra sicura, posso procedere con l'azione."
 
 [DECISIONE]
-   "Ho deciso di: MONITORA"
+   "Ho deciso di: ESEGUI COMANDO"
 
 [MOTIVAZIONE]
-   "Continuo a osservare e analizzare senza intervenire."
+   "Ho ricevuto un comando che posso eseguire."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
@@ -49,27 +52,27 @@ Inizio: 2025-10-22 20:31:30
   💭 NARRAZIONE COGNITIVA
 ======================================================================
 
-[VISTA] [++]
-   "Vedo: chair, person, book nella scena"
+[VISTA] [+]
+   "Vedo: cup, book, chair nella scena"
    "Ho rilevato 3 oggetti."
 
 [UDITO]
    "Ho sentito: 'Avvicinati lentamente.'"
    "Il tono mi sembra amichevole."
 
-[EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.69)."
-   "La mia attività neurale è 9 neuroni attivi su 15."
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.10)."
+   "La mia attività neurale è 12 neuroni attivi su 15."
 
 [PENSIERI]
    "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
    "La situazione sembra sicura, posso procedere con l'azione."
 
 [DECISIONE]
-   "Ho deciso di: AVVICINATI"
+   "Ho deciso di: MONITORA"
 
 [MOTIVAZIONE]
-   "Percepisco una richiesta diretta e la situazione è sicura."
+   "Continuo a osservare e analizzare senza intervenire."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
@@ -88,26 +91,27 @@ Inizio: 2025-10-22 20:31:30
   💭 NARRAZIONE COGNITIVA
 ======================================================================
 
-[VISTA] [++]
-   "Vedo: chair, laptop, person nella scena"
-   "Ho rilevato 3 oggetti."
+[VISTA] [+]
+   "Vedo: person, book nella scena"
+   "Ho rilevato 2 oggetti."
 
 [UDITO]
-   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
+   "Ho sentito: 'Fermati e aspetta il mio comando.'"
    "Il tono mi sembra amichevole."
 
-[EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.66)."
-   "La mia attività neurale è 10 neuroni attivi su 15."
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.07)."
+   "La mia attività neurale è 8 neuroni attivi su 15."
 
 [PENSIERI]
+   "Comando di stop ricevuto. Devo interrompere ogni movimento."
    "La situazione sembra sicura, posso procedere con l'azione."
 
 [DECISIONE]
-   "Ho deciso di: MANTIENI DISTANZA"
+   "Ho deciso di: FERMATI"
 
 [MOTIVAZIONE]
-   "Mantengo una posizione di osservazione prudente."
+   "Ho ricevuto un comando esplicito di stop."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
@@ -126,25 +130,27 @@ Inizio: 2025-10-22 20:31:30
   💭 NARRAZIONE COGNITIVA
 ======================================================================
 
-[VISTA] [+]
-   "Vedo: ambiente interno, nessun oggetto particolare"
+[VISTA] [++]
+   "Vedo: bottle, cup nella scena"
+   "Ho rilevato 2 oggetti."
 
 [UDITO]
-   "Ho sentito: 'Perfetto, continua così!'"
+   "Ho sentito: 'Avvicinati lentamente.'"
    "Il tono mi sembra amichevole."
 
-[EMOZIONI] [+]
-   "Mi sento leggermente positivo (valenza: +0.32)."
-   "La mia attività neurale è 12 neuroni attivi su 15."
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.75)."
+   "La mia attività neurale è 14 neuroni attivi su 15."
 
 [PENSIERI]
-   "Nessun elemento particolare, procedo in modalità standard."
+   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
+   "La situazione sembra sicura, posso procedere con l'azione."
 
 [DECISIONE]
-   "Ho deciso di: MANTIENI DISTANZA"
+   "Ho deciso di: AVVICINATI"
 
 [MOTIVAZIONE]
-   "Mantengo una posizione di osservazione prudente."
+   "Percepisco una richiesta diretta e la situazione è sicura."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
@@ -167,21 +173,21 @@ Inizio: 2025-10-22 20:31:30
    "Vedo: ambiente interno, nessun oggetto particolare"
 
 [UDITO]
-   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
+   "Ho sentito: 'Perfetto, continua così!'"
    "Il tono mi sembra amichevole."
 
 [EMOZIONI] [+]
-   "Mi sento leggermente positivo (valenza: +0.36)."
-   "La mia attività neurale è 8 neuroni attivi su 15."
+   "Mi sento leggermente positivo (valenza: +0.13)."
+   "La mia attività neurale è 10 neuroni attivi su 15."
 
 [PENSIERI]
    "Nessun elemento particolare, procedo in modalità standard."
 
 [DECISIONE]
-   "Ho deciso di: MONITORA"
+   "Ho deciso di: ESEGUI COMANDO"
 
 [MOTIVAZIONE]
-   "Continuo a osservare e analizzare senza intervenire."
+   "Ho ricevuto un comando che posso eseguire."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
@@ -201,15 +207,170 @@ Inizio: 2025-10-22 20:31:30
 ======================================================================
 
 [VISTA] [++]
-   "Vedo: chair, laptop nella scena"
-   "Ho rilevato 2 oggetti."
+   "Vedo: cup nella scena"
+   "Ho rilevato 1 oggetti."
+
+[UDITO]
+   "Ho sentito: 'Ciao, come stai? Vieni qui per favore.'"
+   "Il tono mi sembra amichevole."
+
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.53)."
+   "La mia attività neurale è 14 neuroni attivi su 15."
+
+[PENSIERI]
+   "Ho rilevato un saluto. È appropriato rispondere cordialmente."
+   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
+   "La situazione sembra sicura, posso procedere con l'azione."
+
+[DECISIONE]
+   "Ho deciso di: AVVICINATI"
+
+[MOTIVAZIONE]
+   "Percepisco una richiesta diretta e la situazione è sicura."
+
+[ESITO]
+   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
+
+[APPRENDIMENTO]
+   "Questa esperienza positiva rafforza il mio comportamento."
+
+======================================================================
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║ EPISODIO #07                                                        ║
+╚════════════════════════════════════════════════════════════════════╝
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [++]
+   "Vedo: book, laptop, cup nella scena"
+   "Ho rilevato 3 oggetti."
+
+[UDITO]
+   "Ho sentito: 'Ciao, come stai? Vieni qui per favore.'"
+   "Il tono mi sembra amichevole."
+
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.78)."
+   "La mia attività neurale è 10 neuroni attivi su 15."
+
+[PENSIERI]
+   "Ho rilevato un saluto. È appropriato rispondere cordialmente."
+   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
+   "La situazione sembra sicura, posso procedere con l'azione."
+
+[DECISIONE]
+   "Ho deciso di: FERMATI"
+
+[MOTIVAZIONE]
+   "Ho ricevuto un comando esplicito di stop."
+
+[ESITO]
+   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
+
+[APPRENDIMENTO]
+   "Questa esperienza positiva rafforza il mio comportamento."
+
+======================================================================
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║ EPISODIO #08                                                        ║
+╚════════════════════════════════════════════════════════════════════╝
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [++]
+   "Vedo: bottle, person, laptop nella scena"
+   "Ho rilevato 3 oggetti."
+
+[UDITO]
+   "Ho sentito: 'Fermati e aspetta il mio comando.'"
+   "Il tono mi sembra amichevole."
+
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.71)."
+   "La mia attività neurale è 14 neuroni attivi su 15."
+
+[PENSIERI]
+   "Comando di stop ricevuto. Devo interrompere ogni movimento."
+   "La situazione sembra sicura, posso procedere con l'azione."
+
+[DECISIONE]
+   "Ho deciso di: ESEGUI COMANDO"
+
+[MOTIVAZIONE]
+   "Ho ricevuto un comando che posso eseguire."
+
+[ESITO]
+   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
+
+[APPRENDIMENTO]
+   "Questa esperienza positiva rafforza il mio comportamento."
+
+======================================================================
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║ EPISODIO #09                                                        ║
+╚════════════════════════════════════════════════════════════════════╝
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [++]
+   "Vedo: ambiente interno, nessun oggetto particolare"
+
+[UDITO]
+   "Non ho percepito parole chiare, solo silenzio."
+
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.73)."
+   "La mia attività neurale è 14 neuroni attivi su 15."
+
+[PENSIERI]
+   "Nessun elemento particolare, procedo in modalità standard."
+
+[DECISIONE]
+   "Ho deciso di: AVVICINATI"
+
+[MOTIVAZIONE]
+   "Percepisco una richiesta diretta e la situazione è sicura."
+
+[ESITO]
+   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
+
+[APPRENDIMENTO]
+   "Questa esperienza positiva rafforza il mio comportamento."
+
+======================================================================
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║ EPISODIO #10                                                        ║
+╚════════════════════════════════════════════════════════════════════╝
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [++]
+   "Vedo: laptop nella scena"
+   "Ho rilevato 1 oggetti."
 
 [UDITO]
    "Ho sentito: 'Avvicinati lentamente.'"
    "Il tono mi sembra amichevole."
 
 [EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.83)."
+   "Mi sento positivo e fiducioso (valenza: +0.55)."
    "La mia attività neurale è 11 neuroni attivi su 15."
 
 [PENSIERI]
@@ -231,158 +392,7 @@ Inizio: 2025-10-22 20:31:30
 ======================================================================
 
 
-╔════════════════════════════════════════════════════════════════════╗
-║ EPISODIO #07                                                        ║
-╚════════════════════════════════════════════════════════════════════╝
-
 ======================================================================
-  💭 NARRAZIONE COGNITIVA
-======================================================================
-
-[VISTA] [-]
-   "Vedo: cup, chair, laptop nella scena"
-   "Ho rilevato 3 oggetti."
-
-[UDITO]
-   "Ho sentito: 'Ciao, come stai? Vieni qui per favore.'"
-
-[EMOZIONI] [-]
-   "Mi sento neutro e calmo (valenza: -0.16)."
-   "La mia attività neurale è 8 neuroni attivi su 15."
-
-[PENSIERI]
-   "Ho rilevato un saluto. È appropriato rispondere cordialmente."
-   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
-   "Rilevo oggetti ma sono incerto, meglio mantenere prudenza."
-
-[DECISIONE]
-   "Ho deciso di: AVVICINATI"
-
-[MOTIVAZIONE]
-   "Percepisco una richiesta diretta e la situazione è sicura."
-
-[ESITO]
-   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
-
-[APPRENDIMENTO]
-   "Memorizzo questa situazione per evitarla in futuro."
-
-======================================================================
-
-
-╔════════════════════════════════════════════════════════════════════╗
-║ EPISODIO #08                                                        ║
-╚════════════════════════════════════════════════════════════════════╝
-
-======================================================================
-  💭 NARRAZIONE COGNITIVA
-======================================================================
-
-[VISTA] [+]
-   "Vedo: ambiente interno, nessun oggetto particolare"
-
-[UDITO]
-   "Ho sentito: 'Fermati e aspetta il mio comando.'"
-   "Il tono mi sembra amichevole."
-
-[EMOZIONI] [+]
-   "Mi sento leggermente positivo (valenza: +0.26)."
-   "La mia attività neurale è 12 neuroni attivi su 15."
-
-[PENSIERI]
-   "Comando di stop ricevuto. Devo interrompere ogni movimento."
-   "Nessun elemento particolare, procedo in modalità standard."
-
-[DECISIONE]
-   "Ho deciso di: FERMATI"
-
-[MOTIVAZIONE]
-   "Ho ricevuto un comando esplicito di stop."
-
-[ESITO]
-   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
-
-[APPRENDIMENTO]
-   "Questa esperienza positiva rafforza il mio comportamento."
-
-======================================================================
-
-
-╔════════════════════════════════════════════════════════════════════╗
-║ EPISODIO #09                                                        ║
-╚════════════════════════════════════════════════════════════════════╝
-
-======================================================================
-  💭 NARRAZIONE COGNITIVA
-======================================================================
-
-[VISTA] [+]
-   "Vedo: ambiente interno, nessun oggetto particolare"
-
-[UDITO]
-   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
-   "Il tono mi sembra amichevole."
-
-[EMOZIONI] [+]
-   "Mi sento leggermente positivo (valenza: +0.31)."
-   "La mia attività neurale è 11 neuroni attivi su 15."
-
-[PENSIERI]
-   "Nessun elemento particolare, procedo in modalità standard."
-
-[DECISIONE]
-   "Ho deciso di: FERMATI"
-
-[MOTIVAZIONE]
-   "Ho ricevuto un comando esplicito di stop."
-
-[ESITO]
-   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
-
-[APPRENDIMENTO]
-   "Questa esperienza positiva rafforza il mio comportamento."
-
-======================================================================
-
-
-╔════════════════════════════════════════════════════════════════════╗
-║ EPISODIO #10                                                        ║
-╚════════════════════════════════════════════════════════════════════╝
-
-======================================================================
-  💭 NARRAZIONE COGNITIVA
-======================================================================
-
-[VISTA] [++]
-   "Vedo: ambiente interno, nessun oggetto particolare"
-
-[UDITO]
-   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
-   "Il tono mi sembra amichevole."
-
-[EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.66)."
-   "La mia attività neurale è 11 neuroni attivi su 15."
-
-[PENSIERI]
-   "Nessun elemento particolare, procedo in modalità standard."
-
-[DECISIONE]
-   "Ho deciso di: AVVICINATI"
-
-[MOTIVAZIONE]
-   "Percepisco una richiesta diretta e la situazione è sicura."
-
-[ESITO]
-   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
-
-[APPRENDIMENTO]
-   "Questa esperienza positiva rafforza il mio comportamento."
-
-======================================================================
-
-
-======================================================================
-Fine: 2025-10-22 20:32:01
+Fine: 2025-10-22 21:39:44
 Totale episodi: 10
 ======================================================================
