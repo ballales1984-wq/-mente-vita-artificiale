@@ -1,0 +1,164 @@
+================================================================================
+                    INDICE COMPLETO FILE PROGETTO
+                    MENTE ARTIFICIALE MODULARE v2.0
+================================================================================
+
+DIRECTORY: C:\Users\user\Desktop\guerragames\
+
+================================================================================
+PROGRAMMI ESEGUIBILI (.EXE)
+================================================================================
+
+dist\
+  MenteArtificiale.exe          (~65 MB) - Ciclo singolo demo
+  MenteAI_Cicli.exe             (~65 MB) - Menu 30 cicli
+
+AVVIA_MENTE_AI.bat              - Launcher con menu
+
+================================================================================
+PROGRAMMI PRINCIPALI (.PY)
+================================================================================
+
+esempio_semplice.py             - Demo base (30 righe) [INIZIA QUI!]
+main.py                         - Sistema completo orchestratore
+mente_ai_cicli.py               - Cicli continui con menu
+mente_ai_biosegnali.py          - Con biosegnali neurali [AVANZATO]
+mente_ai_reale.py               - Con modelli AI reali (YOLOv8, Whisper)
+mente_artificiale_modulare.py   - Prima versione simulata
+
+================================================================================
+MODULI CEREBRALI (cartella moduli/)
+================================================================================
+
+moduli\__init__.py              - Package init
+moduli\base.py                  - Interfacce astratte (Sensore, Attuatore, Memoria)
+
+SENSORIALI:
+moduli\visione.py               - Corteccia Visiva (YOLOv8)
+moduli\udito.py                 - Corteccia Uditiva (Whisper)
+moduli\talamo.py                - Router sensoriale multimodale
+
+COGNITIVI:
+moduli\prefrontale.py           - Ragionamento LLM
+moduli\memoria.py               - Ippocampo (memoria intelligente) [AVANZATO]
+moduli\emozione.py              - Amigdala (reward/emozioni)
+
+MOTORI:
+moduli\motoria.py               - Corteccia Motoria (azioni)
+
+SISTEMA:
+moduli\tronco.py                - Sistema vitale (monitoraggio)
+
+NEURALI (NUOVI!):
+moduli\biosegnale.py            - Propagazione neurale simmetrica [NUOVO]
+moduli\segnali_neurali.py       - Codifica binaria bioelettrica [NUOVO]
+
+================================================================================
+TEST E VERIFICA
+================================================================================
+
+test_hardware.py                - Test camera, microfono, GPU, modelli AI
+test_memoria_avanzata.py        - Test consolidamento e richiamo [NUOVO]
+
+================================================================================
+DOCUMENTAZIONE PRINCIPALE
+================================================================================
+
+README.md                       - Guida principale del progetto
+README_MENTE_AI.md             - Setup hardware e modelli AI
+COME_FUNZIONA.md               - Spiegazione funzionamento
+STRUTTURA_PROGETTO.md          - Organizzazione file e moduli
+COMPLETATO.md                  - Riepilogo completamento base
+PROGETTO_COMPLETO_FINALE.md    - Riepilogo finale completo [LEGGERE!]
+
+================================================================================
+DOCUMENTAZIONE FUNZIONALITA'
+================================================================================
+
+MEMORIA_INTELLIGENTE.md         - Sistema memoria avanzato [NUOVO]
+SEGNALI_BIOELETTRICI.md        - Codifica binaria neuroni [NUOVO]
+BIOSEGNALI_INTEGRATI.md        - Integrazione layer neurale [NUOVO]
+SISTEMA_MEMORIA_IMPLEMENTATO.txt - Tech spec memoria
+
+INDICE_FILE.txt                - Questo file
+
+================================================================================
+CONFIGURAZIONE E SETUP
+================================================================================
+
+requirements.txt                - Dipendenze Python
+setup_raspberry_pi.sh           - Setup automatico Linux/Raspberry Pi
+CREA_EXE_MENTE_AI.bat          - Script creazione EXE
+
+================================================================================
+DATI RUNTIME
+================================================================================
+
+data\
+  memoria.json                  - Memoria episodica persistente (auto-generato)
+
+build\                          - File build PyInstaller (auto-generato)
+dist\                           - Eseguibili (auto-generato)
+__pycache__\                    - Cache Python (auto-generato)
+
+================================================================================
+RIEPILOGO PER USO
+================================================================================
+
+VUOI CAPIRE IL SISTEMA?
+  → Leggi: COME_FUNZIONA.md
+  → Esegui: python esempio_semplice.py
+
+VUOI VEDERE TUTTO?
+  → Leggi: PROGETTO_COMPLETO_FINALE.md
+
+VUOI USARLO SUBITO?
+  → Esegui: dist\MenteAI_Cicli.exe
+  → Oppure: python mente_ai_biosegnali.py
+
+VUOI SVILUPPARE?
+  → Studia: moduli\base.py (interfacce)
+  → Modifica: moduli\*.py
+
+VUOI TESTARE?
+  → Esegui: python test_hardware.py
+  → Esegui: python test_memoria_avanzata.py
+
+VUOI BIOSEGNALI?
+  → Leggi: BIOSEGNALI_INTEGRATI.md
+  → Esegui: python mente_ai_biosegnali.py
+
+================================================================================
+FILE PER CATEGORIA
+================================================================================
+
+[ESECUZIONE IMMEDIATA]
+  - AVVIA_MENTE_AI.bat
+  - dist\MenteAI_Cicli.exe
+  - dist\MenteArtificiale.exe
+
+[LEARNING/TUTORIAL]
+  - esempio_semplice.py
+  - COME_FUNZIONA.md
+  - test_hardware.py
+
+[PRODUZIONE]
+  - main.py
+  - mente_ai_cicli.py
+  - mente_ai_biosegnali.py
+
+[SVILUPPO]
+  - moduli\*.py (11 file)
+  - requirements.txt
+  - setup_raspberry_pi.sh
+
+[DOCUMENTAZIONE]
+  - README.md
+  - PROGETTO_COMPLETO_FINALE.md
+  - + 7 altri file .md
+
+================================================================================
+TOTALE FILE: 30+
+STATO: COMPLETO E FUNZIONANTE
+================================================================================
+

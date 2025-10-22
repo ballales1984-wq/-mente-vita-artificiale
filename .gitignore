@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+venv_mente_ai/
+ENV/
+env/
+.venv
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+error_log.txt
+
+# Temporary files
+*.tmp
+*.temp
+test_*.json
+test_*.jpg
+test_*.wav
+test_frame.jpg
+
+# Data files (opzionale - puoi uncommettare se vuoi versionare)
+# data/
+# *.json
+
+# Models (troppo grandi per git)
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+
+# Audio/Video test files
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Immagini test
+test_*.jpg
+test_*.png
+
+# Cache
+.cache/
+*.cache
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Backup files
+*.bak
+*.backup
+
+# Windows
+*.exe.manifest
+*.exe.config
+
+# Project specific
+greatwar3/
+

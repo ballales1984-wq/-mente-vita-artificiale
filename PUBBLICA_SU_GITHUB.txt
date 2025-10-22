@@ -1,0 +1,238 @@
+================================================================================
+                    GUIDA: PUBBLICARE SU GITHUB
+                    Mente Artificiale Modulare
+================================================================================
+
+STEP 1: CREA REPOSITORY SU GITHUB
+================================================================================
+
+1. Vai su: https://github.com
+2. Click su: [+] -> New repository
+3. Compila:
+   - Nome: mente-artificiale-modulare
+   - Descrizione: Sistema cognitivo artificiale ispirato al cervello umano
+   - Public o Private: [scegli]
+   - NON inizializzare con README (lo hai già!)
+4. Click: Create repository
+
+================================================================================
+STEP 2: INIZIALIZZA GIT LOCALE
+================================================================================
+
+Apri terminale in: C:\Users\user\Desktop\guerragames
+
+Esegui questi comandi:
+
+# Inizializza repository
+git init
+
+# Aggiungi tutti i file
+git add .
+
+# Primo commit
+git commit -m "feat: Initial release - Mente Artificiale v2.0 con biosegnali"
+
+# Collega a GitHub (sostituisci YOUR-USERNAME)
+git remote add origin https://github.com/YOUR-USERNAME/mente-artificiale-modulare.git
+
+# Crea branch main
+git branch -M main
+
+# Push!
+git push -u origin main
+
+================================================================================
+STEP 3: VERIFICA SU GITHUB
+================================================================================
+
+1. Vai su: https://github.com/YOUR-USERNAME/mente-artificiale-modulare
+2. Dovresti vedere:
+   - README.md visualizzato
+   - Tutti i file caricati
+   - Badge colorati
+   - Struttura completa
+
+================================================================================
+COMANDI GIT UTILI
+================================================================================
+
+# Stato
+git status
+
+# Aggiungi file specifici
+git add moduli/nuovo_modulo.py
+
+# Commit con messaggio
+git commit -m "feat: Aggiungi nuovo modulo"
+
+# Push modifiche
+git push
+
+# Pull ultime modifiche
+git pull
+
+# Crea branch
+git checkout -b feature/nuova-funzione
+
+# Torna a main
+git checkout main
+
+# Merge branch
+git merge feature/nuova-funzione
+
+# Vedi storia
+git log --oneline
+
+================================================================================
+FILE GITHUB CREATI
+================================================================================
+
+✅ .gitignore                 - File da ignorare
+✅ LICENSE                    - Licenza MIT
+✅ README_GITHUB.md           - README per GitHub (rinomina in README.md)
+✅ CONTRIBUTING.md            - Guida contributi
+✅ CHANGELOG.md               - Storia modifiche
+✅ Questo file                - Guida pubblicazione
+
+================================================================================
+OPZIONALE: RINOMINA README
+================================================================================
+
+Se vuoi usare il README GitHub-style:
+
+# Backup README attuale
+mv README.md README_LOCALE.md
+
+# Usa versione GitHub
+mv README_GITHUB.md README.md
+
+# Commit
+git add .
+git commit -m "docs: Aggiorna README per GitHub"
+git push
+
+================================================================================
+CONFIGURAZIONE REPOSITORY GITHUB
+================================================================================
+
+Dopo il push, vai su Settings del repository e configura:
+
+1. ABOUT (a destra):
+   - Description: Sistema cognitivo artificiale modulare
+   - Website: [se hai]
+   - Topics: artificial-intelligence, cognitive-computing, neural-networks,
+            brain-simulation, reinforcement-learning, pytorch, yolov8
+
+2. FEATURES:
+   - ✅ Issues
+   - ✅ Discussions
+   - ✅ Wiki (opzionale)
+
+3. PAGES (opzionale):
+   - Puoi pubblicare documentazione come GitHub Pages
+
+================================================================================
+RELEASE (OPZIONALE)
+================================================================================
+
+Per creare release ufficiale:
+
+1. Vai su: Releases -> Create a new release
+2. Tag: v2.0.0
+3. Title: Mente Artificiale v2.0 - Memoria Intelligente + Biosegnali
+4. Descrizione:
+   
+   ## Caratteristiche v2.0
+   - ⭐ Memoria intelligente con consolidamento automatico
+   - ⚡ Biosegnali neurali con propagazione simmetrica
+   - 🧠 Ritmi cerebrali (alfa, beta, gamma)
+   - 💭 Stimoli interni spontanei
+   - 🔌 Interfaccia EEG/EMG ready
+   
+   ## Download
+   - Source code
+   - Eseguibili Windows (.exe disponibili in dist/)
+
+5. Allega (opzionale):
+   - dist\MenteAI_Cicli.exe
+   - dist\MenteArtificiale.exe
+
+6. Publish release
+
+================================================================================
+BADGE DA AGGIUNGERE (OPZIONALE)
+================================================================================
+
+Aggiungi al README.md questi badge:
+
+[![Stars](https://img.shields.io/github/stars/YOUR-USERNAME/mente-artificiale?style=social)](https://github.com/YOUR-USERNAME/mente-artificiale)
+[![Forks](https://img.shields.io/github/forks/YOUR-USERNAME/mente-artificiale?style=social)](https://github.com/YOUR-USERNAME/mente-artificiale/fork)
+[![Issues](https://img.shields.io/github/issues/YOUR-USERNAME/mente-artificiale)](https://github.com/YOUR-USERNAME/mente-artificiale/issues)
+[![License](https://img.shields.io/github/license/YOUR-USERNAME/mente-artificiale)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+
+================================================================================
+ESEMPIO COMPLETO
+================================================================================
+
+# 1. Crea repo su GitHub: "mente-artificiale-modulare"
+
+# 2. Esegui comandi:
+cd C:\Users\user\Desktop\guerragames
+git init
+git add .
+git commit -m "feat: Initial release v2.0"
+git remote add origin https://github.com/YOUR-USERNAME/mente-artificiale-modulare.git
+git branch -M main
+git push -u origin main
+
+# 3. Vai su GitHub e verifica!
+
+# 4. (Opzionale) Rinomina README:
+git mv README.md README_LOCALE.md
+git mv README_GITHUB.md README.md
+git commit -m "docs: Aggiorna README per GitHub"
+git push
+
+# 5. Crea prima release (v2.0.0)
+
+FATTO! 🎉
+
+================================================================================
+LINK UTILI
+================================================================================
+
+Git Documentation: https://git-scm.com/doc
+GitHub Guides: https://guides.github.com
+GitHub Desktop: https://desktop.github.com (GUI alternativa)
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problema: "git: command not found"
+Soluzione: Installa Git da https://git-scm.com/download/win
+
+Problema: "Permission denied (publickey)"
+Soluzione: 
+  1. Genera SSH key: ssh-keygen -t ed25519 -C "your-email@example.com"
+  2. Aggiungi su GitHub Settings -> SSH Keys
+  
+Problema: "Repository not found"
+Soluzione: Verifica URL remote con: git remote -v
+
+Problema: "Failed to push"
+Soluzione: git pull --rebase origin main, poi git push
+
+================================================================================
+
+🚀 PRONTO PER GITHUB!
+
+Ora il tuo progetto può essere:
+- ⭐ Condiviso con il mondo
+- 🤝 Ricevere contributi
+- 📈 Tracciato nel tempo
+- 🏆 Usato da altri sviluppatori
+
+================================================================================
+
