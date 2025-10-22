@@ -1,7 +1,7 @@
 ======================================================================
   🧠 LOG COMPLETO MENTE UNIFICATA
 ======================================================================
-Inizio: 2025-10-22 21:46:00
+Inizio: 2025-10-22 21:53:31
 Cicli previsti: 10
 ======================================================================
 
@@ -144,4 +144,219 @@ CICLO #0004
 [APPRENDIMENTO]
    "Esperienza positiva, rafforzo comportamento."
 
+======================================================================
+
+======================================================================
+CICLO #0005
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+CICLO #0006
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+CICLO #0007
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+CICLO #0008
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+CICLO #0009
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+CICLO #0010
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [+]
+   "Vedo: Scena indoor: persona seduta vicino a una sedia"
+   "Ho rilevato 2 oggetti."
+
+[UDITO]
+   "Silenzio o rumore di fondo."
+
+[EMOZIONI] [+]
+   "Mi sento leggermente positivo (valenza: +0.30)."
+   "Attività neurale: 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Situazione analizzata e valutata."
+
+[DECISIONE]
+   "Ho deciso di: MANTIENI DISTANZA"
+
+[MOTIVAZIONE]
+   "Osservazione prudente."
+
+[ESITO]
+   "Azione eseguita con successo."
+
+[APPRENDIMENTO]
+   "Esperienza positiva, rafforzo comportamento."
+
+======================================================================
+
+======================================================================
+Fine: 2025-10-22 21:55:53
+Cicli completati: 10
 ======================================================================

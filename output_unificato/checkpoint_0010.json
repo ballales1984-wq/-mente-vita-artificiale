@@ -1,22 +1,22 @@
 {
   "ciclo": 10,
-  "timestamp": "2025-10-22T21:10:14.099234",
+  "timestamp": "2025-10-22T21:55:53.335915",
   "stats": {
     "cicli_eseguiti": 10,
     "successi": 10,
     "fallimenti": 0,
-    "inizio": "2025-10-22T21:07:45.089424",
-    "memorie_salvate": 39
+    "inizio": "2025-10-22T21:53:31.400132",
+    "memorie_salvate": 55
   },
   "memoria_stats": {
-    "totale_memorie": 39,
-    "spazio_usato_mb": 0.02205657958984375,
-    "spazio_usato_gb": 2.1539628505706787e-05,
-    "spazio_rimanente_gb": 1.9999784603714943,
-    "percentuale_usata": 0.0010769814252853394,
+    "totale_memorie": 55,
+    "spazio_usato_mb": 0.033438682556152344,
+    "spazio_usato_gb": 3.265496343374252e-05,
+    "spazio_rimanente_gb": 1.9999673450365663,
+    "percentuale_usata": 0.0016327481716871262,
     "data_creazione": "2025-10-22T19:46:15.508462",
-    "ultimo_salvataggio": "2025-10-22T21:10:14.088006",
-    "memorie_aggiunte": 33,
+    "ultimo_salvataggio": "2025-10-22T21:55:53.324256",
+    "memorie_aggiunte": 47,
     "memorie_eliminate": 0,
     "ricerche_effettuate": 0
   }

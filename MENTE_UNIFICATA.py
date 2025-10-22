@@ -35,6 +35,9 @@ from moduli.teoria_mente import TeoriaDellaMente
 from moduli.linguaggio import SistemaLinguaggio
 from moduli.creativita import SistemaCreativita
 
+# Moduli Fase 3 - Apprendimento Adattivo
+from moduli.apprendimento_adattivo import ApprendimentoAdattivo
+
 # Opzionali
 try:
     import cv2
@@ -109,13 +112,18 @@ class MenteUnificata:
         self.memoria = MemoriaPermanente(max_size_gb=config.memoria_max_gb)
         
         # Moduli avanzati (Fase 2)
-        print(f"\n[AVANZATI] Caricamento moduli cognitivi superiori...")
+        print(f"\n[FASE 2] Caricamento moduli cognitivi superiori...")
         self.pianificatore = Pianificatore()
         self.attenzione = AttenzionSelettiva()
         self.teoria_mente = TeoriaDellaMente()
         self.linguaggio = SistemaLinguaggio()
         self.creativita = SistemaCreativita()
-        print("  ✅ 5 moduli avanzati attivi!")
+        print("  ✅ 5 moduli Fase 2 attivi!")
+        
+        # Moduli Fase 3 - Apprendimento Adattivo
+        print(f"\n[FASE 3] Caricamento sistema apprendimento adattivo...")
+        self.apprendimento_adattivo = ApprendimentoAdattivo()
+        print("  ✅ Apprendimento adattivo attivo!")
         
         # Camera
         self.camera = None
@@ -327,6 +335,28 @@ class MenteUnificata:
         if creativita_result.get('idea_generata'):
             print(f"  🎨 Idea: {creativita_result['idea_generata'][:50]}...")
         
+        # FASE 3: Apprendimento Adattivo
+        print("\n[FASE 3] 🎓 Apprendimento adattivo...")
+        
+        # Applica regole da esperienze passate (se disponibili)
+        apprendimento_ctx = {
+            'descrizione': vis.get('descrizione', ''),
+            'audio': audio_text,
+            'emozione': 'positivo' if valenza > 0 else 'neutro',
+            'azione': azione,
+            'successo': successo
+        }
+        
+        app_result = self.apprendimento_adattivo.elabora(apprendimento_ctx, fase='applicazione')
+        if app_result.get('regola_applicata'):
+            print(f"  📚 Regola: Azione suggerita da esperienza - {app_result.get('azione_suggerita')}")
+        
+        # Valuta pensiero corrente
+        valutazione_result = self.apprendimento_adattivo.elabora(apprendimento_ctx, fase='valutazione')
+        if valutazione_result.get('valutazione'):
+            val = valutazione_result['valutazione']
+            print(f"  📊 Valutazione: {'+' if val > 0 else ''}{val} - Peso aggiornato")
+        
         # 7. Narrazione
         if self.config.mostra_narrazione:
             narrazione = self.genera_narrazione(vis, audio_text, valenza, pattern, azione, successo)
@@ -457,6 +487,10 @@ class MenteUnificata:
     def chiudi(self, ciclo_finale):
         """Chiude sistema e salva finale"""
         print(f"\n[SHUTDOWN] Chiusura sistema...")
+        
+        # Salva pesi apprendimento
+        self.apprendimento_adattivo.salva_pesi()
+        print("  ✅ Pesi apprendimento salvati")
         
         # Chiudi camera
         if self.camera:

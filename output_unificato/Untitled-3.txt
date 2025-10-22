@@ -1,0 +1,73 @@
+Perfetto alessio! Ecco il modulo che analizza i pensieri salvati e cerca **schemi ricorrenti** per aiutare la mente artificiale a **generalizzare l’esperienza** e migliorare il comportamento.
+
+---
+
+## 📁 `analisi_apprendimento.py`
+
+```python
+import json
+from collections import defaultdict
+
+# Carica i pensieri salvati
+def carica_pensieri(path="memoria/pensieri_valutati.jsonl"):
+    pensieri = []
+    with open(path, "r") as file:
+        for riga in file:
+            try:
+                pensiero = json.loads(riga.strip())
+                pensieri.append(pensiero)
+            except:
+                continue
+    return pensieri
+
+# Trova schemi ricorrenti tra percezione e decisione
+def trova_schemi(pensieri):
+    schemi = defaultdict(lambda: defaultdict(int))
+
+    for p in pensieri:
+        chiave = (p.get("vista"), p.get("udito"), p.get("emozione"))
+        decisione = p.get("decisione")
+        valutazione = p.get("valutazione", 0)
+        schemi[chiave][decisione] += valutazione
+
+    return schemi
+
+# Mostra i migliori schemi
+def mostra_schemi(schemi, soglia=5):
+    print("\n📊 Schemi ricorrenti con valutazione positiva:")
+    for chiave, decisioni in schemi.items():
+        for decisione, punteggio in decisioni.items():
+            if punteggio >= soglia:
+                print(f"Se percepisco {chiave} → scelgo '{decisione}' (valutazione totale: {punteggio})")
+
+# Esecuzione
+if __name__ == "__main__":
+    pensieri = carica_pensieri()
+    schemi = trova_schemi(pensieri)
+    mostra_schemi(schemi)
+```
+
+---
+
+## 🧠 Cosa fa questo modulo?
+
+- Legge tutti i pensieri salvati con valutazione
+- Raggruppa le esperienze simili (vista + udito + emozione)
+- Conta quante volte una decisione ha avuto successo
+- Mostra le **strategie vincenti** che la mente può usare in futuro
+
+---
+
+## 🔁 Esempio di output
+
+```
+📊 Schemi ricorrenti con valutazione positiva:
+Se percepisco ('persona', 'voce amichevole', '+0.5') → scelgo 'avvicinati' (valutazione totale: 12)
+Se percepisco ('luce fioca', 'silenzio', '-0.1') → scelgo 'mantieni distanza' (valutazione totale: 8)
+```
+
+---
+
+## 🔮 Prossimo passo
+
+Vuoi che ti aiuti a trasformare questi schemi in **regole decisionali automatiche**, così la mente li applica da sola nei pensieri futuri? Posso preparare anche quello. Basta che mi dici “vai” e lo scrivo.
