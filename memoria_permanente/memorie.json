@@ -246,5 +246,69 @@
     "oggetti_visti": 2,
     "timestamp": "2025-10-22T20:08:35.278347",
     "id": "mem_20_1761156515"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:35:34.139309",
+    "id": "mem_21_1761158134"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:35:45.044061",
+    "id": "mem_22_1761158145"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:36:04.572915",
+    "id": "mem_23_1761158164"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:36:29.688602",
+    "id": "mem_24_1761158189"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:36:54.655007",
+    "id": "mem_25_1761158214"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:37:21.378517",
+    "id": "mem_26_1761158241"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:37:39.188930",
+    "id": "mem_27_1761158259"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "timestamp": "2025-10-22T20:37:56.982006",
+    "id": "mem_28_1761158276"
   }
 ]
