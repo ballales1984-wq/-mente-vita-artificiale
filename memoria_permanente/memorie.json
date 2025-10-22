@@ -1,0 +1,70 @@
+[
+  {
+    "descrizione": "Test memoria permanente",
+    "emozione": "positivo",
+    "valenza": 0.8,
+    "contenuto": "Questo è un test del sistema di memoria permanente",
+    "timestamp": "2025-10-22T19:46:15.510899",
+    "id": "mem_0_1761155175"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio_trascritto": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern_neurale": "░░███████████░░",
+    "oggetti_visti": 2,
+    "timestamp": "2025-10-22T19:46:53.446890",
+    "id": "mem_1_1761155213"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio_trascritto": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern_neurale": "░░███████████░░",
+    "oggetti_visti": 2,
+    "timestamp": "2025-10-22T19:47:04.269067",
+    "id": "mem_2_1761155224"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio_trascritto": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern_neurale": "░░███████████░░",
+    "oggetti_visti": 2,
+    "timestamp": "2025-10-22T19:47:15.494216",
+    "id": "mem_3_1761155235"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio_trascritto": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern_neurale": "░░███████████░░",
+    "oggetti_visti": 2,
+    "timestamp": "2025-10-22T19:47:27.021219",
+    "id": "mem_4_1761155247"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio_trascritto": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "pattern_neurale": "░░███████████░░",
+    "oggetti_visti": 2,
+    "timestamp": "2025-10-22T19:47:38.467715",
+    "id": "mem_5_1761155258"
+  }
+]

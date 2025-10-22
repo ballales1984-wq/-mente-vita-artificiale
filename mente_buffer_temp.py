@@ -12,6 +12,7 @@ from pathlib import Path
 
 from moduli import visione, udito, prefrontale, motoria, emozione
 from moduli.biosegnale import InterfacciaCoerenzaCerebrale
+from moduli.memoria_permanente import MemoriaPermanente
 
 try:
     import sounddevice as sd
@@ -30,7 +31,7 @@ class BufferTemp:
         self.video_temp = self.temp_dir / "frame.jpg"
         print(f"[Buffer] Temp: {self.temp_dir}")
     
-    def registra_audio(self, durata=2.0):
+    def registra_audio(self, durata=4.0):
         """Registra audio (sovrascrive)"""
         if not AUDIO_OK:
             return None
@@ -96,6 +97,10 @@ class MenteBufferTemp:
         self.prefrontale.inizializza()
         self.motoria = motoria.CortecciaMotoria()
         
+        # Memoria permanente 2GB
+        self.memoria_permanente = MemoriaPermanente(max_size_gb=2)
+        print(f"  ✅ Memoria permanente: {self.memoria_permanente.get_size_mb():.1f}MB usati")
+        
         # Camera
         self.camera = None
         if usa_camera:
@@ -122,7 +127,7 @@ class MenteBufferTemp:
         # Udito
         print("\n[2/6] 👂 UDITO")
         if self.usa_mic:
-            audio_path = self.buffer.registra_audio(2.0)
+            audio_path = self.buffer.registra_audio(4.0)
             if audio_path:
                 aud = self.udito.ascolta(str(audio_path))
             else:
@@ -155,6 +160,21 @@ class MenteBufferTemp:
         successo = self.motoria.agisci({'azione': azione})
         print(f"       {azione.upper()} {'✅' if successo else '❌'}")
         
+        # Salva memoria permanente
+        print("\n[7/6] 💾 SALVATAGGIO MEMORIA")
+        memoria_episodio = {
+            'descrizione': vis.get('descrizione', ''),
+            'audio_trascritto': testo,
+            'emozione': 'positivo' if valenza > 0 else ('negativo' if valenza < 0 else 'neutro'),
+            'valenza': valenza,
+            'azione': azione,
+            'successo': successo,
+            'pattern_neurale': pattern,
+            'oggetti_visti': vis.get('num_oggetti', 0)
+        }
+        if self.memoria_permanente.aggiungi_memoria(memoria_episodio):
+            print(f"       💾 Memoria salvata permanentemente")
+        
         # Elimina temp
         print("\n[CLEANUP]")
         self.buffer.elimina_tutto()
@@ -171,6 +191,18 @@ class MenteBufferTemp:
             if i < n:
                 time.sleep(1)
         print("\n✅ SESSIONE COMPLETATA\n")
+        
+        # Statistiche memoria permanente
+        print("="*70)
+        print("  💾 STATISTICHE MEMORIA PERMANENTE")
+        print("="*70)
+        stats = self.memoria_permanente.get_statistiche()
+        print(f"  • Memorie salvate: {stats['totale_memorie']}")
+        print(f"  • Spazio usato: {stats['spazio_usato_mb']:.2f}MB / 2048MB")
+        print(f"  • Percentuale: {stats['percentuale_usata']:.1f}%")
+        print(f"  • Spazio rimanente: {stats['spazio_rimanente_gb']:.3f}GB")
+        print("="*70)
+        print()
     
     def chiudi(self):
         """Chiude tutto"""
