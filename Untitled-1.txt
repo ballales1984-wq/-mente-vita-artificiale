@@ -1,0 +1,7 @@
+
+Modulo	Cosa fa	Tecnologie suggerite	Esempi pratici
+Pianificazione	Prevede azioni future, crea piani e obiettivi a lungo termine	Planner AI, symbolic reasoning	Un robot decide come raggiungere un oggetto evitando ostacoli
+Attenzione selettiva	Filtra stimoli importanti, ignora quelli irrilevanti	Transformer attention, saliency maps	Il sistema si concentra solo sulla voce dell’utente in una stanza rumorosa
+Teoria della mente	Capisce le intenzioni e le emozioni degli altri	NLP + modelli comportamentali	L’AI capisce che l’utente è confuso e cambia modo di spiegare
+Linguaggio naturale	Dialoga in modo fluido, ricorda il contesto delle conversazioni	LLM (Large Language Models) + memoria contestuale	L’assistente ricorda cosa hai detto ieri e continua la conversazione
+Creatività	Genera idee, immagini, storie, soluzioni nuove	Generative AI (DALL·E, GPT, ecc.)	L’AI inventa una storia, disegna una scena o propone un progetto originale

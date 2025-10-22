@@ -1,6 +1,8 @@
-# 🧠 Mente Artificiale Modulare v3.0
+# 🧠 Mente Artificiale Modulare v4.0
 
-Sistema cognitivo artificiale modulare ispirato al cervello umano, con percezione multimodale, memoria intelligente, biosegnali neurali e apprendimento continuo.
+Sistema cognitivo artificiale modulare ispirato al cervello umano, con percezione multimodale, memoria intelligente 2GB, biosegnali neurali, narrazione cognitiva e apprendimento continuo.
+
+> **Novità v4.0**: Sistema unificato con cicli estesi (fino a 1000+), narrazione cognitiva in linguaggio naturale, memoria permanente 2GB, consolidamento automatico.
 
 ![Status](https://img.shields.io/badge/status-completed-success)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)

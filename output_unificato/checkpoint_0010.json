@@ -1,0 +1,23 @@
+{
+  "ciclo": 10,
+  "timestamp": "2025-10-22T21:10:14.099234",
+  "stats": {
+    "cicli_eseguiti": 10,
+    "successi": 10,
+    "fallimenti": 0,
+    "inizio": "2025-10-22T21:07:45.089424",
+    "memorie_salvate": 39
+  },
+  "memoria_stats": {
+    "totale_memorie": 39,
+    "spazio_usato_mb": 0.02205657958984375,
+    "spazio_usato_gb": 2.1539628505706787e-05,
+    "spazio_rimanente_gb": 1.9999784603714943,
+    "percentuale_usata": 0.0010769814252853394,
+    "data_creazione": "2025-10-22T19:46:15.508462",
+    "ultimo_salvataggio": "2025-10-22T21:10:14.088006",
+    "memorie_aggiunte": 33,
+    "memorie_eliminate": 0,
+    "ricerche_effettuate": 0
+  }
+}
