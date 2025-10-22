@@ -174,6 +174,14 @@ print("[INFO] Premi CTRL+C per fermare\n")
 os.makedirs("data", exist_ok=True)
 episodi = []
 
+# Apri file log per salvare TUTTO
+log_file = open("NARRAZIONE_LOG.txt", "w", encoding="utf-8")
+log_file.write("="*70 + "\n")
+log_file.write("  🧠 LOG NARRAZIONE COGNITIVA COMPLETA\n")
+log_file.write("="*70 + "\n")
+log_file.write(f"Inizio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+log_file.write("="*70 + "\n\n")
+
 try:
     for i in range(1, 11):  # 10 episodi
         print(f"\n{'╔'+'═'*68+'╗'}")
@@ -184,6 +192,12 @@ try:
         
         # Mostra narrazione
         print(narrazione)
+        
+        # SALVA TUTTO NEL FILE LOG
+        intestazione = f"\n{'╔'+'═'*68+'╗'}\n║ EPISODIO #{i:02d}{' '*56}║\n{'╚'+'═'*68+'╝'}\n"
+        log_file.write(intestazione)
+        log_file.write(narrazione + "\n\n")
+        log_file.flush()  # Salva subito
         
         # Salva episodio
         episodi.append(episodio)
@@ -209,6 +223,14 @@ try:
 except KeyboardInterrupt:
     print("\n\n[!] Interruzione utente")
 
+finally:
+    # Chiudi file log
+    log_file.write("\n" + "="*70 + "\n")
+    log_file.write(f"Fine: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    log_file.write(f"Totale episodi: {len(episodi)}\n")
+    log_file.write("="*70 + "\n")
+    log_file.close()
+
 print(f"\n{'='*70}")
 print(f"  ✅ DEMO COMPLETATA")
 print(f"{'='*70}")
@@ -216,5 +238,6 @@ print(f"\n[STATISTICHE]")
 print(f"  • Episodi generati: {len(episodi)}")
 print(f"  • File salvati in: data/")
 print(f"  • Dashboard: http://localhost:8501")
+print(f"\n📖 LEGGI TUTTO QUI: NARRAZIONE_LOG.txt")
 print()
 

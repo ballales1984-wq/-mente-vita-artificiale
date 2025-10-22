@@ -1,0 +1,32 @@
+
+======================================================================
+  💭 NARRAZIONE COGNITIVA
+======================================================================
+
+[VISTA] [++]
+   "Vedo: ambiente interno, nessun oggetto particolare"
+
+[UDITO]
+   "Ho sentito: 'Guarda quella bottiglia sul tavolo.'"
+   "Il tono mi sembra amichevole."
+
+[EMOZIONI] [++]
+   "Mi sento positivo e fiducioso (valenza: +0.66)."
+   "La mia attività neurale è 11 neuroni attivi su 15."
+
+[PENSIERI]
+   "Nessun elemento particolare, procedo in modalità standard."
+
+[DECISIONE]
+   "Ho deciso di: AVVICINATI"
+
+[MOTIVAZIONE]
+   "Percepisco una richiesta diretta e la situazione è sicura."
+
+[ESITO]
+   "Ho eseguito l'azione con successo. Tutto è andato come previsto."
+
+[APPRENDIMENTO]
+   "Questa esperienza positiva rafforza il mio comportamento."
+
+======================================================================
