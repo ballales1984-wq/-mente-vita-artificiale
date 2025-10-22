@@ -115,6 +115,107 @@ class MenteBufferTemp:
         
         print("[OK] Sistema pronto!\n")
     
+    def _narrazione_cognitiva(self, vis, testo, valenza, pattern, azione, successo):
+        """Genera narrazione di cosa pensa l'AI"""
+        
+        # Analizza contesto
+        oggetti = vis.get('num_oggetti', 0)
+        descrizione = vis.get('descrizione', 'nulla')
+        
+        # Stato emotivo
+        if valenza > 0.5:
+            stato_emo = "positivo e fiducioso"
+            emoji_emo = "[++]"
+        elif valenza > 0:
+            stato_emo = "leggermente positivo"
+            emoji_emo = "[+]"
+        elif valenza < -0.5:
+            stato_emo = "preoccupato"
+            emoji_emo = "[--]"
+        elif valenza < 0:
+            stato_emo = "neutro con cautela"
+            emoji_emo = "[-]"
+        else:
+            stato_emo = "neutro e calmo"
+            emoji_emo = "[=]"
+        
+        # Cosa vede
+        print(f"\n[VISTA] {emoji_emo}")
+        print(f"   \"Vedo: {descrizione}\"")
+        if oggetti > 0:
+            print(f"   \"Ho rilevato {oggetti} oggett{'o' if oggetti == 1 else 'i'} nella scena.\"")
+        
+        # Cosa sente
+        print(f"\n[UDITO]")
+        if testo:
+            print(f"   \"Ho sentito: '{testo}'\"")
+            print(f"   \"Il tono mi sembra {'amichevole' if valenza > 0 else 'neutro'}.\"")
+        else:
+            print(f"   \"Non ho percepito parole chiare, solo silenzio o rumore di fondo.\"")
+        
+        # Cosa sente emotivamente
+        print(f"\n[EMOZIONI] {emoji_emo}")
+        print(f"   \"Mi sento {stato_emo} (valenza: {valenza:+.2f}).\"")
+        neuroni_attivi = pattern.count('█') if '█' in pattern else pattern.count('1')
+        print(f"   \"La mia attività neurale è {neuroni_attivi} neuroni attivi su {len(pattern)}.\"")
+        
+        # Cosa pensa/ragiona
+        print(f"\n[PENSIERI]")
+        
+        # Genera ragionamento basato su contesto
+        if testo and any(word in testo.lower() for word in ['ciao', 'salve', 'buongiorno']):
+            print(f"   \"Ho rilevato un saluto. È appropriato rispondere in modo cordiale.\"")
+        
+        if testo and any(word in testo.lower() for word in ['vieni', 'avvicinati', 'qui']):
+            print(f"   \"Mi viene richiesto di avvicinarmi. Valuto se è sicuro.\"")
+        
+        if testo and any(word in testo.lower() for word in ['fermati', 'stop', 'aspetta']):
+            print(f"   \"Comando di stop ricevuto. Devo interrompere ogni movimento.\"")
+        
+        if oggetti > 0 and valenza > 0:
+            print(f"   \"La situazione sembra sicura, posso procedere con l'azione.\"")
+        elif oggetti > 0 and valenza < 0:
+            print(f"   \"Rilevo qualcosa ma sono incerto, meglio mantenere distanza.\"")
+        else:
+            print(f"   \"Nessun elemento particolare rilevato, procedo in modalità standard.\"")
+        
+        # Cosa decide
+        print(f"\n[DECISIONE]")
+        print(f"   \"Ho deciso di: {azione.upper().replace('_', ' ')}\"")
+        
+        # Perché lo fa
+        print(f"\n[MOTIVAZIONE]")
+        motivazioni = {
+            'avvicinati': "Percepisco una richiesta diretta e la situazione è sicura.",
+            'allontanati': "La situazione mi sembra incerta, meglio prendere distanza.",
+            'fermati': "Ho ricevuto un comando esplicito di stop.",
+            'mantieni_distanza': "Mantengo una posizione di osservazione prudente.",
+            'monitora': "Continuo a osservare e analizzare senza intervenire.",
+            'segui': "Ho identificato un obiettivo da seguire.",
+            'esegui_comando': "Ho ricevuto un comando che posso eseguire.",
+            'ruota': "Devo cambiare orientamento per una visuale migliore."
+        }
+        motivazione = motivazioni.get(azione, "Questa è l'azione più appropriata date le circostanze.")
+        print(f"   \"{motivazione}\"")
+        
+        # Risultato
+        print(f"\n[ESITO]")
+        if successo:
+            print(f"   \"Ho eseguito l'azione con successo. Tutto è andato come previsto.\"")
+        else:
+            print(f"   \"L'azione non è riuscita completamente, dovrò adattarmi.\"")
+        
+        # Cosa impara
+        print(f"\n[APPRENDIMENTO]")
+        if valenza > 0 and successo:
+            print(f"   \"Questa esperienza positiva rafforza il mio comportamento.\"")
+        elif valenza < 0:
+            print(f"   \"Memorizzo questa situazione per evitarla in futuro.\"")
+        else:
+            print(f"   \"Aggiungo questa esperienza alla mia memoria per riferimenti futuri.\"")
+        
+        print("\n" + "="*70)
+    
     def ciclo(self):
         """Un ciclo cognitivo"""
         # Visione
@@ -159,6 +260,12 @@ class MenteBufferTemp:
         azione = dec.get('azione', 'monitora')
         successo = self.motoria.agisci({'azione': azione})
         print(f"       {azione.upper()} {'✅' if successo else '❌'}")
+        
+        # NARRAZIONE: Cosa pensa e dice l'AI
+        print("\n" + "="*70)
+        print("  💭 NARRAZIONE COGNITIVA")
+        print("="*70)
+        self._narrazione_cognitiva(vis, testo, valenza, pattern, azione, successo)
         
         # Salva memoria permanente
         print("\n[7/6] 💾 SALVATAGGIO MEMORIA")
