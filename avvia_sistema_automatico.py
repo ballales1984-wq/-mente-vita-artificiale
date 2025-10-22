@@ -43,17 +43,17 @@ def main():
         print("      ✅ Dashboard avviato")
         time.sleep(3)
         
-        # 3. Avvia Mente AI (modalità demo per evitare blocchi)
-        print("\n[3/3] 🧠 Avvio Mente AI (Demo)...")
+        # 3. Avvia Mente AI (modalità demo CON NARRAZIONE)
+        print("\n[3/3] 🧠 Avvio Mente AI (Demo con Narrazione)...")
         if sys.platform == "win32":
             p_mente = subprocess.Popen(
-                ["python", "mente_ai_demo.py"],
+                ["python", "mente_demo_con_narrazione.py"],
                 creationflags=subprocess.CREATE_NEW_CONSOLE
             )
         else:
-            p_mente = subprocess.Popen(["python", "mente_ai_demo.py"])
+            p_mente = subprocess.Popen(["python", "mente_demo_con_narrazione.py"])
         processi.append(("Mente AI", p_mente))
-        print("      ✅ Mente AI avviato")
+        print("      ✅ Mente AI avviato (con narrazione cognitiva!)")
         
         print("\n" + "="*70)
         print("  ✅ SISTEMA COMPLETO AVVIATO!")
@@ -61,7 +61,8 @@ def main():
         print("\n[INFO] Componenti attivi:")
         print("  • Avatar 3D → Finestra separata")
         print("  • Dashboard → http://localhost:8501")
-        print("  • Mente AI → Generazione dati automatica")
+        print("  • Mente AI → Generazione dati + NARRAZIONE COGNITIVA")
+        print("\n[💭] Apri la dashboard per vedere cosa pensa l'AI!")
         print("\n[!] Premi CTRL+C per fermare tutto\n")
         
         # Attendi

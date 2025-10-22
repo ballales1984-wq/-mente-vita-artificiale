@@ -693,14 +693,1454 @@
         "risposta": "Ho rilevato cup. Procedo.",
         "priorita": 0.83
       }
+    },
+    {
+      "id": "episodio_019",
+      "timestamp": 1761156604.135176,
+      "contenuto": "V:book | A:Metti via le chiavi | monitora_ambiente",
+      "valenza_emotiva": 0.2,
+      "importanza": 0.98,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 19,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Metti via le chiavi",
+        "tono": "urgente",
+        "intenzione": "comando",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.88,
+        "successo": true,
+        "pattern_neurale": "0001010101000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Metti via le chiavi",
+          "tono": "urgente",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.2,
+        "intensità": 0.7,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0001010101000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 4
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato book. Compreso.",
+        "priorita": 0.88
+      }
+    },
+    {
+      "id": "episodio_020",
+      "timestamp": 1761156607.1567588,
+      "contenuto": "V:bottle | A:Vieni qui un momento | monitora_ambiente",
+      "valenza_emotiva": -0.14,
+      "importanza": 0.85,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 20,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Vieni qui un momento",
+        "tono": "neutro",
+        "intenzione": "comando",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.69,
+        "successo": true,
+        "pattern_neurale": "0001010101000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Vieni qui un momento",
+          "tono": "neutro",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": -0.14,
+        "intensità": 0.41,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0001010101000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 4
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato bottle. Confermo.",
+        "priorita": 0.69
+      }
+    },
+    {
+      "id": "episodio_021",
+      "timestamp": 1761156610.1647193,
+      "contenuto": "V:bottle | A:Prendi il libro rosso | cerca_oggetto",
+      "valenza_emotiva": 0.38,
+      "importanza": 0.91,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 21,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Prendi il libro rosso",
+        "tono": "urgente",
+        "intenzione": "domanda",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.84,
+        "successo": true,
+        "pattern_neurale": "░░░░░█░░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Prendi il libro rosso",
+          "tono": "urgente",
+          "intenzione": "domanda",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.38,
+        "intensità": 0.86,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░░█░░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 1
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato bottle. Eseguo.",
+        "priorita": 0.84
+      }
+    },
+    {
+      "id": "episodio_022",
+      "timestamp": 1761156613.1825075,
+      "contenuto": "V:phone | A:Vieni qui un momento | avvicinati",
+      "valenza_emotiva": 0.85,
+      "importanza": 0.53,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 22,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Vieni qui un momento",
+        "tono": "amichevole",
+        "intenzione": "richiesta",
+        "azione_eseguita": "avvicinati",
+        "priorita_decisione": 0.64,
+        "successo": true,
+        "pattern_neurale": "░░█████████░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Vieni qui un momento",
+          "tono": "amichevole",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.85,
+        "intensità": 0.47,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░█████████░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 9
+      },
+      "decisione": {
+        "azione": "avvicinati",
+        "risposta": "Ho rilevato phone. Procedo.",
+        "priorita": 0.64
+      }
+    },
+    {
+      "id": "episodio_023",
+      "timestamp": 1761156616.196718,
+      "contenuto": "V:book | A:Cosa vedi davanti a te? | cerca_oggetto",
+      "valenza_emotiva": 0.34,
+      "importanza": 0.71,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 23,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Cosa vedi davanti a te?",
+        "tono": "curioso",
+        "intenzione": "richiesta",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.79,
+        "successo": true,
+        "pattern_neurale": "░███████████░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Cosa vedi davanti a te?",
+          "tono": "curioso",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.34,
+        "intensità": 0.67,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░███████████░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 11
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato book. Procedo.",
+        "priorita": 0.79
+      }
+    },
+    {
+      "id": "episodio_024",
+      "timestamp": 1761156619.2153568,
+      "contenuto": "V:person | A:Cosa vedi davanti a te? | monitora_ambiente",
+      "valenza_emotiva": 0.37,
+      "importanza": 1.03,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 24,
+        "oggetto_visivo": "person",
+        "confidenza_visiva": 0.92,
+        "frase_audio": "Cosa vedi davanti a te?",
+        "tono": "curioso",
+        "intenzione": "comando",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.85,
+        "successo": true,
+        "pattern_neurale": "0000010100000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "person",
+          "confidenza": 0.92,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Cosa vedi davanti a te?",
+          "tono": "curioso",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.37,
+        "intensità": 0.7,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0000010100000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 2
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato person. Procedo.",
+        "priorita": 0.85
+      }
+    },
+    {
+      "id": "episodio_025",
+      "timestamp": 1761156622.232213,
+      "contenuto": "V:keyboard | A:Aiutami con questo | mantieni_distanza",
+      "valenza_emotiva": -0.15,
+      "importanza": 0.87,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 25,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Aiutami con questo",
+        "tono": "neutro",
+        "intenzione": "domanda",
+        "azione_eseguita": "mantieni_distanza",
+        "priorita_decisione": 0.74,
+        "successo": true,
+        "pattern_neurale": "0000101010000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Aiutami con questo",
+          "tono": "neutro",
+          "intenzione": "domanda",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": -0.15,
+        "intensità": 0.81,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0000101010000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 3
+      },
+      "decisione": {
+        "azione": "mantieni_distanza",
+        "risposta": "Ho rilevato keyboard. Confermo.",
+        "priorita": 0.74
+      }
+    },
+    {
+      "id": "episodio_026",
+      "timestamp": 1761156625.2490606,
+      "contenuto": "V:bottle | A:Portami la bottiglia sul tavol | esegui_comando",
+      "valenza_emotiva": 0.02,
+      "importanza": 0.96,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 26,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Portami la bottiglia sul tavolo",
+        "tono": "neutro",
+        "intenzione": "comando",
+        "azione_eseguita": "esegui_comando",
+        "priorita_decisione": 0.95,
+        "successo": true,
+        "pattern_neurale": "0001010101000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Portami la bottiglia sul tavolo",
+          "tono": "neutro",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.02,
+        "intensità": 0.84,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0001010101000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 4
+      },
+      "decisione": {
+        "azione": "esegui_comando",
+        "risposta": "Ho rilevato bottle. Compreso.",
+        "priorita": 0.95
+      }
+    },
+    {
+      "id": "episodio_027",
+      "timestamp": 1761156628.2672083,
+      "contenuto": "V:phone | A:Aiutami con questo | avvicinati",
+      "valenza_emotiva": 0.69,
+      "importanza": 0.91,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 27,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Aiutami con questo",
+        "tono": "curioso",
+        "intenzione": "comando",
+        "azione_eseguita": "avvicinati",
+        "priorita_decisione": 0.91,
+        "successo": true,
+        "pattern_neurale": "░░░░█████░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Aiutami con questo",
+          "tono": "curioso",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.69,
+        "intensità": 0.75,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░█████░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 5
+      },
+      "decisione": {
+        "azione": "avvicinati",
+        "risposta": "Ho rilevato phone. Compreso.",
+        "priorita": 0.91
+      }
+    },
+    {
+      "id": "episodio_028",
+      "timestamp": 1761156631.276107,
+      "contenuto": "V:cup | A:Dov'è il mio telefono? | cerca_oggetto",
+      "valenza_emotiva": 0.53,
+      "importanza": 0.88,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 28,
+        "oggetto_visivo": "cup",
+        "confidenza_visiva": 0.88,
+        "frase_audio": "Dov'è il mio telefono?",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.7,
+        "successo": false,
+        "pattern_neurale": "░░░░░█░░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "cup",
+          "confidenza": 0.88,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Dov'è il mio telefono?",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.53,
+        "intensità": 0.49,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░░█░░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 1
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato cup. Confermo.",
+        "priorita": 0.7
+      }
+    },
+    {
+      "id": "episodio_029",
+      "timestamp": 1761156634.3061888,
+      "contenuto": "V:book | A:Dov'è il mio telefono? | monitora_ambiente",
+      "valenza_emotiva": -0.01,
+      "importanza": 0.98,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 29,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Dov'è il mio telefono?",
+        "tono": "neutro",
+        "intenzione": "richiesta",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.9,
+        "successo": true,
+        "pattern_neurale": "░░░░░█░░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Dov'è il mio telefono?",
+          "tono": "neutro",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": -0.01,
+        "intensità": 0.52,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░░█░░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 1
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato book. Confermo.",
+        "priorita": 0.9
+      }
+    },
+    {
+      "id": "episodio_030",
+      "timestamp": 1761156637.325184,
+      "contenuto": "V:keyboard | A:Prendi il libro rosso | esegui_comando",
+      "valenza_emotiva": 0.59,
+      "importanza": 0.76,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 30,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Prendi il libro rosso",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "esegui_comando",
+        "priorita_decisione": 0.65,
+        "successo": true,
+        "pattern_neurale": "0010101010100"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Prendi il libro rosso",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.59,
+        "intensità": 0.83,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0010101010100",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 5
+      },
+      "decisione": {
+        "azione": "esegui_comando",
+        "risposta": "Ho rilevato keyboard. Confermo.",
+        "priorita": 0.65
+      }
+    },
+    {
+      "id": "episodio_031",
+      "timestamp": 1761156640.3489923,
+      "contenuto": "V:keyboard | A:Accendi la luce per favore | monitora_ambiente",
+      "valenza_emotiva": 0.42,
+      "importanza": 0.83,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 31,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Accendi la luce per favore",
+        "tono": "urgente",
+        "intenzione": "domanda",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.89,
+        "successo": true,
+        "pattern_neurale": "░░░███████░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Accendi la luce per favore",
+          "tono": "urgente",
+          "intenzione": "domanda",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.42,
+        "intensità": 0.73,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░███████░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato keyboard. Procedo.",
+        "priorita": 0.89
+      }
+    },
+    {
+      "id": "episodio_032",
+      "timestamp": 1761156643.373348,
+      "contenuto": "V:keyboard | A:Prendi il libro rosso | monitora_ambiente",
+      "valenza_emotiva": 0.61,
+      "importanza": 1.04,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 32,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Prendi il libro rosso",
+        "tono": "amichevole",
+        "intenzione": "comando",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.85,
+        "successo": true,
+        "pattern_neurale": "0000010100000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Prendi il libro rosso",
+          "tono": "amichevole",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.61,
+        "intensità": 0.51,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0000010100000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 2
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato keyboard. Confermo.",
+        "priorita": 0.85
+      }
+    },
+    {
+      "id": "episodio_033",
+      "timestamp": 1761156646.3917663,
+      "contenuto": "V:bottle | A:Accendi la luce per favore | avvicinati",
+      "valenza_emotiva": 0.02,
+      "importanza": 0.75,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 33,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Accendi la luce per favore",
+        "tono": "neutro",
+        "intenzione": "comando",
+        "azione_eseguita": "avvicinati",
+        "priorita_decisione": 0.83,
+        "successo": false,
+        "pattern_neurale": "1010101010101"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Accendi la luce per favore",
+          "tono": "neutro",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.02,
+        "intensità": 0.41,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "1010101010101",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "avvicinati",
+        "risposta": "Ho rilevato bottle. Compreso.",
+        "priorita": 0.83
+      }
+    },
+    {
+      "id": "episodio_034",
+      "timestamp": 1761156649.4194388,
+      "contenuto": "V:bottle | A:Cosa vedi davanti a te? | mantieni_distanza",
+      "valenza_emotiva": 0.53,
+      "importanza": 0.84,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 34,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Cosa vedi davanti a te?",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "mantieni_distanza",
+        "priorita_decisione": 0.7,
+        "successo": true,
+        "pattern_neurale": "0000101010000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Cosa vedi davanti a te?",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.53,
+        "intensità": 0.42,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0000101010000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 3
+      },
+      "decisione": {
+        "azione": "mantieni_distanza",
+        "risposta": "Ho rilevato bottle. Eseguo.",
+        "priorita": 0.7
+      }
+    },
+    {
+      "id": "episodio_035",
+      "timestamp": 1761156652.4464264,
+      "contenuto": "V:phone | A:Portami la bottiglia sul tavol | cerca_oggetto",
+      "valenza_emotiva": 0.51,
+      "importanza": 0.73,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 35,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Portami la bottiglia sul tavolo",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.75,
+        "successo": true,
+        "pattern_neurale": "0010101010100"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Portami la bottiglia sul tavolo",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.51,
+        "intensità": 0.53,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0010101010100",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 5
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato phone. Procedo.",
+        "priorita": 0.75
+      }
+    },
+    {
+      "id": "episodio_036",
+      "timestamp": 1761156655.4660656,
+      "contenuto": "V:laptop | A:Vieni qui un momento | cerca_oggetto",
+      "valenza_emotiva": 0.3,
+      "importanza": 1.15,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 36,
+        "oggetto_visivo": "laptop",
+        "confidenza_visiva": 0.95,
+        "frase_audio": "Vieni qui un momento",
+        "tono": "urgente",
+        "intenzione": "domanda",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.86,
+        "successo": false,
+        "pattern_neurale": "0010101010100"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "laptop",
+          "confidenza": 0.95,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Vieni qui un momento",
+          "tono": "urgente",
+          "intenzione": "domanda",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.3,
+        "intensità": 0.81,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0010101010100",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 5
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato laptop. Procedo.",
+        "priorita": 0.86
+      }
+    },
+    {
+      "id": "episodio_037",
+      "timestamp": 1761156658.4944727,
+      "contenuto": "V:chair | A:Vieni qui un momento | esegui_comando",
+      "valenza_emotiva": 0.93,
+      "importanza": 0.96,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 37,
+        "oggetto_visivo": "chair",
+        "confidenza_visiva": 0.85,
+        "frase_audio": "Vieni qui un momento",
+        "tono": "amichevole",
+        "intenzione": "comando",
+        "azione_eseguita": "esegui_comando",
+        "priorita_decisione": 0.94,
+        "successo": true,
+        "pattern_neurale": "1010101010101"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "chair",
+          "confidenza": 0.85,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Vieni qui un momento",
+          "tono": "amichevole",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.93,
+        "intensità": 0.45,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "1010101010101",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "esegui_comando",
+        "risposta": "Ho rilevato chair. Confermo.",
+        "priorita": 0.94
+      }
+    },
+    {
+      "id": "episodio_038",
+      "timestamp": 1761156661.5089366,
+      "contenuto": "V:keyboard | A:Dov'è il mio telefono? | mantieni_distanza",
+      "valenza_emotiva": -0.14,
+      "importanza": 0.75,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 38,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Dov'è il mio telefono?",
+        "tono": "neutro",
+        "intenzione": "comando",
+        "azione_eseguita": "mantieni_distanza",
+        "priorita_decisione": 0.9,
+        "successo": true,
+        "pattern_neurale": "0000101010000"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Dov'è il mio telefono?",
+          "tono": "neutro",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": -0.14,
+        "intensità": 0.66,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0000101010000",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 3
+      },
+      "decisione": {
+        "azione": "mantieni_distanza",
+        "risposta": "Ho rilevato keyboard. Eseguo.",
+        "priorita": 0.9
+      }
+    },
+    {
+      "id": "episodio_039",
+      "timestamp": 1761156664.524789,
+      "contenuto": "V:keyboard | A:Metti via le chiavi | cerca_oggetto",
+      "valenza_emotiva": 0.39,
+      "importanza": 1.01,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 39,
+        "oggetto_visivo": "keyboard",
+        "confidenza_visiva": 0.89,
+        "frase_audio": "Metti via le chiavi",
+        "tono": "curioso",
+        "intenzione": "comando",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.9,
+        "successo": true,
+        "pattern_neurale": "░░░███████░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "keyboard",
+          "confidenza": 0.89,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Metti via le chiavi",
+          "tono": "curioso",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.39,
+        "intensità": 0.89,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░███████░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato keyboard. Confermo.",
+        "priorita": 0.9
+      }
+    },
+    {
+      "id": "episodio_040",
+      "timestamp": 1761156667.5428393,
+      "contenuto": "V:book | A:Portami la bottiglia sul tavol | cerca_oggetto",
+      "valenza_emotiva": -0.16,
+      "importanza": 0.62,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 40,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Portami la bottiglia sul tavolo",
+        "tono": "neutro",
+        "intenzione": "richiesta",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.75,
+        "successo": true,
+        "pattern_neurale": "0101010101010"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Portami la bottiglia sul tavolo",
+          "tono": "neutro",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": -0.16,
+        "intensità": 0.61,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "0101010101010",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 6
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato book. Confermo.",
+        "priorita": 0.75
+      }
+    },
+    {
+      "id": "episodio_041",
+      "timestamp": 1761156670.5656652,
+      "contenuto": "V:chair | A:Aiutami con questo | esegui_comando",
+      "valenza_emotiva": 0.88,
+      "importanza": 0.94,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 41,
+        "oggetto_visivo": "chair",
+        "confidenza_visiva": 0.85,
+        "frase_audio": "Aiutami con questo",
+        "tono": "amichevole",
+        "intenzione": "richiesta",
+        "azione_eseguita": "esegui_comando",
+        "priorita_decisione": 0.69,
+        "successo": true,
+        "pattern_neurale": "░░░░░█░░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "chair",
+          "confidenza": 0.85,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Aiutami con questo",
+          "tono": "amichevole",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.88,
+        "intensità": 0.67,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░░█░░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 1
+      },
+      "decisione": {
+        "azione": "esegui_comando",
+        "risposta": "Ho rilevato chair. Compreso.",
+        "priorita": 0.69
+      }
+    },
+    {
+      "id": "episodio_042",
+      "timestamp": 1761156673.587015,
+      "contenuto": "V:phone | A:Prendi il libro rosso | cerca_oggetto",
+      "valenza_emotiva": 0.35,
+      "importanza": 0.98,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 42,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Prendi il libro rosso",
+        "tono": "urgente",
+        "intenzione": "comando",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.93,
+        "successo": true,
+        "pattern_neurale": "0010101010100"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Prendi il libro rosso",
+          "tono": "urgente",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.35,
+        "intensità": 0.41,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0010101010100",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 5
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato phone. Compreso.",
+        "priorita": 0.93
+      }
+    },
+    {
+      "id": "episodio_043",
+      "timestamp": 1761156676.6174595,
+      "contenuto": "V:bottle | A:Accendi la luce per favore | cerca_oggetto",
+      "valenza_emotiva": 0.29,
+      "importanza": 0.77,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 43,
+        "oggetto_visivo": "bottle",
+        "confidenza_visiva": 0.87,
+        "frase_audio": "Accendi la luce per favore",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "cerca_oggetto",
+        "priorita_decisione": 0.81,
+        "successo": true,
+        "pattern_neurale": "░░░░░█░░░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "bottle",
+          "confidenza": 0.87,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Accendi la luce per favore",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.29,
+        "intensità": 0.9,
+        "stato": "NEUTRO"
+      },
+      "biosegnale": {
+        "codifica": "░░░░░█░░░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 1
+      },
+      "decisione": {
+        "azione": "cerca_oggetto",
+        "risposta": "Ho rilevato bottle. Compreso.",
+        "priorita": 0.81
+      }
+    },
+    {
+      "id": "episodio_044",
+      "timestamp": 1761156679.638614,
+      "contenuto": "V:chair | A:Cosa vedi davanti a te? | monitora_ambiente",
+      "valenza_emotiva": 0.8,
+      "importanza": 1.02,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 44,
+        "oggetto_visivo": "chair",
+        "confidenza_visiva": 0.85,
+        "frase_audio": "Cosa vedi davanti a te?",
+        "tono": "amichevole",
+        "intenzione": "richiesta",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.75,
+        "successo": true,
+        "pattern_neurale": "░░░███████░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "chair",
+          "confidenza": 0.85,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Cosa vedi davanti a te?",
+          "tono": "amichevole",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.8,
+        "intensità": 0.44,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░███████░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato chair. Eseguo.",
+        "priorita": 0.75
+      }
+    },
+    {
+      "id": "episodio_045",
+      "timestamp": 1761156682.6935492,
+      "contenuto": "V:phone | A:Aiutami con questo | esegui_comando",
+      "valenza_emotiva": 0.54,
+      "importanza": 0.95,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 45,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Aiutami con questo",
+        "tono": "amichevole",
+        "intenzione": "richiesta",
+        "azione_eseguita": "esegui_comando",
+        "priorita_decisione": 0.88,
+        "successo": false,
+        "pattern_neurale": "░░░███████░░░"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Aiutami con questo",
+          "tono": "amichevole",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.54,
+        "intensità": 0.61,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "░░░███████░░░",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "esegui_comando",
+        "risposta": "Ho rilevato phone. Confermo.",
+        "priorita": 0.88
+      }
+    },
+    {
+      "id": "episodio_046",
+      "timestamp": 1761156685.725443,
+      "contenuto": "V:book | A:Dov'è il mio telefono? | avvicinati",
+      "valenza_emotiva": 0.61,
+      "importanza": 0.87,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 46,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Dov'è il mio telefono?",
+        "tono": "amichevole",
+        "intenzione": "domanda",
+        "azione_eseguita": "avvicinati",
+        "priorita_decisione": 0.72,
+        "successo": true,
+        "pattern_neurale": "0101010101010"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Dov'è il mio telefono?",
+          "tono": "amichevole",
+          "intenzione": "domanda",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.61,
+        "intensità": 0.68,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "0101010101010",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 6
+      },
+      "decisione": {
+        "azione": "avvicinati",
+        "risposta": "Ho rilevato book. Eseguo.",
+        "priorita": 0.72
+      }
+    },
+    {
+      "id": "episodio_047",
+      "timestamp": 1761156688.7728784,
+      "contenuto": "V:book | A:Aiutami con questo | monitora_ambiente",
+      "valenza_emotiva": 0.51,
+      "importanza": 0.8,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 47,
+        "oggetto_visivo": "book",
+        "confidenza_visiva": 0.78,
+        "frase_audio": "Aiutami con questo",
+        "tono": "amichevole",
+        "intenzione": "comando",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.92,
+        "successo": true,
+        "pattern_neurale": "1010101010101"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "book",
+          "confidenza": 0.78,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Aiutami con questo",
+          "tono": "amichevole",
+          "intenzione": "comando",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.51,
+        "intensità": 0.55,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "1010101010101",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato book. Confermo.",
+        "priorita": 0.92
+      }
+    },
+    {
+      "id": "episodio_048",
+      "timestamp": 1761156691.7904246,
+      "contenuto": "V:phone | A:Accendi la luce per favore | monitora_ambiente",
+      "valenza_emotiva": 0.55,
+      "importanza": 0.54,
+      "accessi": 0,
+      "contesto": {
+        "ciclo": 48,
+        "oggetto_visivo": "phone",
+        "confidenza_visiva": 0.91,
+        "frase_audio": "Accendi la luce per favore",
+        "tono": "urgente",
+        "intenzione": "richiesta",
+        "azione_eseguita": "monitora_ambiente",
+        "priorita_decisione": 0.7,
+        "successo": true,
+        "pattern_neurale": "1010101010101"
+      },
+      "stimoli": {
+        "visivo": {
+          "oggetto": "phone",
+          "confidenza": 0.91,
+          "modello": "YOLOv8 (simulato)"
+        },
+        "uditivo": {
+          "trascrizione": "Accendi la luce per favore",
+          "tono": "urgente",
+          "intenzione": "richiesta",
+          "modello": "Whisper (simulato)"
+        }
+      },
+      "emozione": {
+        "valenza": 0.55,
+        "intensità": 0.69,
+        "stato": "POSITIVO"
+      },
+      "biosegnale": {
+        "codifica": "1010101010101",
+        "tipo": "binaria simmetrica",
+        "neuroni_attivi": 7
+      },
+      "decisione": {
+        "azione": "monitora_ambiente",
+        "risposta": "Ho rilevato phone. Eseguo.",
+        "priorita": 0.7
+      }
     }
   ],
   "meta": {
-    "memorizzazioni_totali": 18,
-    "ultimo_aggiornamento": "2025-10-22T19:24:46.991825",
-    "richiami_totali": 62,
-    "consolidamenti": 3,
-    "reward_totale": 9.38,
-    "reward_medio": 0.52
+    "memorizzazioni_totali": 48,
+    "ultimo_aggiornamento": "2025-10-22T20:11:31.790454",
+    "richiami_totali": 78,
+    "consolidamenti": 9,
+    "reward_totale": 20.99,
+    "reward_medio": 0.44
   }
 }

@@ -359,6 +359,29 @@ with col_d2:
 
 st.divider()
 
+# ==================== NARRAZIONE COGNITIVA ====================
+
+st.header("💭 Narrazione Cognitiva")
+
+# Carica narrazione da file
+path_narrazione = Path("data/ultima_narrazione.txt")
+
+if path_narrazione.exists():
+    try:
+        with open(path_narrazione, 'r', encoding='utf-8') as f:
+            narrazione = f.read()
+        
+        # Mostra in expander espandibile
+        with st.expander("📖 Cosa Pensa e Dice l'AI", expanded=True):
+            st.markdown(f"```\n{narrazione}\n```")
+    except:
+        st.info("Narrazione non disponibile")
+else:
+    st.info("💭 Avvia il sistema per vedere cosa pensa l'AI!")
+    st.caption("La narrazione apparirà qui quando il sistema elabora un episodio")
+
+st.divider()
+
 # ==================== APPRENDIMENTO ====================
 
 st.header("🎓 Apprendimento Online")
