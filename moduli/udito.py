@@ -268,9 +268,9 @@ class CortecciaUditiva:
             )
             sd.wait()
             
-            # Check energia
+            # Check energia (soglia abbassata per microfoni sensibili)
             energy = np.sum(audio ** 2) / len(audio)
-            if energy < 1e-6:
+            if energy < 1e-8:  # Era 1e-6, ora 100x più sensibile!
                 print(f"[{self.nome}] ⚠️ Segnale troppo debole")
                 return None
             
