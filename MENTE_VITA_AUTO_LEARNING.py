@@ -111,7 +111,7 @@ class MenteVitaAutoLearning(MenteVitaArtificiale):
                 'timestamp': datetime.now().isoformat(),
                 'stats': self.stats,
                 'impulsi_vitali': self.desiderio_continuita.impulsi,
-                'obiettivi_attivi': len(self.obiettivi_autonomi.lista_obiettivi),
+                'obiettivi_attivi': len(getattr(self.obiettivi_autonomi, 'lista_obiettivi', [])),
                 'concetti_appresi': len(self.generalizzazione.concetti),
                 'memoria_ram_percent': psutil.virtual_memory().percent
             }
