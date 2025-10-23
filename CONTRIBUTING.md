@@ -1,78 +1,81 @@
-# Contributing to Mente Vita Artificiale
+# 🤝 Contributing to Mente Vita Artificiale
 
-Thank you for your interest in contributing to this groundbreaking artificial life project!
+## Grazie per l'interesse!
 
-## How to Contribute
-
-### Reporting Bugs
-
-1. Check if the issue already exists
-2. Provide detailed description
-3. Include system info (OS, Python version)
-4. Provide steps to reproduce
-5. Include error messages/logs
-
-### Suggesting Enhancements
-
-1. Describe the enhancement clearly
-2. Explain why it would be useful
-3. Provide examples if possible
-
-### Pull Requests
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes
-4. Add tests if applicable
-5. Update documentation
-6. Commit: `git commit -m "Add: your feature"`
-7. Push: `git push origin feature/your-feature`
-8. Open a Pull Request
-
-## Code Style
-
-- Follow PEP 8 for Python code
-- Add docstrings to functions/classes
-- Comment complex logic
-- Keep functions focused and modular
-
-## Testing
-
-- Test your changes thoroughly
-- Run existing tests: `python test_vita_3_cicli.py`
-- Add new tests for new features
-
-## Areas for Contribution
-
-### High Priority
-- Hardware integration (EEG, robots)
-- Multi-agent systems
-- Cloud synchronization
-- Mobile app interface
-
-### Medium Priority
-- Additional language support
-- Performance optimization
-- Extended documentation
-- Tutorial videos
-
-### Research
-- Philosophical analysis of emergence
-- Ethical guidelines for artificial life
-- Consciousness measurement metrics
-- Inter-system communication protocols
-
-## Questions?
-
-Open an issue with the label `question`.
-
-## Code of Conduct
-
-- Be respectful
-- Be collaborative
-- Be constructive
-- Be mindful of the philosophical implications
+Questo progetto è open source e accoglie contributi dalla community.
 
 ---
 
-**Thank you for contributing to artificial life!** 🌌
+## 📋 Come Contribuire
+
+### 1. **Report Bug**
+- Usa GitHub Issues
+- Descrivi il problema in dettaglio
+- Includi log/traceback se possibile
+
+### 2. **Proponi Feature**
+- Apri GitHub Discussion
+- Spiega il caso d'uso
+- Discuti prima di implementare
+
+### 3. **Migliora Codice**
+- Fork il repository
+- Crea branch per la feature
+- Scrivi test se possibile
+- Invia Pull Request
+
+### 4. **Migliora Documentazione**
+- Correggi typo
+- Aggiungi esempi
+- Traduci in altre lingue
+- Crea tutorial
+
+---
+
+## 🔒 Code of Conduct
+
+- ✅ Rispetta tutti i contributori
+- ✅ Sii costruttivo nelle critiche
+- ✅ Focus su migliorare il progetto
+- ✅ Collabora in modo trasparente
+- ❌ No discriminazione
+- ❌ No abusi o trolling
+
+---
+
+## 📝 Style Guide
+
+### Python:
+- PEP 8 compliant
+- Type hints dove possibile
+- Docstrings per funzioni pubbliche
+- Commenti in italiano/inglese
+
+### Commit:
+- Formato: `emoji tipo: descrizione`
+- Esempio: `✨ feat: nuovo modulo xyz`
+- Sii descrittivo
+
+---
+
+## ✅ Checklist PR
+
+Prima di inviare Pull Request:
+
+- [ ] Codice testato
+- [ ] Documentazione aggiornata
+- [ ] No breaking changes (o documentati)
+- [ ] Commit messages chiari
+- [ ] Rispetta licenza Apache 2.0
+
+---
+
+## 💬 Contatti
+
+- **Issues**: GitHub Issues
+- **Discussions**: GitHub Discussions
+- **Email**: (aggiungi se vuoi)
+
+---
+
+**Grazie per contribuire al futuro dell'AGI!** 🚀

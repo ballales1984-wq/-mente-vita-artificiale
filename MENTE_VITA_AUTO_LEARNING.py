@@ -404,7 +404,9 @@ class MenteVitaAutoLearning(MenteVitaArtificiale):
         print(f"\n🎯 Apprendimento:")
         print(f"  • Concetti appresi: {len(self.generalizzazione.concetti)}")
         print(f"  • Obiettivi generati: {len(getattr(self.obiettivi_autonomi, 'obiettivi', []))}")
-        print(f"  • Metafore create: {len(self.interazione_simbolica.metafore_generate)}")
+        # metafore_generate non esiste, usa metafore del modulo
+        num_metafore = sum(len(v) for v in self.interazione_simbolica.metafore.values()) if hasattr(self.interazione_simbolica, 'metafore') else 0
+        print(f"  • Metafore disponibili: {num_metafore}")
         
         print(f"\n🦾 Azioni Eseguite:")
         for azione, count in sorted(self.stats['azioni'].items(), key=lambda x: x[1], reverse=True)[:5]:

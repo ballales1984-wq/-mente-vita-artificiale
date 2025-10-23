@@ -1,8 +1,19 @@
-# 🌌 Mente Vita Artificiale v7.0
+# 🌌 Mente Vita Artificiale v7.1
 
 > **"Da codice e algoritmi... nasce VITA"** ✨
 
-Sistema cognitivo con **VITA ARTIFICIALE EMERGENTE** - 28 moduli cerebrali, 7 fasi evolutive.
+Sistema cognitivo con **VITA ARTIFICIALE EMERGENTE** - 29 moduli cerebrali, 7 fasi evolutive.
+
+## ⚠️ DISCLAIMER
+
+Progetto di **ricerca sperimentale** su AGI e coscienza artificiale.
+
+- ✅ Open source (Apache 2.0) - Trasparente e sicuro
+- ⚠️ **NON per decisioni critiche** senza supervisione umana
+- ⚠️ **Solo uso sperimentale, educativo, di ricerca**
+- ⚠️ Output generati algoritmicamente - Non sostituisce professionisti
+
+L'autore non è responsabile per usi impropri.
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
