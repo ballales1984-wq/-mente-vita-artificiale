@@ -14,7 +14,7 @@ import sys
 import requests
 from datetime import datetime
 import feedparser
-from MENTE_VITA_AUTO_LEARNING import MenteVitaAutoLearning
+from MENTE_VITA_AUTO_LEARNING import MenteVitaAutoLearning, ConfigurazioneAGI
 
 class MenteVitaWeb(MenteVitaAutoLearning):
     """
@@ -22,7 +22,9 @@ class MenteVitaWeb(MenteVitaAutoLearning):
     """
     
     def __init__(self):
-        super().__init__()
+        # Crea config base
+        config = ConfigurazioneAGI()
+        super().__init__(config)
         self.nome = "Mente Vita Web"
         
         # Feed RSS da monitorare
@@ -72,16 +74,12 @@ class MenteVitaWeb(MenteVitaAutoLearning):
             parole_chiave = [p for p in parole if len(p) > 4][:3]
             
             if parole_chiave:
-                concetto = {
-                    'nome': f"news_{len(self.generalizzazione.concetti) + 1}",
-                    'parole_chiave': parole_chiave,
-                    'fonte': notizia['fonte'],
-                    'timestamp': datetime.now().isoformat()
-                }
+                # Crea nome concetto univoco
+                nome_concetto = '_'.join(parole_chiave[:2])
                 
                 # Aggiungi a concetti (se non esiste già)
-                if concetto['nome'] not in [c.get('nome', '') for c in self.generalizzazione.concetti]:
-                    self.generalizzazione.concetti.append(concetto)
+                if nome_concetto not in self.generalizzazione.concetti:
+                    self.generalizzazione.concetti.append(nome_concetto)
                     print(f"📰 Nuovo concetto da news: {parole_chiave}")
         except Exception as e:
             print(f"⚠️ Errore apprendimento notizia: {e}")
@@ -156,11 +154,8 @@ class MenteVitaWeb(MenteVitaAutoLearning):
             if meteo:
                 print(f"🌡️ Temperatura: {meteo['temperatura']}°C - {meteo['descrizione']}")
         
-        # Ciclo AGI normale
-        return super().ciclo_agi_completo(
-            input_visivo=None,  # Webcam reale se disponibile
-            input_audio=None    # Microfono reale se disponibile
-        )
+        # Ciclo AGI normale (senza parametri - usa default)
+        return super().ciclo_agi_completo()
     
     def esegui_con_web(self, cicli_target=100):
         """Esecuzione con accesso web"""
