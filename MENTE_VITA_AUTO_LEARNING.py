@@ -403,7 +403,7 @@ class MenteVitaAutoLearning(MenteVitaArtificiale):
         
         print(f"\n🎯 Apprendimento:")
         print(f"  • Concetti appresi: {len(self.generalizzazione.concetti)}")
-        print(f"  • Obiettivi generati: {len(self.obiettivi.lista_obiettivi)}")
+        print(f"  • Obiettivi generati: {len(getattr(self.obiettivi_autonomi, 'obiettivi', []))}")
         print(f"  • Metafore create: {len(self.interazione_simbolica.metafore_generate)}")
         
         print(f"\n🦾 Azioni Eseguite:")
