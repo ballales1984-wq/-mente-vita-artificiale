@@ -27,6 +27,10 @@ class MenteVitaWeb(MenteVitaAutoLearning):
         super().__init__(config)
         self.nome = "Mente Vita Web"
         
+        # Inizializza stats se mancanti
+        if 'successi' not in self.stats:
+            self.stats['successi'] = 0
+        
         # Feed RSS da monitorare
         self.rss_feeds = [
             "https://news.google.com/rss?hl=it",  # Google News IT
@@ -77,9 +81,20 @@ class MenteVitaWeb(MenteVitaAutoLearning):
                 # Crea nome concetto univoco
                 nome_concetto = '_'.join(parole_chiave[:2])
                 
-                # Aggiungi a concetti (se non esiste già)
+                # Aggiungi a concetti (se non esiste già) - concetti è un Dict!
                 if nome_concetto not in self.generalizzazione.concetti:
-                    self.generalizzazione.concetti.append(nome_concetto)
+                    from moduli.generalizzazione import Concetto
+                    # caratteristiche deve avere solo valori hashable (str, int, float, bool)
+                    nuovo_concetto = Concetto(
+                        nome=nome_concetto,
+                        caratteristiche={
+                            'tipo': 'notizia',
+                            'parole_chiave': ' '.join(parole_chiave),  # str invece di list!
+                            'fonte': str(notizia.get('fonte', 'web'))
+                        },
+                        esempi=[{'titolo': notizia['titolo'], 'data': notizia.get('data', '')}]
+                    )
+                    self.generalizzazione.concetti[nome_concetto] = nuovo_concetto
                     print(f"📰 Nuovo concetto da news: {parole_chiave}")
         except Exception as e:
             print(f"⚠️ Errore apprendimento notizia: {e}")
@@ -154,8 +169,8 @@ class MenteVitaWeb(MenteVitaAutoLearning):
             if meteo:
                 print(f"🌡️ Temperatura: {meteo['temperatura']}°C - {meteo['descrizione']}")
         
-        # Ciclo AGI normale (senza parametri - usa default)
-        return super().ciclo_agi_completo()
+        # Ciclo AGI normale (passa num_ciclo)
+        return super().ciclo_agi_completo(num_ciclo=self.stats['cicli_totali'])
     
     def esegui_con_web(self, cicli_target=100):
         """Esecuzione con accesso web"""
@@ -188,7 +203,7 @@ class MenteVitaWeb(MenteVitaAutoLearning):
                 
                 # Statistiche ogni 10 cicli
                 if self.stats['cicli_totali'] % 10 == 0:
-                    self._mostra_statistiche_compatte()
+                    print(f"📊 Ciclo {self.stats['cicli_totali']}/cicli_target | Concetti: {len(self.generalizzazione.concetti)} | Notizie: {len(self.ultime_notizie)}")
                 
                 # Pulizia memoria ogni 50
                 if self.stats['cicli_totali'] % 50 == 0:
