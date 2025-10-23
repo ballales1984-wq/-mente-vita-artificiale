@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Modelli AI (troppo grandi)
+*.pt
+yolov8*.pt
+*.pth
+*.onnx
+
+# Dati temporanei
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+frame*.jpg
+test*.jpg
+camera_test.jpg
+
+# Output temporanei
+output_unificato/*.json
+output_unificato/*.txt
+!output_unificato/README.md
+output_agi_completo/*.json
+output_agi_completo/*.txt
+!output_agi_completo/README.md
+
+# Memoria (opzionale - rimuovi # se vuoi includere)
+# memoria_permanente/*.json
+# memoria_permanente/*.jsonl
+
+# Log
+*.log
+NARRAZIONE_LOG.txt
+
+# Backup
+backup/
+
+# Batch files temporanei
+AVVIA_*.bat
+CREA_*.bat
+ESEGUI_*.bat
+
+# Test temporanei
+test_*.py
+!test_hardware_reale.py
+!test_voce.py
+
+# File temporanei utente
+Untitled-*.txt
+Untitled-*.md
+Untitled-*.py
+*.ini
+
+# Build artifacts
+greatwar3/
+
+# Zowe config (se presente)
+zowe.*.json

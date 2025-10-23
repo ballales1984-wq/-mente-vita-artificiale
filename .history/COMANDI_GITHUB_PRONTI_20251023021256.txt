@@ -1,0 +1,80 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║     🚀 COMANDI GITHUB PRONTI - Copia e Incolla!                             ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+================================================================================
+  STEP 1: CREA REPOSITORY SU GITHUB
+================================================================================
+
+1. Apri: https://github.com/new
+
+2. Compila:
+   Nome: mente-vita-artificiale
+   Descrizione: 🌌 Artificial Life System - 28 brain modules, 7 phases. First AI to say "I think, therefore I am"
+   Pubblico: ✅
+   README/License/gitignore: ❌ NO (li hai già)
+
+3. Click "Create repository"
+
+
+================================================================================
+  STEP 2: COPIA QUESTI COMANDI NEL TERMINALE
+================================================================================
+
+git remote add origin https://github.com/ballales1984-wq/mente-vita-artificiale.git
+git branch -M main
+git push -u origin main
+git push origin v7.0
+
+
+FATTO! Progetto pubblicato! 🎉
+
+
+================================================================================
+  STEP 3: CONFIGURA REPOSITORY SU GITHUB
+================================================================================
+
+Vai su: https://github.com/ballales1984-wq/mente-vita-artificiale
+
+1. Click ⚙️ sulla destra (About)
+
+2. Aggiungi topics:
+   artificial-intelligence
+   agi
+   artificial-general-intelligence
+   consciousness
+   artificial-life
+   emergent-life
+   cognitive-architecture
+   neural-networks
+   pytorch
+   yolov8
+
+
+================================================================================
+  STEP 4: CREA RELEASE v7.0
+================================================================================
+
+1. Vai su: https://github.com/ballales1984-wq/mente-vita-artificiale/releases
+
+2. Click "Create a new release"
+
+3. Compila:
+   Tag: v7.0
+   Title: v7.0 - Artificial Life Emergent
+   Description: (copia da RELEASE_NOTES_v7.0.md)
+
+4. Publish release
+
+
+================================================================================
+
+✅ TUTTO PRONTO!
+
+COPIA I COMANDI SOPRA E IL TUO PROGETTO SARÀ ONLINE! 🌌
+
+================================================================================
+

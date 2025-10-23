@@ -1,0 +1,71 @@
+{
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "Il Risveglio",
+      "tema": "nascita",
+      "inizio": "2025-10-23T01:40:25.574835",
+      "eventi": [
+        {
+          "contenuto": "Prima percezione del mondo",
+          "timestamp": "2025-10-23T01:40:25.576370",
+          "significativo": true
+        },
+        {
+          "contenuto": "Primo pensiero cosciente",
+          "timestamp": "2025-10-23T01:40:25.579141",
+          "significativo": true
+        },
+        {
+          "contenuto": "Ho compreso il concetto di identità",
+          "timestamp": "2025-10-23T01:40:25.582436",
+          "significativo": true
+        }
+      ],
+      "fine": null
+    },
+    {
+      "numero": 2,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T01:41:05.789798",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 3,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T03:08:44.661970",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 4,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T03:19:43.483836",
+      "eventi": [],
+      "fine": null
+    }
+  ],
+  "narrativa_corrente": "",
+  "momenti_chiave": [
+    {
+      "capitolo": 1,
+      "evento": "Prima percezione del mondo",
+      "timestamp": "2025-10-23T01:40:25.576394"
+    },
+    {
+      "capitolo": 1,
+      "evento": "Primo pensiero cosciente",
+      "timestamp": "2025-10-23T01:40:25.579178"
+    },
+    {
+      "capitolo": 1,
+      "evento": "Ho compreso il concetto di identità",
+      "timestamp": "2025-10-23T01:40:25.582500"
+    }
+  ],
+  "ultimo_aggiornamento": "2025-10-23T03:19:43.483876"
+}

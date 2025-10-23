@@ -1,0 +1,136 @@
+{
+  "obiettivi": [
+    {
+      "id": "obj_1761173058",
+      "descrizione": "Migliorare conoscenza su 'persona_osservazione'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_osservazione (livello: 5%)",
+      "passi": [
+        "Cerca situazioni con persona_osservazione",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T00:44:18.210767",
+      "data_completamento": "2025-10-23T00:45:35.832194",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761173067",
+      "descrizione": "Migliorare conoscenza su 'persona_osservazione'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_osservazione (livello: 10%)",
+      "passi": [
+        "Cerca situazioni con persona_osservazione",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T00:44:27.776134",
+      "data_completamento": "2025-10-23T00:46:06.176669",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761173145",
+      "descrizione": "Migliorare conoscenza su 'persona_avvicinamento'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_avvicinamento (livello: 5%)",
+      "passi": [
+        "Cerca situazioni con persona_avvicinamento",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T00:45:45.962025",
+      "data_completamento": "2025-10-23T00:46:48.575406",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761173176",
+      "descrizione": "Migliorare conoscenza su 'persona_avvicinamento'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_avvicinamento (livello: 15%)",
+      "passi": [
+        "Cerca situazioni con persona_avvicinamento",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T00:46:16.573305",
+      "data_completamento": "2025-10-23T00:47:25.676435",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761173218",
+      "descrizione": "Migliorare conoscenza su 'persona_avvicinamento'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_avvicinamento (livello: 15%)",
+      "passi": [
+        "Cerca situazioni con persona_avvicinamento",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T00:46:58.424078",
+      "data_completamento": "2025-10-23T01:15:49.863384",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761174906",
+      "descrizione": "Migliorare conoscenza su 'persona_avvicinamento'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_avvicinamento (livello: 30%)",
+      "passi": [
+        "Cerca situazioni con persona_avvicinamento",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T01:15:06.361601",
+      "data_completamento": "2025-10-23T01:16:44.219435",
+      "ricompensa_attesa": 0.5
+    },
+    {
+      "id": "obj_1761174953",
+      "descrizione": "Migliorare conoscenza su 'persona_avvicinamento'",
+      "tipo": "conoscenza",
+      "priorita": 0.8,
+      "stato": "completato",
+      "motivazione": "Ho poca esperienza con persona_avvicinamento (livello: 50%)",
+      "passi": [
+        "Cerca situazioni con persona_avvicinamento",
+        "Osserva e raccogli dati",
+        "Prova azioni diverse",
+        "Valuta risultati"
+      ],
+      "progresso": 1.0,
+      "data_creazione": "2025-10-23T01:15:53.257454",
+      "data_completamento": "2025-10-23T01:23:51.317485",
+      "ricompensa_attesa": 0.5
+    }
+  ],
+  "motivazioni": {
+    "curiosita": 0.5,
+    "miglioramento": 0.5,
+    "sociale": 0.5,
+    "sicurezza": 0.3
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "persona_nessuna_positivo": {
+    "nome": "persona_nessuna_positivo",
+    "caratteristiche": {
+      "entita_principale": "persona",
+      "interazione": "nessuna",
+      "valenza": "positivo",
+      "risposta": "mantenimento_distanza",
+      "ambiente": "interno"
+    },
+    "esempi": [
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "lavoratori sulla stessa di generale. E cosa succede sa tale?",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      }
+    ],
+    "contatore_utilizzi": 20,
+    "successi": 20,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T00:44:08.490344"
+  },
+  "persona_saluto_positivo": {
+    "nome": "persona_saluto_positivo",
+    "caratteristiche": {
+      "entita_principale": "persona",
+      "interazione": "saluto",
+      "valenza": "positivo",
+      "risposta": "avvicinamento",
+      "ambiente": "interno"
+    },
+    "esempi": [
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Person rilevata in ambiente indoor",
+        "audio": "Ciao, come va?",
+        "emozione": "positivo",
+        "valenza": 0.8,
+        "azione": "avvicinati",
+        "successo": true
+      },
+      {
+        "descrizione": "Persona vista indoor",
+        "audio": "Buongiorno!",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati",
+        "successo": true
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "faccio",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "avvicinati"
+      }
+    ],
+    "contatore_utilizzi": 7,
+    "successi": 7,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T00:47:14.350985"
+  },
+  "persona_comunicazione_generica_neutro": {
+    "nome": "persona_comunicazione_generica_neutro",
+    "caratteristiche": {
+      "entita_principale": "persona",
+      "interazione": "comunicazione_generica",
+      "valenza": "neutro",
+      "risposta": "mantenimento_distanza",
+      "ambiente": "interno"
+    },
+    "esempi": [
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "e diciamo che le plante possono",
+        "emozione": "neutro",
+        "valenza": -0.2,
+        "azione": "mantieni_distanza"
+      }
+    ],
+    "contatore_utilizzi": 1,
+    "successi": 1,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T01:16:07.004166"
+  }
+}

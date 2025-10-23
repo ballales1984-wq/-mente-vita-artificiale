@@ -1,5 +1,6 @@
 {
-  "mantieni_distanza": 2.9000000000000017,
+  "mantieni_distanza": 3.400000000000002,
   "fermati": 1.5000000000000004,
-  "esegui_comando": 1.4000000000000004
+  "esegui_comando": 1.4000000000000004,
+  "avvicinati": 3.300000000000002
 }

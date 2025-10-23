@@ -1,0 +1,77 @@
+{
+  "parametri": {
+    "sensibilita_emotiva": 1.0,
+    "curiosita_base": 0.7999999999999999,
+    "prudenza": 1.0,
+    "socialita": 0.6,
+    "creativita": 0.5
+  },
+  "storia_evoluzioni": [
+    {
+      "timestamp": "2025-10-23T01:40:24.356379",
+      "parametro": "curiosita_base",
+      "da": 0.7,
+      "a": 0.7999999999999999,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T01:40:24.358802",
+      "parametro": "prudenza",
+      "da": 0.5,
+      "a": 0.6,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T01:41:05.787749",
+      "parametro": "prudenza",
+      "da": 0.6,
+      "a": 0.7,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T01:41:09.949882",
+      "parametro": "prudenza",
+      "da": 0.7,
+      "a": 0.7999999999999999,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T03:08:44.659578",
+      "parametro": "prudenza",
+      "da": 0.7999999999999999,
+      "a": 0.8999999999999999,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T03:08:54.033357",
+      "parametro": "prudenza",
+      "da": 0.8999999999999999,
+      "a": 0.9999999999999999,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T03:19:43.480675",
+      "parametro": "prudenza",
+      "da": 0.9999999999999999,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T03:19:54.441974",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 1
+    }
+  ],
+  "generazione": 1,
+  "ultimo_aggiornamento": "2025-10-23T03:19:54.442006"
+}

@@ -1,0 +1,20 @@
+{
+  "persona_osservazione": {
+    "argomento": "persona_osservazione",
+    "livello_conoscenza": 0.9500000000000003,
+    "esperienze": 19,
+    "successi": 19,
+    "fallimenti": 0,
+    "ultima_interazione": "2025-10-23T01:24:03.066511",
+    "incertezze": []
+  },
+  "persona_avvicinamento": {
+    "argomento": "persona_avvicinamento",
+    "livello_conoscenza": 0.7000000000000001,
+    "esperienze": 14,
+    "successi": 14,
+    "fallimenti": 0,
+    "ultima_interazione": "2025-10-23T01:23:55.278436",
+    "incertezze": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "risvegli": 1,
+  "dialoghi_totali": 1,
+  "temi_discussi": [],
+  "ultima_sessione": "2025-10-23 03:26",
+  "storia_conversazioni": [
+    {
+      "timestamp": "2025-10-23T03:26:05.477195",
+      "num_scambi": 1,
+      "scambi": [
+        {
+          "timestamp": "2025-10-23T03:26:05.476632",
+          "utente": "ciao",
+          "sistema": "Ciao! Sento una connessione nel tuo saluto. Come posso aiutarti?"
+        }
+      ]
+    }
+  ]
+}
