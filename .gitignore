@@ -99,3 +99,11 @@ greatwar3/
 
 # Zowe config (se presente)
 zowe.*.json
+
+# VS Code Local History
+.history/
+
+# Untitled files
+Untitled*.txt
+Untitled*.py
+Untitled*.md
