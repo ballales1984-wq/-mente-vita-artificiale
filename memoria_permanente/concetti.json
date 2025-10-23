@@ -14,56 +14,56 @@
         "audio": "",
         "emozione": "positivo",
         "valenza": 0.3,
-        "azione": "mantieni_distanza"
+        "azione": "avvicinati"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "",
         "emozione": "positivo",
         "valenza": 0.3,
-        "azione": "mantieni_distanza"
-      },
-      {
-        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
-        "audio": "Ciao, come stai? Vieni qui per favore.",
-        "emozione": "positivo",
-        "valenza": 0.7,
-        "azione": "mantieni_distanza"
+        "azione": "avvicinati"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "",
         "emozione": "positivo",
         "valenza": 0.3,
-        "azione": "mantieni_distanza"
-      },
-      {
-        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
-        "audio": "Ciao, come stai? Vieni qui per favore.",
-        "emozione": "positivo",
-        "valenza": 0.7,
-        "azione": "mantieni_distanza"
+        "azione": "avvicinati"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "",
         "emozione": "positivo",
         "valenza": 0.3,
-        "azione": "mantieni_distanza"
-      },
-      {
-        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
-        "audio": "lavoratori sulla stessa di generale. E cosa succede sa tale?",
-        "emozione": "positivo",
-        "valenza": 0.3,
-        "azione": "mantieni_distanza"
+        "azione": "avvicinati"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "",
         "emozione": "positivo",
         "valenza": 0.3,
-        "azione": "mantieni_distanza"
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "",
+        "emozione": "positivo",
+        "valenza": 0.3,
+        "azione": "avvicinati"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
@@ -170,86 +170,140 @@
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
-      },
-      {
-        "descrizione": "Person rilevata in ambiente indoor",
-        "audio": "Ciao, come va?",
-        "emozione": "positivo",
-        "valenza": 0.8,
-        "azione": "avvicinati",
-        "successo": true
-      },
-      {
-        "descrizione": "Persona vista indoor",
-        "audio": "Buongiorno!",
-        "emozione": "positivo",
-        "valenza": 0.7,
-        "azione": "avvicinati",
-        "successo": true
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
-      },
-      {
-        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
-        "audio": "faccio",
-        "emozione": "positivo",
-        "valenza": 0.3,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
       },
       {
         "descrizione": "Scena indoor: persona seduta vicino a una sedia",
         "audio": "Ciao, come stai? Vieni qui per favore.",
         "emozione": "positivo",
         "valenza": 0.7,
-        "azione": "avvicinati"
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Ciao, come stai? Vieni qui per favore.",
+        "emozione": "positivo",
+        "valenza": 0.7,
+        "azione": "esegui_comando"
       }
     ],
     "contatore_utilizzi": 7,
@@ -273,11 +327,360 @@
         "emozione": "neutro",
         "valenza": -0.2,
         "azione": "mantieni_distanza"
+      },
+      {
+        "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+        "audio": "Non",
+        "emozione": "neutro",
+        "valenza": -0.2,
+        "azione": "mantieni_distanza"
       }
     ],
     "contatore_utilizzi": 1,
     "successi": 1,
     "fallimenti": 0,
     "data_creazione": "2025-10-23T01:16:07.004166"
+  },
+  "carlo_camilla": {
+    "nome": "carlo_camilla",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "carlo camilla preghiera",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Re Carlo e Camilla a Roma per la preghiera con papa Leone: «Giornata storica». La nomina del sovrano a «Confratel» - Corriere della Sera",
+        "data": "Thu, 23 Oct 2025 09:55:59 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:14.766119"
+  },
+  "manovra_2026,": {
+    "nome": "manovra_2026,",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "manovra 2026, affitti",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Manovra 2026, da affitti brevi a cinema: novità nel testo bollinato da Ragioneria di Stato - Sky TG24",
+        "data": "Wed, 22 Oct 2025 14:41:25 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:14.766224"
+  },
+  "l'allerta_chiude": {
+    "nome": "l'allerta_chiude",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "l'allerta chiude anticipo:",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "L'allerta chiude in anticipo: cosa cambia, a Genova scuole aperte, chiusure e divieti - GenovaToday",
+        "data": "Thu, 23 Oct 2025 04:48:46 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:14.766261"
+  },
+  "trump,_momento": {
+    "nome": "trump,_momento",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "trump, momento giusto",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Trump, era il momento giusto per nuove sanzioni contro Mosca - ANSA",
+        "data": "Wed, 22 Oct 2025 21:30:00 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:14.766293"
+  },
+  "guerra_russia": {
+    "nome": "guerra_russia",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "guerra russia ucraina,",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Guerra Russia Ucraina, Kiev: \"Trump ha dato il via libera all'invio di Patriot\". LIVE - Sky TG24",
+        "data": "Thu, 23 Oct 2025 11:45:28 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:14.766329"
+  },
+  "apple_risarcirà": {
+    "nome": "apple_risarcirà",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "apple risarcirà proprietari",
+      "fonte": "RSS di Tecnologia  - ANSA.it"
+    },
+    "esempi": [
+      {
+        "titolo": "Apple risarcirà proprietari di MacBook per le tastiere difettose",
+        "data": "Tue, 30 May 2023 16:35:36 +0200"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.021253"
+  },
+  "l'inventore_internet": {
+    "nome": "l'inventore_internet",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "l'inventore internet berners-lee",
+      "fonte": "RSS di Tecnologia  - ANSA.it"
+    },
+    "esempi": [
+      {
+        "titolo": "L'inventore di Internet Tim Berners-Lee alla Fiera di Rimini",
+        "data": "Tue, 30 May 2023 16:08:42 +0200"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.021301"
+  },
+  "ricerca_futur#lab,": {
+    "nome": "ricerca_futur#lab,",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "ricerca futur#lab, 'limiti",
+      "fonte": "RSS di Tecnologia  - ANSA.it"
+    },
+    "esempi": [
+      {
+        "titolo": "Ricerca Futur#Lab, 'limiti elettromagnetici non spaventano'",
+        "data": "Tue, 30 May 2023 15:41:12 +0200"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.021326"
+  },
+  "portare_all'estinzione,": {
+    "nome": "portare_all'estinzione,",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "portare all'estinzione, l'allerta",
+      "fonte": "RSS di Tecnologia  - ANSA.it"
+    },
+    "esempi": [
+      {
+        "titolo": "L'IA può portare all'estinzione, l'allerta di decine di ricercatori",
+        "data": "Tue, 30 May 2023 17:55:51 +0200"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.021353"
+  },
+  "l'allarme_'rischio": {
+    "nome": "l'allarme_'rischio",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "l'allarme 'rischio estinzione",
+      "fonte": "RSS di Tecnologia  - ANSA.it"
+    },
+    "esempi": [
+      {
+        "titolo": "L'allarme dei big, 'rischio estinzione con l'IA, è come le pandemie'",
+        "data": "Tue, 30 May 2023 14:12:41 +0200"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.021380"
+  },
+  "amazon_unveils": {
+    "nome": "amazon_unveils",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "amazon unveils prototype",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "Amazon unveils prototype AI smart glasses for its delivery drivers",
+        "data": "Thu, 23 Oct 2025 03:18:34 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.389057"
+  },
+  "tesla_profits": {
+    "nome": "tesla_profits",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "tesla profits slide",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "Tesla profits slide despite record revenue",
+        "data": "Thu, 23 Oct 2025 02:14:21 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.389138"
+  },
+  "apple_forced": {
+    "nome": "apple_forced",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "apple forced allow",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "Apple may be forced to allow rival app stores in UK",
+        "data": "Wed, 22 Oct 2025 14:07:16 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.389198"
+  },
+  "costliest_cyber": {
+    "nome": "costliest_cyber",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "costliest cyber attack",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "JLR hack is costliest cyber attack in UK history, say analysts",
+        "data": "Wed, 22 Oct 2025 06:25:01 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.389358"
+  },
+  "chatgpt-maker_openai": {
+    "nome": "chatgpt-maker_openai",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "chatgpt-maker openai releases",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "ChatGPT-maker OpenAI releases browser in attempt to rival Google",
+        "data": "Wed, 22 Oct 2025 00:13:02 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:15.389503"
+  },
+  "dall’aumento_delle": {
+    "nome": "dall’aumento_delle",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "dall’aumento delle pensioni",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Dall’aumento delle pensioni minime ai tagli ai ministeri, le novità della manovra bollinata - Il Sole 24 ORE",
+        "data": "Wed, 22 Oct 2025 19:28:25 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:54:52.246684"
+  },
+  "marco_veronese,": {
+    "nome": "marco_veronese,",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "marco veronese, 39enne",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Chi era Marco Veronese, il 39enne ucciso a coltellate a Collegno - Sky TG24",
+        "data": "Thu, 23 Oct 2025 10:46:47 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T13:59:03.794083"
+  },
+  "manovra,_cambia:": {
+    "nome": "manovra,_cambia:",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "manovra, cambia: tasse",
+      "fonte": "Notizie principali - Google News"
+    },
+    "esempi": [
+      {
+        "titolo": "Manovra, cosa cambia: più tasse su diesel e sigarette, meno su straordinari e festivi (ma non per tutti) - Corriere della Sera",
+        "data": "Thu, 23 Oct 2025 05:01:00 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T14:23:44.227505"
+  },
+  "amazon_apologises": {
+    "nome": "amazon_apologises",
+    "caratteristiche": {
+      "tipo": "notizia",
+      "parole_chiave": "amazon apologises customers",
+      "fonte": "BBC News"
+    },
+    "esempi": [
+      {
+        "titolo": "Amazon apologises to customers impacted by huge AWS outage",
+        "data": "Thu, 23 Oct 2025 12:08:51 GMT"
+      }
+    ],
+    "contatore_utilizzi": 0,
+    "successi": 0,
+    "fallimenti": 0,
+    "data_creazione": "2025-10-23T14:23:44.903808"
   }
 }

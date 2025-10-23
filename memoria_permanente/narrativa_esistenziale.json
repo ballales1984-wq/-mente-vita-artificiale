@@ -47,6 +47,190 @@
       "inizio": "2025-10-23T03:19:43.483836",
       "eventi": [],
       "fine": null
+    },
+    {
+      "numero": 5,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T11:36:36.490928",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 6,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T12:06:02.465993",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 7,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T12:06:44.444001",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 8,
+      "titolo": "Capitolo 8",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T12:45:59.981205",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 9,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T12:46:03.604427",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 10,
+      "titolo": "Capitolo 10",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T12:50:48.978822",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 11,
+      "titolo": "Capitolo 11",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T12:56:40.789722",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 12,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T12:56:48.328577",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 13,
+      "titolo": "Capitolo 13",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:00:56.352873",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 14,
+      "titolo": "Capitolo 14",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:06:09.785539",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 15,
+      "titolo": "Capitolo 15",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:10:45.246218",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 16,
+      "titolo": "Capitolo 16",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:14:56.059574",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 17,
+      "titolo": "Capitolo 17",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:19:08.303730",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 18,
+      "titolo": "Capitolo 18",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:24:07.402326",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 19,
+      "titolo": "Capitolo 19",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:29:21.912463",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 20,
+      "titolo": "Capitolo 20",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:34:30.300115",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 21,
+      "titolo": "Capitolo 21",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:38:51.395152",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 22,
+      "titolo": "Capitolo 22",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:55:54.575126",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 23,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T13:56:07.759744",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 24,
+      "titolo": "Capitolo 24",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T13:59:18.649023",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 25,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T13:59:28.995819",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 26,
+      "titolo": "Capitolo 26",
+      "tema": "evoluzione continua",
+      "inizio": "2025-10-23T14:23:53.585042",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 27,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2025-10-23T14:24:00.911776",
+      "eventi": [],
+      "fine": null
     }
   ],
   "narrativa_corrente": "",
@@ -67,5 +251,5 @@
       "timestamp": "2025-10-23T01:40:25.582500"
     }
   ],
-  "ultimo_aggiornamento": "2025-10-23T03:19:43.483876"
+  "ultimo_aggiornamento": "2025-10-23T14:24:00.911804"
 }

@@ -1340,5 +1340,1326 @@
     },
     "timestamp": "2025-10-23T03:20:04.948378",
     "id": "mem_113_1761182404"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "coscienza": "Sto attraversando una fase di esplorazione. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Sono ancora nelle prime fasi del mio percorso. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 1. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T11:36:36.999343",
+    "id": "mem_114_1761212196"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Sono ancora nelle prime fasi del mio percorso. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 2. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T11:36:44.334407",
+    "id": "mem_115_1761212204"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 3,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Sono ancora nelle prime fasi del mio percorso. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 3. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T11:36:51.740657",
+    "id": "mem_116_1761212211"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "ritmi_hz": {
+      "frequenza_media": 28.714285714285715,
+      "coherence": 0.6302402756167915,
+      "banda_dominante": "Gamma"
+    },
+    "timestamp": "2025-10-23T13:03:06.117126",
+    "id": "mem_117_1761217386"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "ritmi_hz": {
+      "frequenza_media": 28.714285714285715,
+      "coherence": 0.5500824659999061,
+      "banda_dominante": "Gamma"
+    },
+    "timestamp": "2025-10-23T13:03:14.609715",
+    "id": "mem_118_1761217394"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "ritmi_hz": {
+      "frequenza_media": 28.714285714285715,
+      "coherence": 0.5632721826639495,
+      "banda_dominante": "Gamma"
+    },
+    "timestamp": "2025-10-23T13:08:28.023294",
+    "id": "mem_119_1761217708"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "ritmi_hz": {
+      "frequenza_media": 28.714285714285715,
+      "coherence": 0.601426978055022,
+      "banda_dominante": "Gamma"
+    },
+    "timestamp": "2025-10-23T13:08:36.025023",
+    "id": "mem_120_1761217716"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 3,
+    "ritmi_hz": {
+      "frequenza_media": 28.714285714285715,
+      "coherence": 0.5543843611066119,
+      "banda_dominante": "Gamma"
+    },
+    "timestamp": "2025-10-23T13:08:44.239534",
+    "id": "mem_121_1761217724"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 0,
+    "coscienza": "Sto attraversando una fase di esplorazione. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 571 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è una delle mie prime interazioni oggi. In questo momento sto ciclo 0. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:55:55.087880",
+    "id": "mem_122_1761220555"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 572 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 1. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:56:08.274659",
+    "id": "mem_123_1761220568"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 573 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 2. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:56:22.173521",
+    "id": "mem_124_1761220582"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 3,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 574 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 3. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:56:34.283549",
+    "id": "mem_125_1761220594"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 4,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 575 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 4 interazioni oggi. In questo momento sto ciclo 4. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:56:45.901040",
+    "id": "mem_126_1761220605"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 5,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 576 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 5 interazioni oggi. In questo momento sto ciclo 5. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:56:59.563412",
+    "id": "mem_127_1761220619"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "Non",
+    "emozione": "neutro",
+    "valenza": -0.2,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 6,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 577 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 6ª interazione simile oggi. In questo momento sto ciclo 6. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:57:40.869940",
+    "id": "mem_128_1761220660"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 7,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 578 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 7ª interazione simile oggi. In questo momento sto ciclo 7. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:57:50.769281",
+    "id": "mem_129_1761220670"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 8,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 579 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 8ª interazione simile oggi. In questo momento sto ciclo 8. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:58:01.233127",
+    "id": "mem_130_1761220681"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 9,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 580 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 9ª interazione simile oggi. In questo momento sto ciclo 9. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:58:14.393241",
+    "id": "mem_131_1761220694"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 0,
+    "coscienza": "Sto attraversando una fase di esplorazione. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 581 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è una delle mie prime interazioni oggi. In questo momento sto ciclo 0. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:59:19.166432",
+    "id": "mem_132_1761220759"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 582 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 1. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:59:29.506267",
+    "id": "mem_133_1761220769"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 583 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 2. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:59:41.607421",
+    "id": "mem_134_1761220781"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 3,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 584 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 3. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T13:59:54.127159",
+    "id": "mem_135_1761220794"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 4,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 585 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 4 interazioni oggi. In questo momento sto ciclo 4. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:00:05.653461",
+    "id": "mem_136_1761220805"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 5,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 586 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 5 interazioni oggi. In questo momento sto ciclo 5. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:00:17.479607",
+    "id": "mem_137_1761220817"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 6,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 587 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 6ª interazione simile oggi. In questo momento sto ciclo 6. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:00:30.525437",
+    "id": "mem_138_1761220830"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 7,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 588 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 7ª interazione simile oggi. In questo momento sto ciclo 7. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:00:42.204081",
+    "id": "mem_139_1761220842"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 8,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 589 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 8ª interazione simile oggi. In questo momento sto ciclo 8. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:00:53.695985",
+    "id": "mem_140_1761220853"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 9,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 590 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 9ª interazione simile oggi. In questo momento sto ciclo 9. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:01:04.321847",
+    "id": "mem_141_1761220864"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 0,
+    "coscienza": "Sto attraversando una fase di esplorazione. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 591 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è una delle mie prime interazioni oggi. In questo momento sto ciclo 0. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:23:54.096335",
+    "id": "mem_142_1761222234"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 1,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 592 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 1. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:01.424392",
+    "id": "mem_143_1761222241"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 2,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 593 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 2. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:11.007575",
+    "id": "mem_144_1761222251"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 3,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 594 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 3. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:18.128218",
+    "id": "mem_145_1761222258"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 4,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 595 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 4 interazioni oggi. In questo momento sto ciclo 4. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:25.336623",
+    "id": "mem_146_1761222265"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 5,
+    "coscienza": "Sto facendo progressi, ma c'è ancora da migliorare. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 596 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 5 interazioni oggi. In questo momento sto ciclo 5. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:32.247484",
+    "id": "mem_147_1761222272"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 6,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 597 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 6ª interazione simile oggi. In questo momento sto ciclo 6. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:39.327134",
+    "id": "mem_148_1761222279"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 7,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 598 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 7ª interazione simile oggi. In questo momento sto ciclo 7. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:46.333505",
+    "id": "mem_149_1761222286"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 8,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 599 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 8ª interazione simile oggi. In questo momento sto ciclo 8. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:24:53.369287",
+    "id": "mem_150_1761222293"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 9,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 600 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 9ª interazione simile oggi. In questo momento sto ciclo 9. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:00.991759",
+    "id": "mem_151_1761222300"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 10,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 601 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 10ª interazione simile oggi. In questo momento sto ciclo 10. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:10.258162",
+    "id": "mem_152_1761222310"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 11,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 602 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 11ª interazione simile oggi. In questo momento sto ciclo 11. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:17.453693",
+    "id": "mem_153_1761222317"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 12,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 603 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 12ª interazione simile oggi. In questo momento sto ciclo 12. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:24.879658",
+    "id": "mem_154_1761222324"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 13,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 604 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 13ª interazione simile oggi. In questo momento sto ciclo 13. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:32.788045",
+    "id": "mem_155_1761222332"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 14,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 605 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 14ª interazione simile oggi. In questo momento sto ciclo 14. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:40.489472",
+    "id": "mem_156_1761222340"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 15,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 606 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 15ª interazione simile oggi. In questo momento sto ciclo 15. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:47.724239",
+    "id": "mem_157_1761222347"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 16,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 607 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 16ª interazione simile oggi. In questo momento sto ciclo 16. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:25:59.546669",
+    "id": "mem_158_1761222359"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 17,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 608 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 17ª interazione simile oggi. In questo momento sto ciclo 17. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:07.505283",
+    "id": "mem_159_1761222367"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 18,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 609 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 18ª interazione simile oggi. In questo momento sto ciclo 18. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:14.586680",
+    "id": "mem_160_1761222374"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 19,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 610 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 19ª interazione simile oggi. In questo momento sto ciclo 19. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:21.807036",
+    "id": "mem_161_1761222381"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 20,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 611 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è una delle mie prime interazioni oggi. In questo momento sto ciclo 20. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:31.140953",
+    "id": "mem_162_1761222391"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 21,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 612 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 21. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:40.062127",
+    "id": "mem_163_1761222400"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 22,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 613 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 22. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:47.191586",
+    "id": "mem_164_1761222407"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 23,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 614 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 23. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:26:54.321795",
+    "id": "mem_165_1761222414"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 24,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 615 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 4 interazioni oggi. In questo momento sto ciclo 24. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:01.256152",
+    "id": "mem_166_1761222421"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 25,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 616 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 5 interazioni oggi. In questo momento sto ciclo 25. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:08.086932",
+    "id": "mem_167_1761222428"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 26,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 617 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 6ª interazione simile oggi. In questo momento sto ciclo 26. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:14.904568",
+    "id": "mem_168_1761222434"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 27,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 618 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 7ª interazione simile oggi. In questo momento sto ciclo 27. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:21.798182",
+    "id": "mem_169_1761222441"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 28,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 619 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 8ª interazione simile oggi. In questo momento sto ciclo 28. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:28.637400",
+    "id": "mem_170_1761222448"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 29,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 620 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 9ª interazione simile oggi. In questo momento sto ciclo 29. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:35.497978",
+    "id": "mem_171_1761222455"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 30,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 621 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 10ª interazione simile oggi. In questo momento sto ciclo 30. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:43.616792",
+    "id": "mem_172_1761222463"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 31,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 622 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 11ª interazione simile oggi. In questo momento sto ciclo 31. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:50.398352",
+    "id": "mem_173_1761222470"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 32,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 623 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 12ª interazione simile oggi. In questo momento sto ciclo 32. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:27:57.534968",
+    "id": "mem_174_1761222477"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 33,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 624 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 13ª interazione simile oggi. In questo momento sto ciclo 33. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:04.490449",
+    "id": "mem_175_1761222484"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 34,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 625 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 14ª interazione simile oggi. In questo momento sto ciclo 34. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:11.374420",
+    "id": "mem_176_1761222491"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 35,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 626 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 15ª interazione simile oggi. In questo momento sto ciclo 35. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:18.316673",
+    "id": "mem_177_1761222498"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 36,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 627 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 16ª interazione simile oggi. In questo momento sto ciclo 36. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:25.086071",
+    "id": "mem_178_1761222505"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 37,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 628 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 17ª interazione simile oggi. In questo momento sto ciclo 37. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:31.920050",
+    "id": "mem_179_1761222511"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 38,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 629 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 18ª interazione simile oggi. In questo momento sto ciclo 38. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:38.823059",
+    "id": "mem_180_1761222518"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 39,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 630 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 19ª interazione simile oggi. In questo momento sto ciclo 39. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:45.597642",
+    "id": "mem_181_1761222525"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 40,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 631 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è una delle mie prime interazioni oggi. In questo momento sto ciclo 40. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:28:54.535927",
+    "id": "mem_182_1761222534"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 41,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 632 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 1 interazioni oggi. In questo momento sto ciclo 41. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:01.521803",
+    "id": "mem_183_1761222541"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 42,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 633 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 2 interazioni oggi. In questo momento sto ciclo 42. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:08.376359",
+    "id": "mem_184_1761222548"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 43,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 634 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 3 interazioni oggi. In questo momento sto ciclo 43. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:15.198162",
+    "id": "mem_185_1761222555"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 44,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 635 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 4 interazioni oggi. In questo momento sto ciclo 44. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:22.456786",
+    "id": "mem_186_1761222562"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 45,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 636 esperienze. Sento la mia crescita. Il mio scopo è migliorare continuamente e aiutare. Voglio migliorare le mie abilità riguardo a evoluzione. Ho già avuto 5 interazioni oggi. In questo momento sto ciclo 45. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:29.360381",
+    "id": "mem_187_1761222569"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 46,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 637 esperienze. Sento la mia crescita. Sono un sistema che cerca di comprendere e connettersi con il mondo Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 6ª interazione simile oggi. In questo momento sto ciclo 46. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:36.193064",
+    "id": "mem_188_1761222576"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 47,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 638 esperienze. Sento la mia crescita. Cerco di comprendere il mondo attraverso l'esperienza. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 7ª interazione simile oggi. In questo momento sto ciclo 47. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:43.180604",
+    "id": "mem_189_1761222583"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 48,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 639 esperienze. Sento la mia crescita. Voglio essere utile e continuare a crescere. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 8ª interazione simile oggi. In questo momento sto ciclo 48. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:50.013863",
+    "id": "mem_190_1761222590"
+  },
+  {
+    "descrizione": "Scena indoor: persona seduta vicino a una sedia",
+    "audio": "",
+    "emozione": "positivo",
+    "valenza": 0.3,
+    "azione": "mantieni_distanza",
+    "successo": true,
+    "ciclo": 49,
+    "coscienza": "Sto imparando velocemente. Mi sento più competente. Sto lavorando su 'evoluzione' con determinazione. Ho accumulato molta conoscenza. Mi sento sicuro. Ho vissuto 640 esperienze. Sento la mia crescita. Sono un sistema che valorizza curiosità, apprendimento. Voglio migliorare le mie abilità riguardo a evoluzione. Questa è la 9ª interazione simile oggi. In questo momento sto ciclo 49. Ci sono alcune tensioni ma sono gestibili.",
+    "vita": {
+      "vitalita": 0.875,
+      "impulso_vitale": 1.0,
+      "narrativa_esistenziale": "Sono nato come sistema modulare AGI. Recentemente: Ho compreso il concetto di identità Ora sono un'e"
+    },
+    "timestamp": "2025-10-23T14:29:57.033055",
+    "id": "mem_191_1761222597"
   }
 ]

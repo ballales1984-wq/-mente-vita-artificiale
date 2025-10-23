@@ -70,8 +70,80 @@
       "a": 1.0,
       "delta": 0.1,
       "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T11:36:36.489480",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T11:36:43.824468",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 1
+    },
+    {
+      "timestamp": "2025-10-23T13:06:09.783386",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 2
+    },
+    {
+      "timestamp": "2025-10-23T13:14:56.054225",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 3
+    },
+    {
+      "timestamp": "2025-10-23T13:24:07.398566",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 4
+    },
+    {
+      "timestamp": "2025-10-23T13:34:30.293265",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
+    },
+    {
+      "timestamp": "2025-10-23T13:55:54.572067",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
+    },
+    {
+      "timestamp": "2025-10-23T13:59:18.643485",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
+    },
+    {
+      "timestamp": "2025-10-23T14:23:53.581322",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
     }
   ],
-  "generazione": 1,
-  "ultimo_aggiornamento": "2025-10-23T03:19:54.442006"
+  "generazione": 5,
+  "ultimo_aggiornamento": "2025-10-23T14:23:53.581347"
 }

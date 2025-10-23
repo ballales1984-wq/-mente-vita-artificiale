@@ -9,328 +9,703 @@
   },
   "ricompense_storia": [
     {
-      "timestamp": "2025-10-23T00:44:08.494592",
-      "ricompensa": 0.125,
-      "dettagli": [
-        "Sociale positivo: +0.12"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:44:18.218675",
-      "ricompensa": 0.1375,
-      "dettagli": [
-        "Sociale positivo: +0.14"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:44:27.784190",
-      "ricompensa": 0.15000000000000002,
-      "dettagli": [
-        "Sociale positivo: +0.15"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:44:38.146163",
-      "ricompensa": 0.16250000000000003,
-      "dettagli": [
-        "Sociale positivo: +0.16"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:44:49.349483",
-      "ricompensa": 0.17500000000000004,
-      "dettagli": [
-        "Sociale positivo: +0.18"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:44:53.588530",
-      "ricompensa": 0.18750000000000006,
-      "dettagli": [
-        "Sociale positivo: +0.19"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:45:25.151060",
-      "ricompensa": 0.20000000000000007,
-      "dettagli": [
-        "Sociale positivo: +0.20"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:45:35.292072",
-      "ricompensa": 0.21250000000000008,
-      "dettagli": [
-        "Sociale positivo: +0.21"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:45:45.970726",
-      "ricompensa": 0.2250000000000001,
-      "dettagli": [
-        "Sociale positivo: +0.23"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:45:50.194141",
-      "ricompensa": 0.2375000000000001,
-      "dettagli": [
-        "Sociale positivo: +0.24"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T00:46:01.386040",
+      "timestamp": "2025-10-23T13:40:49.445986",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:05.640831",
+      "timestamp": "2025-10-23T13:40:55.655570",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:16.577475",
+      "timestamp": "2025-10-23T13:40:59.264919",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:27.630326",
+      "timestamp": "2025-10-23T13:41:02.383606",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:37.725092",
+      "timestamp": "2025-10-23T13:41:05.505386",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:48.044880",
+      "timestamp": "2025-10-23T13:41:12.509494",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:46:58.438561",
+      "timestamp": "2025-10-23T13:41:16.142458",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:47:10.098258",
+      "timestamp": "2025-10-23T13:41:22.971244",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:47:14.360710",
+      "timestamp": "2025-10-23T13:41:30.337084",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T00:47:25.149181",
+      "timestamp": "2025-10-23T13:41:36.924006",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:15:16.838000",
-      "ricompensa": 0.61,
-      "dettagli": [
-        "Novità: +0.21",
-        "Successo: +0.40"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.838422",
-      "ricompensa": 0.61,
-      "dettagli": [
-        "Novità: +0.21",
-        "Successo: +0.40"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.844752",
-      "ricompensa": 0.725,
-      "dettagli": [
-        "Novità: +0.22",
-        "Successo: +0.40",
-        "Autonomia: +0.10"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.847237",
-      "ricompensa": 0.508,
-      "dettagli": [
-        "Successo: +0.40",
-        "Autonomia: +0.11"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.849251",
-      "ricompensa": 0.756,
-      "dettagli": [
-        "Novità: +0.24",
-        "Successo: +0.40",
-        "Autonomia: +0.12"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.852120",
-      "ricompensa": 0.524,
-      "dettagli": [
-        "Successo: +0.40",
-        "Autonomia: +0.12"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:16.854363",
-      "ricompensa": 0.787,
-      "dettagli": [
-        "Novità: +0.26",
-        "Successo: +0.40",
-        "Autonomia: +0.13"
-      ]
-    },
-    {
-      "timestamp": "2025-10-23T01:15:49.314862",
+      "timestamp": "2025-10-23T13:41:40.539859",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:15:53.264335",
+      "timestamp": "2025-10-23T13:41:43.647748",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:15:57.172361",
+      "timestamp": "2025-10-23T13:41:46.759242",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:16:07.010661",
+      "timestamp": "2025-10-23T13:41:52.958973",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:41:59.479148",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:06.180349",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:13.520492",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:17.144376",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:20.267005",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:23.394573",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:29.805127",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:33.416220",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:39.524998",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:46.015880",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:49.627425",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:42:57.641718",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:43:06.002351",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:43:14.356239",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:54:24.724321",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:55:04.100805",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:55:54.562263",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:56:07.753547",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:56:21.658066",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:56:33.766487",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:56:45.390962",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:56:59.043403",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T13:57:40.358112",
       "ricompensa": 0.0,
       "dettagli": []
     },
     {
-      "timestamp": "2025-10-23T01:16:43.689307",
+      "timestamp": "2025-10-23T13:57:50.235434",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:23:22.853132",
+      "timestamp": "2025-10-23T13:58:00.719053",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:23:50.797829",
+      "timestamp": "2025-10-23T13:58:13.865687",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:23:54.758277",
+      "timestamp": "2025-10-23T13:59:18.639433",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:24:02.545371",
+      "timestamp": "2025-10-23T13:59:28.991520",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:41:05.782194",
+      "timestamp": "2025-10-23T13:59:41.084484",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:41:09.945561",
+      "timestamp": "2025-10-23T13:59:53.602454",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T01:41:17.451188",
+      "timestamp": "2025-10-23T14:00:05.138861",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:08:44.656180",
+      "timestamp": "2025-10-23T14:00:16.962718",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:08:54.026320",
+      "timestamp": "2025-10-23T14:00:30.009104",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:09:01.988132",
+      "timestamp": "2025-10-23T14:00:41.664370",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:19:43.472110",
+      "timestamp": "2025-10-23T14:00:53.176970",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:19:54.438147",
+      "timestamp": "2025-10-23T14:01:03.803122",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     },
     {
-      "timestamp": "2025-10-23T03:20:04.424190",
+      "timestamp": "2025-10-23T14:23:53.574243",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:00.905225",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:10.490419",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:17.615747",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:24.818259",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:31.735208",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:38.813055",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:45.819310",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:24:52.857263",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:00.475798",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:09.745621",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:16.941418",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:24.366572",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:32.275958",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:39.977905",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:47.211203",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:25:59.034412",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:06.992563",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:14.076733",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:21.291238",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:30.624870",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:39.545546",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:46.680181",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:26:53.811192",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:00.733549",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:07.574165",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:14.392585",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:21.285323",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:28.126120",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:34.983901",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:43.102021",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:49.884699",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:27:57.021127",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:03.976057",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:10.857276",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:17.801322",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:24.572716",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:31.405549",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:38.311555",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:45.081400",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:28:54.024330",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:01.005881",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:07.862992",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:14.684621",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:21.942871",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:28.847194",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:35.678896",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:42.667652",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:49.500944",
+      "ricompensa": 0.25,
+      "dettagli": [
+        "Sociale positivo: +0.25"
+      ]
+    },
+    {
+      "timestamp": "2025-10-23T14:29:56.512036",
       "ricompensa": 0.25,
       "dettagli": [
         "Sociale positivo: +0.25"
       ]
     }
   ],
-  "ultima_modifica": "2025-10-23T03:20:04.424235"
+  "ultima_modifica": "2025-10-23T14:29:56.512072"
 }
