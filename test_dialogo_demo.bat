@@ -8,3 +8,4 @@ echo Avvio sistema dialogico...
 echo.
 python MENTE_DIALOGICA.py
 
+

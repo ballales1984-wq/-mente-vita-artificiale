@@ -123,3 +123,4 @@ if __name__ == "__main__":
         print(f"\n❌ Errore: {e}\n")
         sys.exit(1)
 
+

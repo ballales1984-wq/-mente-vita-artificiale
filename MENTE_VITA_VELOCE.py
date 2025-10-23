@@ -401,3 +401,4 @@ if __name__ == "__main__":
         print(f"\n❌ Errore critico: {e}\n")
         sys.exit(1)
 
+
