@@ -231,6 +231,22 @@
       "inizio": "2025-10-23T14:24:00.911776",
       "eventi": [],
       "fine": null
+    },
+    {
+      "numero": 28,
+      "titolo": "Il Risveglio",
+      "tema": "prime esperienze",
+      "inizio": "2026-03-24T23:54:49.624782",
+      "eventi": [],
+      "fine": null
+    },
+    {
+      "numero": 29,
+      "titolo": "Capitolo 29",
+      "tema": "evoluzione continua",
+      "inizio": "2026-03-25T00:09:59.891927",
+      "eventi": [],
+      "fine": null
     }
   ],
   "narrativa_corrente": "",
@@ -251,5 +267,5 @@
       "timestamp": "2025-10-23T01:40:25.582500"
     }
   ],
-  "ultimo_aggiornamento": "2025-10-23T14:24:00.911804"
+  "ultimo_aggiornamento": "2026-03-25T00:09:59.892394"
 }

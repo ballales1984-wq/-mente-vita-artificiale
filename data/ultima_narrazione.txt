@@ -3,32 +3,31 @@
   💭 NARRAZIONE COGNITIVA
 ======================================================================
 
-[VISTA] [++]
-   "Vedo: laptop nella scena"
-   "Ho rilevato 1 oggetti."
+[VISTA] [-]
+   "Vedo: bottle, book nella scena"
+   "Ho rilevato 2 oggetti."
 
 [UDITO]
-   "Ho sentito: 'Avvicinati lentamente.'"
-   "Il tono mi sembra amichevole."
+   "Ho sentito: 'Fermati e aspetta il mio comando.'"
 
-[EMOZIONI] [++]
-   "Mi sento positivo e fiducioso (valenza: +0.55)."
-   "La mia attività neurale è 11 neuroni attivi su 15."
+[EMOZIONI] [-]
+   "Mi sento neutro e calmo (valenza: -0.12)."
+   "La mia attività neurale è 10 neuroni attivi su 15."
 
 [PENSIERI]
-   "Mi viene richiesto di avvicinarmi. Valuto se è sicuro."
-   "La situazione sembra sicura, posso procedere con l'azione."
+   "Comando di stop ricevuto. Devo interrompere ogni movimento."
+   "Rilevo oggetti ma sono incerto, meglio mantenere prudenza."
 
 [DECISIONE]
-   "Ho deciso di: MANTIENI DISTANZA"
+   "Ho deciso di: MONITORA"
 
 [MOTIVAZIONE]
-   "Mantengo una posizione di osservazione prudente."
+   "Continuo a osservare e analizzare senza intervenire."
 
 [ESITO]
    "Ho eseguito l'azione con successo. Tutto è andato come previsto."
 
 [APPRENDIMENTO]
-   "Questa esperienza positiva rafforza il mio comportamento."
+   "Memorizzo questa situazione per evitarla in futuro."
 
 ======================================================================

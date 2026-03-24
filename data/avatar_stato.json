@@ -1,8 +1,8 @@
 {
-  "emozione": "felice",
+  "emozione": "neutro",
   "azione": "idle",
   "energia": 0.9,
-  "attenzione": 1.0,
+  "attenzione": 0.3,
   "arousal": 0.7333333333333333,
   "pattern_neurale": "001111111111100"
 }

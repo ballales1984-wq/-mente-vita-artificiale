@@ -142,8 +142,24 @@
       "a": 1.0,
       "delta": 0.1,
       "generazione": 5
+    },
+    {
+      "timestamp": "2026-03-24T23:54:49.622587",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
+    },
+    {
+      "timestamp": "2026-03-24T23:55:01.512530",
+      "parametro": "prudenza",
+      "da": 1.0,
+      "a": 1.0,
+      "delta": 0.1,
+      "generazione": 5
     }
   ],
   "generazione": 5,
-  "ultimo_aggiornamento": "2025-10-23T14:23:53.581347"
+  "ultimo_aggiornamento": "2026-03-24T23:55:01.512541"
 }

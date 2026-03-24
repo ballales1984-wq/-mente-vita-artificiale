@@ -1,1 +1,1 @@
-mantieni_distanza
+Azione: cerca_oggetto
